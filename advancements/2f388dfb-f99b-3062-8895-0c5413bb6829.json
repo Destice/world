@@ -91,13 +91,18 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "shrubland": "2024-09-01 21:16:55 +0200",
       "rocky_shrubland": "2024-08-25 20:50:06 +0200",
       "erupting_inferno": "2024-08-31 15:16:24 +0200",
       "mystic_grove": "2024-08-25 20:48:05 +0200",
       "crystalline_chasm": "2024-08-31 15:09:23 +0200",
       "lavender_forest": "2024-08-30 21:50:04 +0200",
+      "mediterranean_forest": "2024-09-01 21:52:17 +0200",
+      "redwood_forest": "2024-09-01 21:18:17 +0200",
       "dune_beach": "2024-08-30 21:55:11 +0200",
-      "lavender_field": "2024-08-30 21:53:39 +0200"
+      "lavender_field": "2024-08-30 21:53:39 +0200",
+      "grassland": "2024-09-01 20:35:39 +0200",
+      "glowing_grotto": "2024-09-01 20:34:01 +0200"
     },
     "done": false
   },
@@ -2465,12 +2470,14 @@
       "minecraft:spider": "2024-08-25 21:21:01 +0200",
       "minecraft:creeper": "2024-08-25 21:08:36 +0200",
       "minecraft:phantom": "2024-08-25 23:23:54 +0200",
+      "minecraft:zombified_piglin": "2024-09-01 16:39:05 +0200",
       "minecraft:witch": "2024-08-30 21:04:44 +0200",
       "minecraft:husk": "2024-08-29 22:47:37 +0200",
       "minecraft:enderman": "2024-08-27 22:19:22 +0200",
       "minecraft:silverfish": "2024-08-31 00:12:04 +0200",
       "minecraft:zombie": "2024-08-25 21:21:09 +0200",
-      "quark:foxhound": "2024-08-31 15:16:45 +0200"
+      "quark:foxhound": "2024-08-31 15:16:45 +0200",
+      "minecraft:zombie_villager": "2024-09-01 19:26:32 +0200"
     },
     "done": false
   },
@@ -4265,11 +4272,15 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2024-09-01 21:08:25 +0200",
+      "minecraft:birch_forest": "2024-09-01 20:15:33 +0200",
       "minecraft:beach": "2024-08-25 21:13:13 +0200",
+      "minecraft:dark_forest": "2024-09-01 20:16:35 +0200",
       "minecraft:river": "2024-08-25 21:28:32 +0200",
       "minecraft:forest": "2024-08-27 20:16:20 +0200",
       "minecraft:lush_caves": "2024-08-27 22:45:41 +0200",
       "minecraft:ocean": "2024-08-25 21:31:08 +0200",
+      "minecraft:windswept_savanna": "2024-09-01 20:17:00 +0200",
       "minecraft:old_growth_birch_forest": "2024-08-27 21:14:59 +0200",
       "minecraft:savanna": "2024-08-30 21:49:02 +0200",
       "minecraft:plains": "2024-08-27 20:19:44 +0200"
@@ -12331,7 +12342,8 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "glow_berries": "2024-08-29 23:35:52 +0200"
+      "glow_berries": "2024-08-29 23:35:52 +0200",
+      "sugar_cane": "2024-09-01 13:38:13 +0200"
     },
     "done": false
   },
@@ -16438,105 +16450,81 @@
     },
     "done": false
   },
-  "botania:recipes/decorations/apothecary_deepslate": {
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
-      "has_item": "2024-08-31 14:50:55 +0200"
+      "has_iron_block": "2024-08-31 12:58:23 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/scoria_from_stone_types_scoria_stonecutting": {
+  "alchemistry:recipes/dissolver/anvil": {
     "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+      "has_the_recipe": "2024-08-31 12:58:23 +0200"
     },
     "done": true
   },
-  "connectedglass:recipes/misc/borderless_glass_magenta_pane2": {
+  "bigreactors:recipes/building_blocks/turbine/basic/bearing": {
     "criteria": {
-      "recipe_condition2": "2024-08-31 14:49:15 +0200"
+      "has_item": "2024-08-31 12:58:23 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_magenta_carpet": {
+  "alltheores:recipes/misc/iron_ore_hammer": {
     "criteria": {
-      "has_needed_dye": "2024-08-31 14:49:15 +0200"
+      "has_iron_block": "2024-08-31 12:58:23 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_scoria_from_stone_types_scoria_stonecutting": {
+  "railcraft:recipes/blast_furnace/blasting_steel_block": {
     "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+      "has_iron_block": "2024-08-31 12:58:23 +0200"
     },
     "done": true
   },
-  "xnet:recipes/xnet/netcable_red": {
+  "xnet:recipes/xnet/antenna_base": {
     "criteria": {
-      "nugget": "2024-08-31 17:15:01 +0200"
+      "block": "2024-08-31 12:58:23 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+  "minecraft:recipes/decorations/anvil": {
     "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+      "has_iron_block": "2024-08-31 12:58:23 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+  "ad_astra:recipes/compressing/compressing/iron_plate_from_compressing_iron_block": {
     "criteria": {
-      "has_pink_dye": "2024-08-31 14:50:59 +0200"
+      "has_item": "2024-08-31 12:58:23 +0200"
     },
     "done": true
   },
-  "supplementaries:recipes/candle_holders/candle_holder_white_dye": {
+  "railcraft:recipes/misc/iron_spike_maul": {
     "criteria": {
-      "forge:dyes/white": "2024-08-31 14:50:41 +0200"
+      "has_iron_block": "2024-08-31 12:58:23 +0200"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_granite": {
+  "allthecompressed:recipes/building_blocks/compress/iron_block_1x": {
     "criteria": {
-      "has_quartz": "2024-08-31 15:13:19 +0200"
+      "has_iron_block": "2024-08-31 12:58:23 +0200"
     },
     "done": true
+  },
+  "railways:recipes/misc/stonecutting/riveted_locometal": {
+    "criteria": {
+      "has_item": "2024-08-31 12:58:23 +0200"
+    },
+    "done": true
+  },
+  "silentgear:standard_tools": {
+    "criteria": {
+      "pickaxe": "2024-08-31 14:14:47 +0200"
+    },
+    "done": false
   },
   "silentgear:recipes/misc/shears_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/maroon_dye": {
-    "criteria": {
-      "has_black_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/redstone/red_string_comparator": {
-    "criteria": {
-      "has_base_block": "2024-08-31 15:28:24 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_black_picket_fence": {
-    "criteria": {
-      "has_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/white_plate": {
-    "criteria": {
-      "has_white_plate": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_black2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty_from_inv": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
     },
     "done": true
   },
@@ -16546,21 +16534,9 @@
     },
     "done": true
   },
-  "botania:recipes/misc/quartz_blaze": {
-    "criteria": {
-      "has_item": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/prospector_hammer_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2024-08-31 12:58:23 +0200"
     },
     "done": true
   },
@@ -16570,249 +16546,15 @@
     },
     "done": true
   },
-  "dyenamics:recipes/misc/wine_dye": {
-    "criteria": {
-      "has_black_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_five_inv_from_base": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/asurine_pillar_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_asurine_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_pink_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/white_crockery_combo": {
-    "criteria": {
-      "has_white_crockery_combo": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/blue_ice_freezing": {
-    "criteria": {
-      "has_water_bucket": "2024-08-31 14:36:10 +0200"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/lantern": {
-    "criteria": {
-      "has_glowstone": "2024-08-31 17:14:38 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/tools/coating_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
     },
     "done": true
   },
-  "delightful:recipes/knives/nether_quartz_knife": {
-    "criteria": {
-      "has_gems/quartz": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/white_bowl": {
-    "criteria": {
-      "has_white_bowl": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/redstone/reinforced_observer": {
-    "criteria": {
-      "has_quartz": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_asurine_brick_slab_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "computercraft:recipes/redstone/turtle_advanced_overlays/turtle_rainbow_overlay": {
-    "criteria": {
-      "has_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/purified_ink": {
-    "criteria": {
-      "has_black_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/red_petal_block": {
-    "criteria": {
-      "has_item": "2024-08-31 14:50:55 +0200"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/raw_crimson_iron_from_block": {
-    "criteria": {
-      "has_item": "2024-08-31 15:15:31 +0200"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/chainmail_chestplate_repairing": {
-    "criteria": {
-      "has_chainmail_chestplate": "2024-08-31 16:57:17 +0200"
-    },
-    "done": true
-  },
-  "silentgear:crimson_iron": {
-    "criteria": {
-      "get_ore": "2024-08-31 15:15:31 +0200"
-    },
-    "done": false
-  },
   "silentgear:recipes/misc/guide_book": {
     "criteria": {
       "has_template_board": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_black_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "utilitix:recipes/misc/tiny_charcoal_to_tiny": {
-    "criteria": {
-      "criterion0": "2024-08-31 16:07:00 +0200"
-    },
-    "done": true
-  },
-  "xnet:recipes/xnet/netcable_yellow": {
-    "criteria": {
-      "nugget": "2024-08-31 17:15:01 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_white2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/glowing_blinding_stone": {
-    "criteria": {
-      "has_item": "2024-08-31 17:14:38 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/reprocessor/powerport": {
-    "criteria": {
-      "has_item2": "2024-08-31 15:32:32 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/reprocessor/fluidinjector": {
-    "criteria": {
-      "has_item2": "2024-08-31 17:05:13 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_thirty_from_inv": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/small_white_industrial_lamp": {
-    "criteria": {
-      "has_small_white_industrial_lamp": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_five_inv": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_ten_inv_from_base": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite": {
-    "criteria": {
-      "has_quartz": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/magenta_industrial_lamp": {
-    "criteria": {
-      "has_magenta_industrial_lamp": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/fluidizer/powerport": {
-    "criteria": {
-      "has_item2": "2024-08-31 15:32:32 +0200"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/small_pink_industrial_lamp": {
-    "criteria": {
-      "has_small_pink_industrial_lamp": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/obsidian_1x": {
-    "criteria": {
-      "has_obsidian": "2024-08-31 14:38:08 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_three_hundred_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/nether_quartz_pickaxe": {
-    "criteria": {
-      "has_nether_quartz": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/turntable": {
-    "criteria": {
-      "has_alt_item": "2024-08-31 17:06:24 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_asurine_slab_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
     },
     "done": true
   },
@@ -16822,129 +16564,9 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/white_cup": {
-    "criteria": {
-      "has_white_cup": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/signal_sequencer_box": {
-    "criteria": {
-      "has_comparator": "2024-08-31 15:28:24 +0200"
-    },
-    "done": true
-  },
-  "littlelogistics:recipes/transportation/tug": {
-    "criteria": {
-      "has_item": "2024-08-31 17:05:13 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_scoria_slab_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/misc/stellarite_block_from_stellarite_piece": {
-    "criteria": {
-      "has_stellarite_piece": "2024-08-31 18:27:39 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/tools/lining_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/storage_input_from_io": {
-    "criteria": {
-      "has_storage_io": "2024-08-31 15:32:50 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
-    "criteria": {
-      "has_copper_backpack": "2024-08-31 14:51:37 +0200"
-    },
-    "done": true
-  },
-  "computercraft:recipes/redstone/turtle_normal_overlays/turtle_rainbow_overlay": {
-    "criteria": {
-      "has_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/asurine_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_asurine_bricks_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2024-08-31 17:15:01 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_magenta2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_magenta_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/dense_covered_black": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_scoria_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_thirty_inv": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_asurine_bricks_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "integratedcrafting:autocrafting_setup/craft_crafting_interface": {
-    "criteria": {
-      "criteria_0": "2024-08-31 17:32:43 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_three_hundred_inv_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
     },
     "done": true
   },
@@ -16960,165 +16582,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_asurine_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "twigs:recipes/bloodstone/bloodstone": {
-    "criteria": {
-      "has_item": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2024-08-31 17:14:38 +0200"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/glowing_nature_stone": {
-    "criteria": {
-      "has_item": "2024-08-31 17:14:38 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_pink_picket_gate": {
-    "criteria": {
-      "has_dye": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_ten_inv": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2024-08-31 14:38:08 +0200"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/packed_ice_freezing": {
-    "criteria": {
-      "has_water_bucket": "2024-08-31 14:36:10 +0200"
-    },
-    "done": true
-  },
-  "integrateddynamics:meneglin_basics/menril_production": {
-    "criteria": {
-      "criteria_0": "2024-08-31 16:23:16 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_pink_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_three_hundred": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/twig_wand": {
-    "criteria": {
-      "has_item": "2024-08-31 14:50:55 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_thirty_inv_from_base": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/anvil": {
-    "criteria": {
-      "has_the_recipe": "2024-08-31 12:58:23 +0200"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/pink_industrial_lamp": {
-    "criteria": {
-      "has_pink_industrial_lamp": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_candle": {
-    "criteria": {
-      "has_pink_dye": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_output": {
-    "criteria": {
-      "has_base_tier_wooden_storage": "2024-08-31 15:30:02 +0200"
-    },
-    "done": true
-  },
-  "integratedcrafting:root": {
-    "criteria": {
-      "criteria_0": "2024-08-31 16:39:09 +0200"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/manual_rolling_machine": {
-    "criteria": {
-      "has_piston": "2024-08-31 17:05:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lime_dye": {
-    "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/layered_scoria_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/ring_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/diorite": {
-    "criteria": {
-      "has_the_recipe": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/misc/blasting/graphite_from_charcoal": {
-    "criteria": {
-      "has_item": "2024-08-31 16:07:00 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/scoria_pillar_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/white_industrial_lamp": {
-    "criteria": {
-      "has_white_industrial_lamp": "2024-08-31 14:50:41 +0200"
     },
     "done": true
   },
@@ -17128,129 +16594,9 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/iron_chest": {
-    "criteria": {
-      "has_chest": "2024-08-31 15:30:02 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_black_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/nether_brick": {
-    "criteria": {
-      "has_netherrack": "2024-08-31 15:09:35 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/tinted_borderless_glass_pink2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/print_blossom": {
-    "criteria": {
-      "has_logs": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/candle_holders/candle_holder_magenta_dye": {
-    "criteria": {
-      "forge:dyes/magenta": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/nether_quartz_cutting_knife": {
-    "criteria": {
-      "has_nether_quartz": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/nether_quartz_spade": {
-    "criteria": {
-      "has_nether_quartz": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "delightful:recipes/food/cooking/rock_candy": {
-    "criteria": {
-      "has_rose_quartz": "2024-08-31 15:09:48 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/smart_magenta": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/granite": {
-    "criteria": {
-      "has_the_recipe": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_asurine_brick_slab_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/mattock_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_scoria_wall_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_link_from_controller": {
-    "criteria": {
-      "has_controller": "2024-08-31 15:30:10 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/tinted_borderless_glass_white2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_white2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "integratedterminals:storage_terminal/menril_glass": {
-    "criteria": {
-      "criteria_0": "2024-08-31 16:37:29 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
-    "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "integratedtunnels:root": {
-    "criteria": {
-      "criteria_0": "2024-08-31 16:39:09 +0200"
     },
     "done": true
   },
@@ -17260,63 +16606,9 @@
     },
     "done": true
   },
-  "enderio:recipes/redstone/resetting_lever_thirty": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_black2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/quartz_lavender": {
-    "criteria": {
-      "has_item": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/dense_covered_pink": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/hammer_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_block": {
-    "criteria": {
-      "has_quartz": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/controller": {
-    "criteria": {
-      "has_base_tier_wooden_storage": "2024-08-31 15:30:02 +0200"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/bag_of_cement": {
-    "criteria": {
-      "has_quartz": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "sfm:recipes/redstone/labelgun": {
-    "criteria": {
-      "has_ink": "2024-08-31 16:07:12 +0200"
     },
     "done": true
   },
@@ -17326,99 +16618,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/quartz": {
-    "criteria": {
-      "has_quartz": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_asurine_wall_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_three_hundred_inv": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2024-08-31 14:36:10 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/boots_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/glass_magenta": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_five": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/nether_quartz_hoe": {
-    "criteria": {
-      "has_nether_quartz": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/quartz_dark": {
-    "criteria": {
-      "has_item": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ice_from_freezing": {
-    "criteria": {
-      "has_water": "2024-08-31 14:36:10 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/shulker_from_chest": {
-    "criteria": {
-      "has_chest": "2024-08-31 15:30:02 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/smart_white": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/quartz_sunny": {
-    "criteria": {
-      "has_item": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_magenta_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/misc/test_tube": {
-    "criteria": {
-      "has_item": "2024-08-31 18:30:32 +0200"
     },
     "done": true
   },
@@ -17428,219 +16630,9 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/storage_link": {
-    "criteria": {
-      "has_repeater": "2024-08-31 15:32:32 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/turbine/basic/bearing": {
-    "criteria": {
-      "has_item": "2024-08-31 12:58:23 +0200"
-    },
-    "done": true
-  },
-  "twigs:recipes/schist/schist": {
-    "criteria": {
-      "has_item": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "twigs:recipes/rhyolite/rhyolite": {
-    "criteria": {
-      "has_item": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "rftoolsbase:recipes/rftoolsbase/machine_base": {
-    "criteria": {
-      "gold": "2024-08-31 17:15:01 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/candle_holders/candle_holder_pink_dye": {
-    "criteria": {
-      "forge:dyes/pink": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_pink2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "sfm:recipes/redstone/water_tank": {
-    "criteria": {
-      "has_water": "2024-08-31 14:36:10 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/dense_smart_pink": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/observer": {
-    "criteria": {
-      "has_quartz": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_pink2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/lavender_dye": {
-    "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/fishing_rod_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_pink_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "integrateddynamics:network_foundations/cables_logic": {
-    "criteria": {
-      "criteria_0": "2024-08-31 17:27:25 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/obsidian_dust": {
-    "criteria": {
-      "has_obsidian": "2024-08-31 14:38:08 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/dye_red": {
-    "criteria": {
-      "has_item": "2024-08-31 14:50:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/iron_ore_hammer": {
-    "criteria": {
-      "has_iron_block": "2024-08-31 12:58:23 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_five_from_inv": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:nether_wastes": "2024-08-31 15:16:12 +0200"
-    },
-    "done": false
-  },
-  "enderio:recipes/redstone/resetting_lever_ten_inv_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/nether_brick": {
-    "criteria": {
-      "has_the_recipe": "2024-08-31 15:09:35 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_ten": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/dense_smart_white": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "computercraft:recipes/redstone/turtle_normal_overlays/turtle_trans_overlay": {
-    "criteria": {
-      "has_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/spring_green_dye": {
-    "criteria": {
-      "has_glowstone": "2024-08-31 17:14:38 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_asurine_stairs_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/signal_capacitor_box": {
-    "criteria": {
-      "has_repeater": "2024-08-31 15:32:32 +0200"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/small_black_industrial_lamp": {
-    "criteria": {
-      "has_small_black_industrial_lamp": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/palettes/scorchia": {
-    "criteria": {
-      "has_item": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_white_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/decorations/gtceu/sign_post_rubber": {
-    "criteria": {
-      "has_planks": "2024-08-31 16:15:46 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_white_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "railcraft:recipes/blast_furnace/blasting_steel_block": {
-    "criteria": {
-      "has_iron_block": "2024-08-31 12:58:23 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_ten_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
     },
     "done": true
   },
@@ -17650,51 +16642,9 @@
     },
     "done": true
   },
-  "integrateddynamics:basic_network_components/value_displaying": {
-    "criteria": {
-      "criteria_0": "2024-08-31 17:18:34 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/misc/rune_block_from_rune": {
-    "criteria": {
-      "has_rune": "2024-08-31 18:30:32 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/glass_black": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/very_crude_repair_kit": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/turbine/basic/passivefluidport_forge": {
-    "criteria": {
-      "has_item2": "2024-08-31 14:36:10 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_thirty_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/crimson_iron_raw_ore_blasting": {
-    "criteria": {
-      "has_item": "2024-08-31 15:15:31 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/tools/obsidian_skull": {
-    "criteria": {
-      "has_obsidian": "2024-08-31 14:38:08 +0200"
     },
     "done": true
   },
@@ -17704,57 +16654,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_pink_dye": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_asurine_wall_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_black_picket_gate": {
-    "criteria": {
-      "has_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/nether_quartz_axe": {
-    "criteria": {
-      "has_nether_quartz": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/daylight_detector": {
-    "criteria": {
-      "has_quartz": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/binding_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "xnet:recipes/xnet/antenna_base": {
-    "criteria": {
-      "block": "2024-08-31 12:58:23 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_magenta_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/dreamwood_wand": {
-    "criteria": {
-      "has_item": "2024-08-31 14:50:55 +0200"
     },
     "done": true
   },
@@ -17764,87 +16666,9 @@
     },
     "done": true
   },
-  "integratedterminals:storage_terminal/gui_storage_terminal": {
-    "criteria": {
-      "criteria_0": "2024-08-31 17:24:51 +0200"
-    },
-    "done": true
-  },
-  "computercraft:recipes/redstone/turtle_advanced_overlays/turtle_trans_overlay": {
-    "criteria": {
-      "has_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/dense_smart_magenta": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/navy_dye": {
-    "criteria": {
-      "has_black_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_three_hundred_inv_from_base": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/hoe_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/turbine/reinforced/passivefluidport_forge": {
-    "criteria": {
-      "has_item2": "2024-08-31 14:36:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
-    "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/tps_meter": {
-    "criteria": {
-      "has_obsidian": "2024-08-31 14:38:08 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/crimson_iron_dust_from_raw": {
-    "criteria": {
-      "has_raw_crimson_iron": "2024-08-31 15:15:31 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_three_hundred_from_inv": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/apothecary_mossy": {
-    "criteria": {
-      "has_item": "2024-08-31 14:50:55 +0200"
-    },
-    "done": true
-  },
-  "xnet:recipes/xnet/netcable_blue": {
-    "criteria": {
-      "nugget": "2024-08-31 17:15:01 +0200"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/black_industrial_lamp": {
-    "criteria": {
-      "has_black_industrial_lamp": "2024-08-31 16:07:12 +0200"
     },
     "done": true
   },
@@ -17854,111 +16678,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2024-08-31 17:15:01 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_magenta_picket_fence": {
-    "criteria": {
-      "has_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/signal_lamp": {
-    "criteria": {
-      "has_glowstone_dust": "2024-08-31 17:14:38 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/reactor/reinforced/passivefluidport_forge": {
-    "criteria": {
-      "has_item2": "2024-08-31 14:36:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/chestplate_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/granite": {
-    "criteria": {
-      "has_quartz": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "integrateddynamics:meneglin_basics/squeezing": {
-    "criteria": {
-      "criteria_0": "2024-08-31 16:16:29 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/quartz_dust_from_gem": {
-    "criteria": {
-      "has_quartz_gem": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_red_double": {
-    "criteria": {
-      "has_alt_item": "2024-08-31 14:50:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
-    "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_input": {
-    "criteria": {
-      "has_base_tier_wooden_storage": "2024-08-31 15:30:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
-    "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/soap/piston": {
-    "criteria": {
-      "has_sticky_piston": "2024-08-31 17:06:24 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/pickaxe_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_magenta_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2024-08-31 17:14:38 +0200"
     },
     "done": true
   },
@@ -17980,63 +16708,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_asurine_stairs_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "integratedtunnels:interfaces/interface_item": {
-    "criteria": {
-      "criteria_0": "2024-08-31 17:27:50 +0200"
-    },
-    "done": true
-  },
-  "silentgear:repair_kit": {
-    "criteria": {
-      "very_crude_repair_kit": "2024-08-31 14:18:07 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/copper_chest": {
-    "criteria": {
-      "has_chest": "2024-08-31 15:30:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_pink_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_candle": {
-    "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_black_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/elytra_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/nether_quartz_wrench": {
-    "criteria": {
-      "has_nether_quartz": "2024-08-31 15:13:20 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/fluidizer/controller": {
-    "criteria": {
-      "has_item2": "2024-08-31 17:14:38 +0200"
     },
     "done": true
   },
@@ -18046,33 +16720,9 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/network/cables/dense_smart_black": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "littlelogistics:recipes/transportation/energy_tug": {
-    "criteria": {
-      "has_item": "2024-08-31 17:05:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2024-08-31 15:09:20 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/dagger_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/one_way_glass": {
-    "criteria": {
-      "has_wood": "2024-08-31 16:07:12 +0200"
     },
     "done": true
   },
@@ -18082,237 +16732,9 @@
     },
     "done": true
   },
-  "silentgear:nether": {
-    "criteria": {
-      "entered_nether": "2024-08-31 15:09:20 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_magenta_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/misc/smelting/graphite_from_charcoal": {
-    "criteria": {
-      "has_item": "2024-08-31 16:07:00 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/smart_black": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/layered_asurine_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_candle": {
-    "criteria": {
-      "has_black_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty_inv_from_base": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "integrateddynamics:meneglin_basics/drying": {
-    "criteria": {
-      "criteria_0": "2024-08-31 16:07:50 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
-    "criteria": {
-      "has_pink_dye": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_magenta_picket_gate": {
-    "criteria": {
-      "has_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_white2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/small_magenta_industrial_lamp": {
-    "criteria": {
-      "has_small_magenta_industrial_lamp": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/axe_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_black_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/comparator": {
-    "criteria": {
-      "has_quartz": "2024-08-31 15:13:19 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_asurine_brick_stairs_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/tinted_borderless_glass_magenta2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/energizer/controller": {
-    "criteria": {
-      "has_item2": "2024-08-31 17:14:38 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/smart_pink": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bubblegum_dye": {
-    "criteria": {
-      "has_magenta_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/switch_track_lever": {
-    "criteria": {
-      "has_lever": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_black2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/tinted_borderless_glass_black2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/glowing_poison_stone": {
-    "criteria": {
-      "has_item": "2024-08-31 17:14:38 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/glass_pink": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2024-08-31 15:09:20 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty_inv_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "silentgear:kachink2": {
-    "criteria": {
-      "kachink": "2024-08-31 14:38:07 +0200"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/ice_from_bucket_freezing": {
-    "criteria": {
-      "has_water_bucket": "2024-08-31 14:36:10 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
-    "criteria": {
-      "has_rose_quartz_chunk": "2024-08-31 15:09:48 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_pink_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty_inv": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "xnet:recipes/xnet/netcable_routing": {
-    "criteria": {
-      "nugget": "2024-08-31 17:15:01 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/obsidian_chain": {
-    "criteria": {
-      "recipe_condition": "2024-08-31 14:38:08 +0200"
     },
     "done": true
   },
@@ -18322,39 +16744,9 @@
     },
     "done": true
   },
-  "dyenamics:recipes/misc/fluorescent_dye": {
-    "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_pink2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/blueprint_book": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
-    },
-    "done": true
-  },
-  "integratedterminals:storage_terminal/craft_storage_terminal": {
-    "criteria": {
-      "criteria_0": "2024-08-31 17:18:40 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/glass_white": {
-    "criteria": {
-      "has_dyes/black": "2024-08-31 14:50:41 +0200"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/icy_blue_dye": {
-    "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
     },
     "done": true
   },
@@ -18370,51 +16762,93 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/small_scoria_bricks_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/anvil": {
-    "criteria": {
-      "has_iron_block": "2024-08-31 12:58:23 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/candle_holders/candle_holder_black_dye": {
-    "criteria": {
-      "forge:dyes/black": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_pink_picket_fence": {
-    "criteria": {
-      "has_dye": "2024-08-31 14:50:59 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/reprocessor/wasteinjector": {
-    "criteria": {
-      "has_item2": "2024-08-31 17:06:24 +0200"
-    },
-    "done": true
-  },
-  "utilitix:recipes/misc/piston_cart": {
-    "criteria": {
-      "criterion0": "2024-08-31 17:05:13 +0200"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/helmet_template": {
     "criteria": {
       "has_item": "2024-08-31 14:16:34 +0200"
     },
     "done": true
   },
-  "travelersbackpack:recipes/building_blocks/dye_black_sleeping_bag": {
+  "silentgear:recipes/misc/slingshot_template": {
     "criteria": {
-      "has_needed_dye": "2024-08-31 16:07:12 +0200"
+      "has_item": "2024-08-31 14:16:34 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/sword_template": {
+    "criteria": {
+      "has_item": "2024-08-31 14:16:34 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/tools/tip_template": {
+    "criteria": {
+      "has_item": "2024-08-31 14:16:34 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/knife_template": {
+    "criteria": {
+      "has_item": "2024-08-31 14:16:34 +0200"
+    },
+    "done": true
+  },
+  "silentgear:repair_kit": {
+    "criteria": {
+      "very_crude_repair_kit": "2024-08-31 14:18:07 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/blue_ice_freezing": {
+    "criteria": {
+      "has_water_bucket": "2024-08-31 14:36:10 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/packed_ice_freezing": {
+    "criteria": {
+      "has_water_bucket": "2024-08-31 14:36:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-08-31 14:36:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ice_from_freezing": {
+    "criteria": {
+      "has_water": "2024-08-31 14:36:10 +0200"
+    },
+    "done": true
+  },
+  "sfm:recipes/redstone/water_tank": {
+    "criteria": {
+      "has_water": "2024-08-31 14:36:10 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/passivefluidport_forge": {
+    "criteria": {
+      "has_item2": "2024-08-31 14:36:10 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/reinforced/passivefluidport_forge": {
+    "criteria": {
+      "has_item2": "2024-08-31 14:36:10 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/passivefluidport_forge": {
+    "criteria": {
+      "has_item2": "2024-08-31 14:36:10 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/ice_from_bucket_freezing": {
+    "criteria": {
+      "has_water_bucket": "2024-08-31 14:36:10 +0200"
     },
     "done": true
   },
@@ -18424,69 +16858,51 @@
     },
     "done": true
   },
-  "integrateddynamics:network_foundations/variable_input": {
+  "croptopia:recipes/shaped_water_bottle": {
     "criteria": {
-      "criteria_0": "2024-08-31 17:07:20 +0200"
+      "has_water": "2024-08-31 14:36:10 +0200"
     },
     "done": true
   },
-  "ad_astra:recipes/compressing/compressing/iron_plate_from_compressing_iron_block": {
+  "silentgear:kachink2": {
     "criteria": {
-      "has_item": "2024-08-31 12:58:23 +0200"
+      "kachink": "2024-08-31 14:38:07 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_pink_bed": {
+  "allthecompressed:recipes/building_blocks/compress/obsidian_1x": {
     "criteria": {
-      "has_needed_dye": "2024-08-31 14:50:59 +0200"
+      "has_obsidian": "2024-08-31 14:38:08 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_scoria_bricks_from_stone_types_scoria_stonecutting": {
+  "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+      "has_obsidian": "2024-08-31 14:38:08 +0200"
     },
     "done": true
   },
-  "integrateddynamics:network_foundations/variable_output": {
+  "occultism:recipes/crushing/crushing/obsidian_dust": {
     "criteria": {
-      "criteria_0": "2024-08-31 17:06:47 +0200"
+      "has_obsidian": "2024-08-31 14:38:08 +0200"
     },
     "done": true
   },
-  "enderio:recipes/redstone/resetting_lever_thirty_inv_from_prev": {
+  "forbidden_arcanus:recipes/tools/obsidian_skull": {
     "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
+      "has_obsidian": "2024-08-31 14:38:08 +0200"
     },
     "done": true
   },
-  "railcraft:recipes/misc/iron_spike_maul": {
+  "utilitarian:recipes/misc/tps_meter": {
     "criteria": {
-      "has_iron_block": "2024-08-31 12:58:23 +0200"
+      "has_obsidian": "2024-08-31 14:38:08 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/magenta_candle": {
+  "additionallanterns:recipes/misc/obsidian_chain": {
     "criteria": {
-      "has_magenta_dye": "2024-08-31 14:49:15 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/conversions/red_petal_block_deconstruct": {
-    "criteria": {
-      "has_item": "2024-08-31 14:50:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-08-31 16:07:12 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/fluidizer/solidinjector": {
-    "criteria": {
-      "has_item2": "2024-08-31 17:06:24 +0200"
+      "recipe_condition": "2024-08-31 14:38:08 +0200"
     },
     "done": true
   },
@@ -18496,9 +16912,339 @@
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/glowstone": {
+  "connectedglass:recipes/misc/borderless_glass_magenta_pane2": {
     "criteria": {
-      "has_the_recipe": "2024-08-31 17:14:38 +0200"
+      "recipe_condition2": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced_overlays/turtle_rainbow_overlay": {
+    "criteria": {
+      "has_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/magenta_industrial_lamp": {
+    "criteria": {
+      "has_magenta_industrial_lamp": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal_overlays/turtle_rainbow_overlay": {
+    "criteria": {
+      "has_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_magenta2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_magenta_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_magenta_dye": {
+    "criteria": {
+      "forge:dyes/magenta": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_magenta": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_magenta": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_magenta_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal_overlays/turtle_trans_overlay": {
+    "criteria": {
+      "has_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced_overlays/turtle_trans_overlay": {
+    "criteria": {
+      "has_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_magenta": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_magenta_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_magenta_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_magenta_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_magenta_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_magenta_industrial_lamp": {
+    "criteria": {
+      "has_small_magenta_industrial_lamp": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_magenta2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bubblegum_dye": {
+    "criteria": {
+      "has_magenta_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_candle": {
+    "criteria": {
+      "has_magenta_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_magenta": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_magenta2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_magenta2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:49:15 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_white_dye": {
+    "criteria": {
+      "forge:dyes/white": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_plate": {
+    "criteria": {
+      "has_white_plate": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_crockery_combo": {
+    "criteria": {
+      "has_white_crockery_combo": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_bowl": {
+    "criteria": {
+      "has_white_bowl": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_white2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_white_industrial_lamp": {
+    "criteria": {
+      "has_small_white_industrial_lamp": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_cup": {
+    "criteria": {
+      "has_white_cup": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/white_industrial_lamp": {
+    "criteria": {
+      "has_white_industrial_lamp": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_white2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_white2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_white": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/lavender_dye": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_white": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_white_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_white_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_white2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/fluorescent_dye": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_white": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/icy_blue_dye": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
     },
     "done": true
   },
@@ -18514,51 +17260,453 @@
     },
     "done": true
   },
-  "botania:recipes/decorations/apothecary_default": {
-    "criteria": {
-      "has_item": "2024-08-31 14:50:55 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_scoria_wall_from_stone_types_scoria_stonecutting": {
-    "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_ten_from_inv": {
-    "criteria": {
-      "has_ingredient": "2024-08-31 16:20:31 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/iron_block_1x": {
-    "criteria": {
-      "has_iron_block": "2024-08-31 12:58:23 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
-    "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/borderless_glass_white_pane2": {
     "criteria": {
       "recipe_condition2": "2024-08-31 14:50:41 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+  "dyenamics:recipes/misc/peach_dye": {
     "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
     },
     "done": true
   },
-  "silentgear:recipes/misc/raw_crimson_iron_block": {
+  "ae2:recipes/misc/network/cables/dense_covered_white": {
     "criteria": {
-      "has_item": "2024-08-31 15:15:31 +0200"
+      "has_dyes/black": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_white_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/mint_dye": {
+    "criteria": {
+      "has_white_dye": "2024-08-31 14:50:41 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/apothecary_deepslate": {
+    "criteria": {
+      "has_item": "2024-08-31 14:50:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/red_petal_block": {
+    "criteria": {
+      "has_item": "2024-08-31 14:50:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/twig_wand": {
+    "criteria": {
+      "has_item": "2024-08-31 14:50:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_red": {
+    "criteria": {
+      "has_item": "2024-08-31 14:50:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/dreamwood_wand": {
+    "criteria": {
+      "has_item": "2024-08-31 14:50:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/apothecary_mossy": {
+    "criteria": {
+      "has_item": "2024-08-31 14:50:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_red_double": {
+    "criteria": {
+      "has_alt_item": "2024-08-31 14:50:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/red_petal_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-08-31 14:50:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/apothecary_default": {
+    "criteria": {
+      "has_item": "2024-08-31 14:50:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_pink_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_pink_industrial_lamp": {
+    "criteria": {
+      "has_small_pink_industrial_lamp": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_pink_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_pink_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/pink_industrial_lamp": {
+    "criteria": {
+      "has_pink_industrial_lamp": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_pink2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_blossom": {
+    "criteria": {
+      "has_logs": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_pink": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_pink_dye": {
+    "criteria": {
+      "forge:dyes/pink": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_pink2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_pink": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_pink2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_pink_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_pink_dye": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_pink_dye": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_pink": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_pink": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_pink_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_pink2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_pink_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 14:50:59 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
+    "criteria": {
+      "has_copper_backpack": "2024-08-31 14:51:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-08-31 15:09:20 +0200"
+    },
+    "done": true
+  },
+  "silentgear:nether": {
+    "criteria": {
+      "entered_nether": "2024-08-31 15:09:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-08-31 15:09:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-08-31 15:09:35 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/nether_brick": {
+    "criteria": {
+      "has_the_recipe": "2024-08-31 15:09:35 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/netherrack_1x": {
+    "criteria": {
+      "has_netherrack": "2024-08-31 15:09:35 +0200"
+    },
+    "done": true
+  },
+  "delightful:recipes/food/cooking/rock_candy": {
+    "criteria": {
+      "has_rose_quartz": "2024-08-31 15:09:48 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
+    "criteria": {
+      "has_rose_quartz_chunk": "2024-08-31 15:09:48 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_granite": {
+    "criteria": {
+      "has_quartz": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_pickaxe": {
+    "criteria": {
+      "has_nether_quartz": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_spade": {
+    "criteria": {
+      "has_nether_quartz": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/granite": {
+    "criteria": {
+      "has_the_recipe": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/quartz_lavender": {
+    "criteria": {
+      "has_item": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/bag_of_cement": {
+    "criteria": {
+      "has_quartz": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/schist/schist": {
+    "criteria": {
+      "has_item": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/rhyolite/rhyolite": {
+    "criteria": {
+      "has_item": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_axe": {
+    "criteria": {
+      "has_nether_quartz": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2024-08-31 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/quartz_blaze": {
+    "criteria": {
+      "has_item": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/nether_quartz_knife": {
+    "criteria": {
+      "has_gems/quartz": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_observer": {
+    "criteria": {
+      "has_quartz": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone": {
+    "criteria": {
+      "has_item": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/diorite": {
+    "criteria": {
+      "has_the_recipe": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_cutting_knife": {
+    "criteria": {
+      "has_nether_quartz": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/quartz": {
+    "criteria": {
+      "has_quartz": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_hoe": {
+    "criteria": {
+      "has_nether_quartz": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/quartz_dark": {
+    "criteria": {
+      "has_item": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/quartz_sunny": {
+    "criteria": {
+      "has_item": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/quartz_dust_from_gem": {
+    "criteria": {
+      "has_quartz_gem": "2024-08-31 15:13:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_wrench": {
+    "criteria": {
+      "has_nether_quartz": "2024-08-31 15:13:20 +0200"
     },
     "done": true
   },
@@ -18574,15 +17722,94 @@
     },
     "done": true
   },
-  "dyenamics:recipes/misc/peach_dye": {
+  "silentgear:recipes/misc/raw_crimson_iron_from_block": {
     "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
+      "has_item": "2024-08-31 15:15:31 +0200"
     },
     "done": true
   },
-  "integratedterminals:root": {
+  "silentgear:crimson_iron": {
     "criteria": {
-      "criteria_0": "2024-08-31 17:18:35 +0200"
+      "get_ore": "2024-08-31 15:15:31 +0200",
+      "get_ingot": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_raw_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-08-31 15:15:31 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/crimson_iron_dust_from_raw": {
+    "criteria": {
+      "has_raw_crimson_iron": "2024-08-31 15:15:31 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/raw_crimson_iron_block": {
+    "criteria": {
+      "has_item": "2024-08-31 15:15:31 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_raw_ore_smelting": {
+    "criteria": {
+      "has_item": "2024-08-31 15:15:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-08-31 15:16:12 +0200"
+    },
+    "done": false
+  },
+  "botania:recipes/redstone/red_string_comparator": {
+    "criteria": {
+      "has_base_block": "2024-08-31 15:28:24 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/signal_sequencer_box": {
+    "criteria": {
+      "has_comparator": "2024-08-31 15:28:24 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_output": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-08-31 15:30:02 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_chest": {
+    "criteria": {
+      "has_chest": "2024-08-31 15:30:02 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/controller": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-08-31 15:30:02 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/shulker_from_chest": {
+    "criteria": {
+      "has_chest": "2024-08-31 15:30:02 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_input": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-08-31 15:30:02 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/copper_chest": {
+    "criteria": {
+      "has_chest": "2024-08-31 15:30:02 +0200"
     },
     "done": true
   },
@@ -18592,9 +17819,597 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/netherrack_1x": {
+  "sophisticatedstorage:recipes/misc/storage_link_from_controller": {
     "criteria": {
-      "has_netherrack": "2024-08-31 15:09:35 +0200"
+      "has_controller": "2024-08-31 15:30:10 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reprocessor/powerport": {
+    "criteria": {
+      "has_item2": "2024-08-31 15:32:32 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/fluidizer/powerport": {
+    "criteria": {
+      "has_item2": "2024-08-31 15:32:32 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_link": {
+    "criteria": {
+      "has_repeater": "2024-08-31 15:32:32 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/signal_capacitor_box": {
+    "criteria": {
+      "has_repeater": "2024-08-31 15:32:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/storage_input_from_io": {
+    "criteria": {
+      "has_storage_io": "2024-08-31 15:32:50 +0200"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/tiny_charcoal_to_tiny": {
+    "criteria": {
+      "criterion0": "2024-08-31 16:07:00 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/blasting/graphite_from_charcoal": {
+    "criteria": {
+      "has_item": "2024-08-31 16:07:00 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/smelting/graphite_from_charcoal": {
+    "criteria": {
+      "has_item": "2024-08-31 16:07:00 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/maroon_dye": {
+    "criteria": {
+      "has_black_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_black_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_black2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/wine_dye": {
+    "criteria": {
+      "has_black_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/purified_ink": {
+    "criteria": {
+      "has_black_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_black": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_black_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_black2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "sfm:recipes/redstone/labelgun": {
+    "criteria": {
+      "has_ink": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_black_industrial_lamp": {
+    "criteria": {
+      "has_small_black_industrial_lamp": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_black": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_black_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/navy_dye": {
+    "criteria": {
+      "has_black_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/black_industrial_lamp": {
+    "criteria": {
+      "has_black_industrial_lamp": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_black_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_black": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/one_way_glass": {
+    "criteria": {
+      "has_wood": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_black": {
+    "criteria": {
+      "has_dyes/black": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_black_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_black2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_black2": {
+    "criteria": {
+      "recipe_condition2": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_black_dye": {
+    "criteria": {
+      "forge:dyes/black": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_black_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-08-31 16:07:12 +0200"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/drying": {
+    "criteria": {
+      "criteria_0": "2024-08-31 16:07:50 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/gtceu/sign_post_rubber": {
+    "criteria": {
+      "has_planks": "2024-08-31 16:15:46 +0200"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/squeezing": {
+    "criteria": {
+      "criteria_0": "2024-08-31 16:16:29 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_five_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_five_inv": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_inv": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_inv_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_inv": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_inv": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_five": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_five_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_inv_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/switch_track_lever": {
+    "criteria": {
+      "has_lever": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_inv_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_inv": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_inv_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-08-31 16:20:31 +0200"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/menril_production": {
+    "criteria": {
+      "criteria_0": "2024-08-31 16:23:16 +0200"
+    },
+    "done": true
+  },
+  "integratedterminals:storage_terminal/menril_glass": {
+    "criteria": {
+      "criteria_0": "2024-08-31 16:37:29 +0200"
+    },
+    "done": true
+  },
+  "integratedcrafting:root": {
+    "criteria": {
+      "criteria_0": "2024-08-31 16:39:09 +0200"
+    },
+    "done": true
+  },
+  "integratedtunnels:root": {
+    "criteria": {
+      "criteria_0": "2024-08-31 16:39:09 +0200"
+    },
+    "done": true
+  },
+  "integrateddynamics:network_foundations/variables": {
+    "criteria": {
+      "criteria_0": "2024-08-31 16:39:09 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_chestplate_repairing": {
+    "criteria": {
+      "has_chainmail_chestplate": "2024-08-31 16:57:17 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reprocessor/fluidinjector": {
+    "criteria": {
+      "has_item2": "2024-08-31 17:05:13 +0200"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/tug": {
+    "criteria": {
+      "has_item": "2024-08-31 17:05:13 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/manual_rolling_machine": {
+    "criteria": {
+      "has_piston": "2024-08-31 17:05:13 +0200"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/energy_tug": {
+    "criteria": {
+      "has_item": "2024-08-31 17:05:13 +0200"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/piston_cart": {
+    "criteria": {
+      "criterion0": "2024-08-31 17:05:13 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/food_press": {
+    "criteria": {
+      "has_piston": "2024-08-31 17:05:13 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/fluidizer/fluidinjector": {
+    "criteria": {
+      "has_item2": "2024-08-31 17:05:13 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/turntable": {
+    "criteria": {
+      "has_alt_item": "2024-08-31 17:06:24 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap/piston": {
+    "criteria": {
+      "has_sticky_piston": "2024-08-31 17:06:24 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reprocessor/wasteinjector": {
+    "criteria": {
+      "has_item2": "2024-08-31 17:06:24 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/fluidizer/solidinjector": {
+    "criteria": {
+      "has_item2": "2024-08-31 17:06:24 +0200"
+    },
+    "done": true
+  },
+  "integrateddynamics:network_foundations/variable_output": {
+    "criteria": {
+      "criteria_0": "2024-08-31 17:06:47 +0200"
+    },
+    "done": true
+  },
+  "integrateddynamics:network_foundations/variable_input": {
+    "criteria": {
+      "criteria_0": "2024-08-31 17:07:20 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/lantern": {
+    "criteria": {
+      "has_glowstone": "2024-08-31 17:14:38 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/glowing_blinding_stone": {
+    "criteria": {
+      "has_item": "2024-08-31 17:14:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-08-31 17:14:38 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/glowing_nature_stone": {
+    "criteria": {
+      "has_item": "2024-08-31 17:14:38 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/spring_green_dye": {
+    "criteria": {
+      "has_glowstone": "2024-08-31 17:14:38 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/signal_lamp": {
+    "criteria": {
+      "has_glowstone_dust": "2024-08-31 17:14:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-08-31 17:14:38 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/fluidizer/controller": {
+    "criteria": {
+      "has_item2": "2024-08-31 17:14:38 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/energizer/controller": {
+    "criteria": {
+      "has_item2": "2024-08-31 17:14:38 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/glowing_poison_stone": {
+    "criteria": {
+      "has_item": "2024-08-31 17:14:38 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/glowstone": {
+    "criteria": {
+      "has_the_recipe": "2024-08-31 17:14:38 +0200"
     },
     "done": true
   },
@@ -18610,45 +18425,51 @@
     },
     "done": true
   },
-  "forbidden_arcanus:recipes/misc/dark_rune": {
+  "bigreactors:recipes/building_blocks/energizer/computerport": {
     "criteria": {
-      "has_rune": "2024-08-31 18:30:32 +0200"
+      "has_item2": "2024-08-31 17:14:38 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+  "xnet:recipes/xnet/netcable_red": {
     "criteria": {
-      "has_needed_dye": "2024-08-31 14:50:59 +0200"
+      "nugget": "2024-08-31 17:15:01 +0200"
     },
     "done": true
   },
-  "silentgear:recipes/misc/slingshot_template": {
+  "xnet:recipes/xnet/netcable_yellow": {
     "criteria": {
-      "has_item": "2024-08-31 14:16:34 +0200"
+      "nugget": "2024-08-31 17:15:01 +0200"
     },
     "done": true
   },
-  "ae2:recipes/misc/network/cables/dense_covered_white": {
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
-      "has_dyes/black": "2024-08-31 14:50:41 +0200"
+      "has_gold_nugget": "2024-08-31 17:15:01 +0200"
     },
     "done": true
   },
-  "ae2:recipes/misc/network/cables/dense_covered_magenta": {
+  "rftoolsbase:recipes/rftoolsbase/machine_base": {
     "criteria": {
-      "has_dyes/black": "2024-08-31 14:49:15 +0200"
+      "gold": "2024-08-31 17:15:01 +0200"
     },
     "done": true
   },
-  "croptopia:recipes/misc/food_press": {
+  "xnet:recipes/xnet/netcable_blue": {
     "criteria": {
-      "has_piston": "2024-08-31 17:05:13 +0200"
+      "nugget": "2024-08-31 17:15:01 +0200"
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/copper_to_gold_tier_upgrade": {
+  "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
-      "has_copper_to_iron_tier_upgrade": "2024-08-31 18:38:17 +0200"
+      "has_gold_nugget": "2024-08-31 17:15:01 +0200"
+    },
+    "done": true
+  },
+  "xnet:recipes/xnet/netcable_routing": {
+    "criteria": {
+      "nugget": "2024-08-31 17:15:01 +0200"
     },
     "done": true
   },
@@ -18658,57 +18479,147 @@
     },
     "done": true
   },
-  "silentgear:standard_tools": {
+  "integrateddynamics:basic_network_components/value_displaying": {
     "criteria": {
-      "pickaxe": "2024-08-31 14:14:47 +0200"
-    },
-    "done": false
-  },
-  "connectedglass:recipes/misc/clear_glass_magenta2": {
-    "criteria": {
-      "recipe_condition2": "2024-08-31 14:49:15 +0200"
+      "criteria_0": "2024-08-31 17:18:34 +0200"
     },
     "done": true
   },
-  "silentgear:recipes/misc/crimson_iron_raw_ore_smelting": {
+  "integratedterminals:root": {
     "criteria": {
-      "has_item": "2024-08-31 15:15:31 +0200"
+      "criteria_0": "2024-08-31 17:18:35 +0200"
     },
     "done": true
   },
-  "integrateddynamics:network_foundations/variables": {
+  "integratedterminals:storage_terminal/craft_storage_terminal": {
     "criteria": {
-      "criteria_0": "2024-08-31 16:39:09 +0200"
+      "criteria_0": "2024-08-31 17:18:40 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_magenta_wool": {
+  "integratedterminals:storage_terminal/gui_storage_terminal": {
     "criteria": {
-      "has_needed_dye": "2024-08-31 14:49:15 +0200"
+      "criteria_0": "2024-08-31 17:24:51 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+  "integrateddynamics:network_foundations/cables_logic": {
     "criteria": {
-      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+      "criteria_0": "2024-08-31 17:27:25 +0200"
     },
     "done": true
   },
-  "bigreactors:recipes/building_blocks/energizer/computerport": {
+  "integratedtunnels:interfaces/interface_item": {
     "criteria": {
-      "has_item2": "2024-08-31 17:14:38 +0200"
+      "criteria_0": "2024-08-31 17:27:50 +0200"
     },
     "done": true
   },
-  "connectedglass:recipes/misc/borderless_glass_magenta2": {
+  "integratedcrafting:autocrafting_setup/craft_crafting_interface": {
     "criteria": {
-      "recipe_condition2": "2024-08-31 14:49:15 +0200"
+      "criteria_0": "2024-08-31 17:32:43 +0200"
     },
     "done": true
   },
-  "travelersbackpack:recipes/building_blocks/dye_white_sleeping_bag": {
+  "create:recipes/building_blocks/asurine_pillar_from_stone_types_asurine_stonecutting": {
     "criteria": {
-      "has_needed_dye": "2024-08-31 14:50:41 +0200"
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_brick_slab_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_slab_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/asurine_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_asurine_bricks_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_bricks_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_asurine_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_asurine_brick_slab_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_wall_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_asurine_stairs_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_asurine_wall_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_stairs_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_asurine_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_asurine_brick_stairs_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
+    "criteria": {
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
     },
     "done": true
   },
@@ -18718,15 +18629,147 @@
     },
     "done": true
   },
-  "bigreactors:recipes/building_blocks/fluidizer/fluidinjector": {
+  "create:recipes/building_blocks/cut_asurine_brick_stairs_from_stone_types_asurine_stonecutting": {
     "criteria": {
-      "has_item2": "2024-08-31 17:05:13 +0200"
+      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
     },
     "done": true
   },
-  "croptopia:recipes/shaped_water_bottle": {
+  "forbidden_arcanus:recipes/misc/stellarite_block_from_stellarite_piece": {
     "criteria": {
-      "has_water": "2024-08-31 14:36:10 +0200"
+      "has_stellarite_piece": "2024-08-31 18:27:39 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/test_tube": {
+    "criteria": {
+      "has_item": "2024-08-31 18:30:32 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/rune_block_from_rune": {
+    "criteria": {
+      "has_rune": "2024-08-31 18:30:32 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/dark_rune": {
+    "criteria": {
+      "has_rune": "2024-08-31 18:30:32 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scoria_pillar_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/palettes/scorchia": {
+    "criteria": {
+      "has_item": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-08-31 18:33:21 +0200"
     },
     "done": true
   },
@@ -18736,39 +18779,2828 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_asurine_brick_stairs_from_stone_types_asurine_stonecutting": {
+  "sophisticatedstorage:recipes/misc/copper_to_gold_tier_upgrade": {
     "criteria": {
-      "has_stone_types_asurine": "2024-08-31 18:14:49 +0200"
+      "has_copper_to_iron_tier_upgrade": "2024-08-31 18:38:17 +0200"
     },
     "done": true
   },
-  "dyenamics:recipes/misc/mint_dye": {
+  "mcwbridges:recipes/cherry_log_bridge_stair": {
     "criteria": {
-      "has_white_dye": "2024-08-31 14:50:41 +0200"
+      "has_planks": "2024-09-01 13:12:56 +0200"
     },
     "done": true
   },
-  "silentgear:recipes/misc/sword_template": {
+  "mekanism:energy_cube": {
     "criteria": {
-      "has_item": "2024-08-31 14:16:34 +0200"
+      "basic_energy_cube": "2024-09-01 13:16:55 +0200"
     },
     "done": true
   },
-  "railways:recipes/misc/stonecutting/riveted_locometal": {
+  "croptopia:recipes/campfire_molasses": {
     "criteria": {
-      "has_item": "2024-08-31 12:58:23 +0200"
+      "has_sugar_cane": "2024-09-01 13:25:58 +0200"
     },
     "done": true
   },
-  "silentgear:recipes/tools/tip_template": {
+  "minecraft:recipes/misc/paper": {
     "criteria": {
-      "has_item": "2024-08-31 14:16:34 +0200"
+      "has_reeds": "2024-09-01 13:25:58 +0200"
     },
     "done": true
   },
-  "silentgear:recipes/misc/knife_template": {
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
-      "has_item": "2024-08-31 14:16:34 +0200"
+      "has_sugar_cane": "2024-09-01 13:25:58 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/molasses_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-09-01 13:25:58 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/paper": {
+    "criteria": {
+      "has_the_recipe": "2024-09-01 13:25:58 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/molasses_from_smoking_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-09-01 13:25:58 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/carpenters_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/void_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/tinkering_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/filter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/alchemy_bench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_1": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/compacting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/smoking_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/compression_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/mason_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/pickup_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/loom_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/jukebox_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/smelting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/feeding_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stonecutter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/blasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/hopper_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/botanist_workbench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/glassblower_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:25:47 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_2": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:26:02 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_1_plus": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-01 14:26:02 +0200"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/redstone/fluid_hopper": {
+    "criteria": {
+      "has_item": "2024-09-01 14:29:30 +0200"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/rapid_hopper": {
+    "criteria": {
+      "has_item": "2024-09-01 14:29:30 +0200"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/vacuum_barge": {
+    "criteria": {
+      "has_item": "2024-09-01 14:29:30 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reprocessor/collector": {
+    "criteria": {
+      "has_item2": "2024-09-01 14:29:30 +0200"
+    },
+    "done": true
+  },
+  "rftoolsbase:recipes/rftoolsbase/filter_module": {
+    "criteria": {
+      "hopper": "2024-09-01 14:29:30 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/basic_item_filter": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 14:29:30 +0200"
+    },
+    "done": true
+  },
+  "botanypots:husbandry/get_hopper_pot": {
+    "criteria": {
+      "get_hopper_pot": "2024-09-01 14:29:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-09-01 14:40:03 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/statue": {
+    "criteria": {
+      "has_smooth_stone_slab": "2024-09-01 14:40:03 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/pink_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-01 14:44:39 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_pink": {
+    "criteria": {
+      "has_item": "2024-09-01 14:44:39 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/crime_in_town": {
+    "criteria": {
+      "coded_trigger": "2024-09-01 15:13:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/wheat_extra": {
+    "criteria": {
+      "has_material": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_packed_mud": {
+    "criteria": {
+      "has_wheat": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/food/enderios": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/hay": {
+    "criteria": {
+      "has_wheat": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/diving_board": {
+    "criteria": {
+      "has_wheat": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/flour": {
+    "criteria": {
+      "has_grain": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/door_mat": {
+    "criteria": {
+      "has_wheat": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/hay_block": {
+    "criteria": {
+      "has_the_recipe": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/thatch": {
+    "criteria": {
+      "has_planks": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_eggs": {
+    "criteria": {
+      "has_wheat": "2024-09-01 15:30:07 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/enchanter": {
+    "criteria": {
+      "enchanting_table": "2024-09-01 16:09:22 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/purple_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_warped_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/white_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/lime_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/green_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_dark_oak_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/crimson_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/warped_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/cyan_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/mangrove_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_gray_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/red_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_mangrove_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/magenta_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_oak_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_blue_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/black_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/yellow_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/blue_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_spruce_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/gray_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_birch_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/orange_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/brown_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/pink_picket_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_crimson_upgraded_gate": {
+    "criteria": {
+      "has_gate": "2024-09-01 16:11:37 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_lectern": {
+    "criteria": {
+      "has_bookshelf": "2024-09-01 16:18:03 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/bookshelf": {
+    "criteria": {
+      "bookshelf": "2024-09-01 16:18:03 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mashed_potatoes": {
+    "criteria": {
+      "has_milk": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/crema": {
+    "criteria": {
+      "has_milk": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/doughnut": {
+    "criteria": {
+      "has_milk": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/churros": {
+    "criteria": {
+      "has_milk": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cow": {
+    "criteria": {
+      "has_milk_bucket": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cheese": {
+    "criteria": {
+      "has_milk": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/oatmeal": {
+    "criteria": {
+      "has_milk": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_milk_bottle": {
+    "criteria": {
+      "has_milk": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/butter": {
+    "criteria": {
+      "has_milk": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2024-09-01 16:33:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gold_nugget": {
+    "criteria": {
+      "has_zombie_heart": "2024-09-01 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/zombie": {
+    "criteria": {
+      "has_zombie_heart": "2024-09-01 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/zombified_piglin": {
+    "criteria": {
+      "has_zombie_heart": "2024-09-01 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/rotten_flesh": {
+    "criteria": {
+      "has_zombie_heart": "2024-09-01 16:39:06 +0200"
+    },
+    "done": true
+  },
+  "simplemagnets:recipes/misc/advancedmagnet": {
+    "criteria": {
+      "recipe_condition": "2024-09-01 16:41:51 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/polished_calcite_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_slab": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_wall_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/polished_calcite_bricks_from_calcite_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/polished_calcite": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_stairs": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/calcite_pillar_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_stairs_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_bricks_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/calcite_corner_trim": {
+    "criteria": {
+      "has_calcite_corner_trim": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_stairs_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_bricks_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_wall_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_brick_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/calcite_pillar_trim": {
+    "criteria": {
+      "has_calcite_pillar_trim": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/calcite_1x": {
+    "criteria": {
+      "has_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_calcite_slab_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_calcite_from_stone_types_calcite_stonecutting": {
+    "criteria": {
+      "has_stone_types_calcite": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_wall": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/calcite/calcite_slab_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:03 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/amethyst_blocks/polished_amethyst_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:50 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/amethyst_block_1x": {
+    "criteria": {
+      "has_amethyst_block": "2024-09-01 17:04:50 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/amethyst_chain": {
+    "criteria": {
+      "recipe_condition": "2024-09-01 17:04:50 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/amethyst_blocks/polished_amethyst": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:50 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/amethyst_blocks/cut_amethyst_from_amethyst_block_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-01 17:04:50 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_boots_repairing": {
+    "criteria": {
+      "has_leather_boots": "2024-09-01 17:14:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2024-09-01 17:33:55 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/paper_lanterns/torchflower_paper_lantern": {
+    "criteria": {
+      "has_item": "2024-09-01 17:33:55 +0200"
+    },
+    "done": true
+  },
+  "botanypots:husbandry/get_basic_pot": {
+    "criteria": {
+      "get_botany_pot": "2024-09-01 17:37:41 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/sea_moss_carpet": {
+    "criteria": {
+      "has_item": "2024-09-01 18:38:42 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/campfire_toast": {
+    "criteria": {
+      "has_bread": "2024-09-01 18:53:49 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/toast_from_smoking_bread": {
+    "criteria": {
+      "has_bread": "2024-09-01 18:53:49 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cheeseburger": {
+    "criteria": {
+      "has_bread": "2024-09-01 18:53:49 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/toast_from_bread": {
+    "criteria": {
+      "has_bread": "2024-09-01 18:53:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "baked_potato": "2024-09-01 20:34:54 +0200",
+      "apple": "2024-09-01 19:04:19 +0200",
+      "bread": "2024-09-01 18:54:00 +0200"
+    },
+    "done": false
+  },
+  "silentgear:recipes/misc/leather_from_scraps": {
+    "criteria": {
+      "has_item": "2024-09-01 19:26:33 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/leather_scrap": {
+    "criteria": {
+      "has_item": "2024-09-01 19:26:33 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_green": {
+    "criteria": {
+      "has_item": "2024-09-01 20:16:48 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/green_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-01 20:16:48 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/tools/ventium_bucket": {
+    "criteria": {
+      "has_item": "2024-09-01 20:17:35 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/ventium_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-09-01 20:17:35 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/ventium_block": {
+    "criteria": {
+      "has_item": "2024-09-01 20:17:35 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/anvil_compat": {
+    "criteria": {
+      "has_item": "2024-09-01 20:17:35 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/tool_box": {
+    "criteria": {
+      "has_item": "2024-09-01 20:17:35 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/get_ventium": {
+    "criteria": {
+      "obtain_material": "2024-09-01 20:17:35 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/tools/ventium_shears": {
+    "criteria": {
+      "has_item": "2024-09-01 20:17:35 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/black_cushion": {
+    "criteria": {
+      "has_black_cushion": "2024-09-01 20:17:36 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/black_sofa": {
+    "criteria": {
+      "has_wool": "2024-09-01 20:17:36 +0200"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_black": {
+    "criteria": {
+      "has_black_wool": "2024-09-01 20:17:36 +0200"
+    },
+    "done": true
+  },
+  "comforts:hammock_black": {
+    "criteria": {
+      "has_black_wool": "2024-09-01 20:17:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-09-01 20:17:36 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/black_sheet": {
+    "criteria": {
+      "has_black_sheet": "2024-09-01 20:17:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-09-01 20:17:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-09-01 20:17:36 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/black_sleeping_bag": {
+    "criteria": {
+      "has_black_wool": "2024-09-01 20:17:36 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/black_flag": {
+    "criteria": {
+      "has_black_flag": "2024-09-01 20:17:36 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2024-09-01 20:17:37 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2024-09-01 20:17:37 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/hay_block_1x": {
+    "criteria": {
+      "has_hay_block": "2024-09-01 20:17:46 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/wheat": {
+    "criteria": {
+      "has_the_recipe": "2024-09-01 20:17:46 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/fodder": {
+    "criteria": {
+      "has_hay_block": "2024-09-01 20:17:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-09-01 20:17:46 +0200"
+    },
+    "done": true
+  },
+  "pylons:recipes/misc/harvester_pylon": {
+    "criteria": {
+      "has_hay_block": "2024-09-01 20:17:46 +0200"
+    },
+    "done": true
+  },
+  "createoreexcavation:recipes/misc/vein_atlas": {
+    "criteria": {
+      "map": "2024-09-01 20:19:14 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/slice_map": {
+    "criteria": {
+      "has_map": "2024-09-01 20:19:14 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/speed_up_belt": {
+    "criteria": {
+      "has_item": "2024-09-01 20:19:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-09-01 20:19:26 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/blasting/silicon_from_certus_quartz_dust": {
+    "criteria": {
+      "has_certus_quartz_dust": "2024-09-01 20:38:17 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/quartz_fiber_part": {
+    "criteria": {
+      "has_dusts/quartz": "2024-09-01 20:38:17 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/quartz_glass": {
+    "criteria": {
+      "has_quartz_dust": "2024-09-01 20:38:17 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/smelting/silicon_from_certus_quartz_dust": {
+    "criteria": {
+      "has_certus_quartz_dust": "2024-09-01 20:38:17 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/deconstruction_certus_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-09-01 20:38:26 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/slabs/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2024-09-01 20:38:26 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/walls/quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-09-01 20:38:26 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/slabs/quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-09-01 20:38:26 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/cut_quartz_block_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-09-01 20:38:26 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/cut_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-09-01 20:38:26 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/walls/quartz_wall": {
+    "criteria": {
+      "has_quartz_block": "2024-09-01 20:38:26 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/stairs/quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-09-01 20:38:26 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/stairs/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2024-09-01 20:38:26 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/presses": {
+    "criteria": {
+      "calculation": "2024-09-01 20:38:42 +0200",
+      "silicon": "2024-09-01 20:38:42 +0200",
+      "engineering": "2024-09-01 20:38:42 +0200",
+      "logic": "2024-09-01 20:38:42 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/not_so_mysterious_cube": {
+    "criteria": {
+      "press": "2024-09-01 20:38:42 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/chests_sky_stone": {
+    "criteria": {
+      "has_sky_stone_block": "2024-09-01 20:40:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/tank_sky_stone": {
+    "criteria": {
+      "has_sky_stone_block": "2024-09-01 20:40:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/slabs/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2024-09-01 20:40:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/stairs/sky_stone_stairs": {
+    "criteria": {
+      "has_sky_stone_block": "2024-09-01 20:40:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/walls/sky_stone_wall": {
+    "criteria": {
+      "has_sky_stone_block": "2024-09-01 20:40:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/slabs/sky_stone_slab": {
+    "criteria": {
+      "has_sky_stone_block": "2024-09-01 20:40:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/smelting/smooth_sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2024-09-01 20:40:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/stairs/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2024-09-01 20:40:20 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/walls/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2024-09-01 20:40:20 +0200"
+    },
+    "done": true
+  },
+  "chimes:recipes/decorations/glass_bells": {
+    "criteria": {
+      "has_bottle": "2024-09-01 20:41:29 +0200"
+    },
+    "done": true
+  },
+  "repurposed_structures:witch_huts": {
+    "criteria": {
+      "in_witch_hut_birch": "2024-09-01 20:41:48 +0200"
+    },
+    "done": false
+  },
+  "dimstorage:recipes/misc/dimensional_tank": {
+    "criteria": {
+      "has_cauldron": "2024-09-01 20:41:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2024-09-01 22:09:30 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/stone_base": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/crimson_iron_dust_from_ingot": {
+    "criteria": {
+      "has_crimson_iron_ingot": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-09-01 22:40:23 +0200"
+    },
+    "done": true
+  },
+  "totw_modded:derelict_grass_tower": {
+    "criteria": {
+      "derelict_grass": "2024-09-01 22:07:18 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/light_blue_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_blue": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/thermostat_module": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bubblegum_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_stone_from_slab": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/manual_compressor": {
+    "criteria": {
+      "has_pressure_tube": "2024-09-01 21:11:38 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_brick_pillar": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/compressed_bricks_from_tile_stonecutting": {
+    "criteria": {
+      "has_compressed_stone": "2024-09-01 21:11:18 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/pink_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/spring_green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/rose_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_brick_tile": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_cyan": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_thin_pot": {
+    "criteria": {
+      "has_golden_thin_pot": "2024-09-01 22:04:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_red": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_registry": {
+    "criteria": {
+      "has_capacitor": "2024-09-01 21:11:17 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/air_cannon": {
+    "criteria": {
+      "has_pressure_tube": "2024-09-01 21:11:38 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_tube": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_stone_slab": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bricks/mossy_bricks_from_vine": {
+    "criteria": {
+      "has_item": "2024-09-01 22:09:30 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/central_rune_holder": {
+    "criteria": {
+      "criterion0": "2024-09-01 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_nugget": {
+    "criteria": {
+      "has_item": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/conifer_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_pickaxe_repairing": {
+    "criteria": {
+      "has_golden_pickaxe": "2024-09-01 22:03:49 +0200"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/experience_crystal": {
+    "criteria": {
+      "criterion1": "2024-09-01 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_leggings_repairing": {
+    "criteria": {
+      "has_golden_leggings": "2024-09-01 22:03:49 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/kerosene_lamp": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/salvager": {
+    "criteria": {
+      "has_item": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/orange_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/gold_block_1x": {
+    "criteria": {
+      "has_gold_block": "2024-09-01 22:04:08 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/heat_frame": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/emerald_from_shards": {
+    "criteria": {
+      "has_item": "2024-09-01 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_thick_pot": {
+    "criteria": {
+      "has_golden_thick_pot": "2024-09-01 22:04:08 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/refinery_output": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_chamber_valve_x1": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_chamber_valve_x4": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_brick_from_slab": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_gloves_repairing": {
+    "criteria": {
+      "has_iron_gloves": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_brick_pillar": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/seismic_sensor": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_purple": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/refinery": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/dark_steel_ladder": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/vine_ball": {
+    "criteria": {
+      "has_item": "2024-09-01 22:09:30 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
+    "criteria": {
+      "has_flower": "2024-09-01 21:57:28 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/dark_steel_nugget": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/thermal_compressor": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_gloves": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/dark_steel_door": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/leather": {
+    "criteria": {
+      "has_the_recipe": "2024-09-01 22:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/vortex_tube": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/lime_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_gray": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/compressed_brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_compressed_stone": "2024-09-01 21:11:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2024-09-01 21:28:32 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/red_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_bricks": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/light_gray_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/minigun": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_magenta": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/heat_sink": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_brick_wall": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_iron_helmet": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_white": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-09-01 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_chamber_wall": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/white_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/compressed_brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_compressed_stone": "2024-09-01 21:11:18 +0200"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/deku_leaf": {
+    "criteria": {
+      "has_paragliders": "2024-09-01 22:07:25 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_green": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_dust": {
+    "criteria": {
+      "has_item": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/manometer": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/wine_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/diagnostic_subroutine": {
+    "criteria": {
+      "has_capacitor": "2024-09-01 21:11:17 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/red_string_interceptor": {
+    "criteria": {
+      "has_base_block": "2024-09-01 22:58:10 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/ultramarine_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/small_tank": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/emerald_block": {
+    "criteria": {
+      "has_the_recipe": "2024-09-01 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/dark_steel_bars": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_purple": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "silentgear:nether_plants": {
+    "criteria": {
+      "sapling": "2024-09-01 22:03:49 +0200"
+    },
+    "done": false
+  },
+  "silentgear:recipes/misc/crimson_iron_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_bricks_from_tile": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_data_storage": {
+    "criteria": {
+      "has_capacitor": "2024-09-01 21:11:17 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_iron_leggings": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/fishing_barge": {
+    "criteria": {
+      "has_item": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/transfer_gadget": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/peach_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/compressed_stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_compressed_stone": "2024-09-01 21:11:18 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/persimmon_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_light_blue": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_lime": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_chamber_glass": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_block": {
+    "criteria": {
+      "has_item": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_brick_from_slab": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/cherenkov_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_light_gray": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/cyan_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/cannon_barrel": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_brick_slab": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:pressure_tube": {
+    "criteria": {
+      "0": "2024-09-01 21:11:38 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/spawner_extractor": {
+    "criteria": {
+      "has_spawner_agitator": "2024-09-01 21:11:36 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_chamber_glass_x4": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_chamber_glass_x1": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/dark_steel_grinding_ball": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2024-09-01 22:09:30 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/lavender_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_iron_chestplate": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_pane1": {
+    "criteria": {
+      "recipe_condition": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_node": {
+    "criteria": {
+      "has_capacitor": "2024-09-01 21:11:17 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_chamber_interface": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_orange": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_stone_from_slab": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/green_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/compressed_brick_tile_from_bricks_stonecutting": {
+    "criteria": {
+      "has_compressed_stone": "2024-09-01 21:11:18 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_brick_slab": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "paraglider:paraglider": {
+    "criteria": {
+      "paraglider": "2024-09-01 22:07:25 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_lime": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_yellow": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2024-09-01 22:09:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-09-01 21:20:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/liquid_hopper": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_grill_cooking": {
+    "criteria": {
+      "has_kelp": "2024-09-01 20:56:33 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/tools/dark_steel_sword": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/redstone_module": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_light_blue": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/maroon_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_mossy_stone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2024-09-01 22:09:30 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/navy_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/blue_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_brown": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/tools/glider_wing": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_brick_tile": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_brick_stairs": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_flower_forest": "2024-09-01 21:59:20 +0200"
+    },
+    "done": false
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_black": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_gray": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_stone_slab": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/dark_steel_trapdoor": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_iron_door": {
+    "criteria": {
+      "has_iron_door": "2024-09-01 22:57:23 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/liquid_compressor": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-09-01 22:07:25 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_black": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/solid_fueled_firebox": {
+    "criteria": {
+      "has_fire_charge": "2024-09-01 22:03:56 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/compressed_brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_compressed_stone": "2024-09-01 21:11:18 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_api": {
+    "criteria": {
+      "has_capacitor": "2024-09-01 21:11:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-09-01 20:56:33 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/tube_junction": {
+    "criteria": {
+      "has_pressure_tube": "2024-09-01 21:11:38 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_iron_gear": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2024-09-01 22:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_pink": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/compressed_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_compressed_stone": "2024-09-01 21:11:18 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_medium_pot": {
+    "criteria": {
+      "has_golden_medium_pot": "2024-09-01 22:04:08 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/air_canister": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/vortex_cannon": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/crop_support": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/logistics_configurator": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_sword_repairing": {
+    "criteria": {
+      "has_golden_sword": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/tools/cold_fire_igniter": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/thermal_lagging": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald": "2024-09-01 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_gloves": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/air_compressor": {
+    "criteria": {
+      "has_pressure_tube": "2024-09-01 21:11:38 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_brick_stairs": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "sushigocrafting:recipes/misc/seaweed_on_a_stick": {
+    "criteria": {
+      "has_item": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pneumatic_wrench": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_pink": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/omnidirectional_hopper": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "buildinggadgets2:recipes/misc/gadget_copy_paste": {
+    "criteria": {
+      "has_emerald": "2024-09-01 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/mint_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_red": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_io_port": {
+    "criteria": {
+      "has_capacitor": "2024-09-01 21:11:17 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/charging_station": {
+    "criteria": {
+      "has_pressure_tube": "2024-09-01 21:11:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "structurecompass:recipes/tools/structure_compass": {
+    "criteria": {
+      "has_compass": "2024-09-01 22:07:25 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/aquamarine_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/thermopneumatic_processing_plant": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_bricks": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_light_gray": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/air_grate_module": {
+    "criteria": {
+      "has_pressure_tube": "2024-09-01 21:11:38 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_iron_boots": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "deepresonance:recipes/deepresonance/lens": {
+    "criteria": {
+      "has_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/gray_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/tackle_box": {
+    "criteria": {
+      "has_items": "2024-09-01 20:56:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-09-01 20:56:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-09-01 20:56:33 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_magenta": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/camo_applicator": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/frozen/obsidian": {
+    "criteria": {
+      "has_magma_block": "2024-09-01 21:11:13 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/magenta_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_boots_repairing": {
+    "criteria": {
+      "has_chainmail_boots": "2024-09-01 21:11:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_orange": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_brick_wall": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/gas_lift": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/logistics_core": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/keypad_item": {
+    "criteria": {
+      "has_stone_button": "2024-09-01 22:58:10 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_cyan": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/emerald_chain": {
+    "criteria": {
+      "recipe_condition": "2024-09-01 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/fluorescent_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_bricks_from_tile": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cake": {
+    "criteria": {
+      "has_duck_egg": "2024-09-01 21:33:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2024-09-01 22:04:08 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/dark_steel_nugget_to_ingot": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/honey_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_chamber_valve": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/black_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_gauge": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:root": {
+    "criteria": {
+      "0": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/fishing_rod_repairing": {
+    "criteria": {
+      "has_fishing_rod": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/compressed_brick_pillar_from_bricks_stonecutting": {
+    "criteria": {
+      "has_compressed_stone": "2024-09-01 21:11:18 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/yellow_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_green": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/regulator_tube_module": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/brown_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/dark_steel_pressure_plate": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:37 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/icy_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "rftoolsbase:recipes/rftoolsbase/machine_frame": {
+    "criteria": {
+      "iron_ingot": "2024-09-01 22:07:26 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_chest": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_ingot": {
+    "criteria": {
+      "has_item": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/amber_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_inverted_brown": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_white": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-09-01 22:24:50 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/emerald_dust_from_gem": {
+    "criteria": {
+      "has_emerald_gem": "2024-09-01 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_blue": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_iron_block_from_ingot": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/elevator_frame": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_dust_smelting": {
+    "criteria": {
+      "has_item": "2024-09-01 22:03:48 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_stone": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/wall_lamp_yellow": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/stone_gear_upgrade": {
+    "criteria": {
+      "has_ingredient": "2024-09-01 21:11:18 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/emerald_shard": {
+    "criteria": {
+      "has_item": "2024-09-01 22:04:51 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:affix/chests": {
+    "criteria": {
+      "sword": "2024-09-01 21:11:17 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/no_soliciting/soliciting_carpets/purple_trapped_soliciting_carpet": {
+    "criteria": {
+      "has_tripwire_hook": "2024-09-01 22:09:53 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_tablet": {
+    "criteria": {
+      "has_magic_tablet": "2024-09-01 22:03:54 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/heat_pipe": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/spawner_agitator": {
+    "criteria": {
+      "has_ingot_iron_compressed": "2024-09-01 22:03:51 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_wide_pot": {
+    "criteria": {
+      "has_golden_wide_pot": "2024-09-01 22:04:08 +0200"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/paraglider": {
+    "criteria": {
+      "has_paragliders": "2024-09-01 22:07:25 +0200"
     },
     "done": true
   },
