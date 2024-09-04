@@ -25031,15 +25031,81 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_deepslate_brick_wall_from_stone_types_deepslate_stonecutting": {
+  "sophisticatedstorage:recipes/misc/backpack_advanced_filter_upgrade_from_storage_advanced_filter_upgrade": {
     "criteria": {
-      "has_stone_types_deepslate": "2024-09-04 20:21:53 +0200"
+      "has_storage_upgrade": "2024-09-04 18:05:05 +0200"
     },
     "done": true
   },
-  "silentgear:recipes/misc/sinew_fiber": {
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
-      "has_item": "2024-09-04 21:04:41 +0200"
+      "has_rose_bush": "2024-09-04 18:06:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/gold_chest": {
+    "criteria": {
+      "has_iron_chest": "2024-09-04 18:08:40 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_shulker_from_iron_chest": {
+    "criteria": {
+      "has_iron_chest": "2024-09-04 18:08:40 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_purple": {
+    "criteria": {
+      "has_item": "2024-09-04 18:14:16 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/purple_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-04 18:14:16 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/raw_iron": {
+    "criteria": {
+      "has_the_recipe": "2024-09-04 18:32:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2024-09-04 18:32:43 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/iron_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_iron_block": "2024-09-04 18:32:43 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_boots_repairing": {
+    "criteria": {
+      "has_golden_boots": "2024-09-04 19:08:25 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:regrowth": {
+    "criteria": {
+      "have_sapling": "2024-09-04 19:51:12 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/enchanting_stats": {
+    "criteria": {
+      "enchanted_item": "2024-09-04 20:14:45 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/30ench": {
+    "criteria": {
+      "enchanted_item": "2024-09-04 20:16:35 +0200"
     },
     "done": true
   },
@@ -25049,9 +25115,45 @@
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/raw_iron": {
+  "deepresonance:recipes/deepresonance/radiation_suit_leggings": {
     "criteria": {
-      "has_the_recipe": "2024-09-04 18:32:43 +0200"
+      "has_resonant_plate": "2024-09-04 20:21:42 +0200"
+    },
+    "done": true
+  },
+  "deepresonance:recipes/deepresonance/radiation_monitor": {
+    "criteria": {
+      "": "2024-09-04 20:21:42 +0200"
+    },
+    "done": true
+  },
+  "deepresonance:recipes/deepresonance/radiation_suit_helmet": {
+    "criteria": {
+      "has_resonant_plate": "2024-09-04 20:21:42 +0200"
+    },
+    "done": true
+  },
+  "deepresonance:recipes/deepresonance/tank": {
+    "criteria": {
+      "has_resonant_plate": "2024-09-04 20:21:42 +0200"
+    },
+    "done": true
+  },
+  "deepresonance:recipes/deepresonance/radiation_suit_boots": {
+    "criteria": {
+      "has_resonant_plate": "2024-09-04 20:21:42 +0200"
+    },
+    "done": true
+  },
+  "deepresonance:recipes/deepresonance/radiation_suit_chestplate": {
+    "criteria": {
+      "has_resonant_plate": "2024-09-04 20:21:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_deepslate_brick_wall_from_stone_types_deepslate_stonecutting": {
+    "criteria": {
+      "has_stone_types_deepslate": "2024-09-04 20:21:53 +0200"
     },
     "done": true
   },
@@ -25073,27 +25175,9 @@
     },
     "done": true
   },
-  "blue_skies:regrowth": {
-    "criteria": {
-      "have_sapling": "2024-09-04 19:51:12 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_deepslate_slab_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-09-04 20:21:53 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/gold_chest": {
-    "criteria": {
-      "has_iron_chest": "2024-09-04 18:08:40 +0200"
-    },
-    "done": true
-  },
-  "deepresonance:recipes/deepresonance/radiation_suit_leggings": {
-    "criteria": {
-      "has_resonant_plate": "2024-09-04 20:21:42 +0200"
     },
     "done": true
   },
@@ -25103,33 +25187,9 @@
     },
     "done": true
   },
-  "deepresonance:recipes/deepresonance/radiation_monitor": {
-    "criteria": {
-      "": "2024-09-04 20:21:42 +0200"
-    },
-    "done": true
-  },
-  "deepresonance:recipes/deepresonance/radiation_suit_helmet": {
-    "criteria": {
-      "has_resonant_plate": "2024-09-04 20:21:42 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/iron_shulker_from_iron_chest": {
-    "criteria": {
-      "has_iron_chest": "2024-09-04 18:08:40 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_deepslate_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-09-04 20:21:53 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/misc/arcane_bone_meal": {
-    "criteria": {
-      "has_arcane_crystal_dust": "2024-09-04 20:26:07 +0200"
     },
     "done": true
   },
@@ -25151,18 +25211,6 @@
     },
     "done": true
   },
-  "deepresonance:recipes/deepresonance/tank": {
-    "criteria": {
-      "has_resonant_plate": "2024-09-04 20:21:42 +0200"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/golden_boots_repairing": {
-    "criteria": {
-      "has_golden_boots": "2024-09-04 19:08:25 +0200"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/deepslate_corner_trim": {
     "criteria": {
       "has_deepslate_corner_trim": "2024-09-04 20:21:53 +0200"
@@ -25175,12 +25223,6 @@
     },
     "done": true
   },
-  "botania:recipes/misc/petal_purple": {
-    "criteria": {
-      "has_item": "2024-09-04 18:14:16 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_deepslate_brick_wall_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-09-04 20:21:53 +0200"
@@ -25190,18 +25232,6 @@
   "twigs:recipes/columns/deepslate_column_stonecutting": {
     "criteria": {
       "has_item": "2024-09-04 20:21:53 +0200"
-    },
-    "done": true
-  },
-  "deepresonance:recipes/deepresonance/radiation_suit_boots": {
-    "criteria": {
-      "has_resonant_plate": "2024-09-04 20:21:42 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/backpack_advanced_filter_upgrade_from_storage_advanced_filter_upgrade": {
-    "criteria": {
-      "has_storage_upgrade": "2024-09-04 18:05:05 +0200"
     },
     "done": true
   },
@@ -25223,24 +25253,6 @@
     },
     "done": true
   },
-  "botania:recipes/decorations/purple_shiny_flower": {
-    "criteria": {
-      "has_item": "2024-09-04 18:14:16 +0200"
-    },
-    "done": true
-  },
-  "artifacts:chest_slayer": {
-    "criteria": {
-      "kill_mimic": "2024-09-04 20:22:46 +0200"
-    },
-    "done": true
-  },
-  "apotheosis:enchanting/enchanting_stats": {
-    "criteria": {
-      "enchanted_item": "2024-09-04 20:14:45 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/polished_cut_deepslate_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-09-04 20:21:53 +0200"
@@ -25259,18 +25271,6 @@
     },
     "done": true
   },
-  "deepresonance:recipes/deepresonance/radiation_suit_chestplate": {
-    "criteria": {
-      "has_resonant_plate": "2024-09-04 20:21:42 +0200"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/dried_sinew": {
-    "criteria": {
-      "has_item": "2024-09-04 21:04:41 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/deepslate_pillar_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-09-04 20:21:53 +0200"
@@ -25283,27 +25283,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/raw_iron": {
-    "criteria": {
-      "has_raw_iron_block": "2024-09-04 18:32:43 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/layered_deepslate_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-09-04 20:21:53 +0200"
-    },
-    "done": true
-  },
-  "apotheosis:enchanting/30ench": {
-    "criteria": {
-      "enchanted_item": "2024-09-04 20:16:35 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_rose_bush": {
-    "criteria": {
-      "has_rose_bush": "2024-09-04 18:06:50 +0200"
     },
     "done": true
   },
@@ -25313,21 +25295,459 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/cut_deepslate_brick_slab_from_stone_types_deepslate_stonecutting": {
+    "criteria": {
+      "has_stone_types_deepslate": "2024-09-04 20:21:53 +0200"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2024-09-04 20:22:46 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/arcane_bone_meal": {
+    "criteria": {
+      "has_arcane_crystal_dust": "2024-09-04 20:26:07 +0200"
+    },
+    "done": true
+  },
   "forbidden_arcanus:recipes/misc/aureal_bottle": {
     "criteria": {
       "has_arcane_crystal_dust": "2024-09-04 20:26:07 +0200"
     },
     "done": true
   },
-  "occultism:recipes/crushing/crushing/iron_dust_from_raw_block": {
+  "silentgear:recipes/misc/sinew_fiber": {
     "criteria": {
-      "has_raw_iron_block": "2024-09-04 18:32:43 +0200"
+      "has_item": "2024-09-04 21:04:41 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_deepslate_brick_slab_from_stone_types_deepslate_stonecutting": {
+  "silentgear:recipes/misc/dried_sinew": {
     "criteria": {
-      "has_stone_types_deepslate": "2024-09-04 20:21:53 +0200"
+      "has_item": "2024-09-04 21:04:41 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_ore_hammer": {
+    "criteria": {
+      "has_platinum_block": "2024-09-04 23:24:57 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_red_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-09-04 23:17:19 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-09-04 23:45:40 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/osmium_block_1x": {
+    "criteria": {
+      "has_osmium_block": "2024-09-04 23:15:44 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/uranium]_ingot": "2024-09-04 23:17:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/uranium_block_1x": {
+    "criteria": {
+      "has_uranium_block": "2024-09-04 23:17:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-09-04 23:20:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_red_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-09-04 23:10:03 +0200"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_computer_advanced": {
+    "criteria": {
+      "has_apple": "2024-09-04 23:25:17 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/basalt_blocks/smooth_basalt_brick_slab_from_smooth_basalt_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-04 23:51:42 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/fuelrod_ingots_uranium": {
+    "criteria": {
+      "has_item": "2024-09-04 23:17:19 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_red": {
+    "criteria": {
+      "has_dyes/black": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_raw": {
+    "criteria": {
+      "has_item": "2024-09-04 23:45:40 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/osmium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-04 23:15:44 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/uranium_dust_from_ingot": {
+    "criteria": {
+      "has_uranium_ingot": "2024-09-04 23:17:19 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/uranium]_ingot": "2024-09-04 23:17:19 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/red_industrial_lamp": {
+    "criteria": {
+      "has_red_industrial_lamp": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/basalt_blocks/smooth_basalt_bricks_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-04 23:51:42 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/controller_ingots_uranium": {
+    "criteria": {
+      "has_item2": "2024-09-04 23:17:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2024-09-04 23:21:25 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_red_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_red_dye": {
+    "criteria": {
+      "forge:dyes/red": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/basalt_blocks/smooth_basalt_bricks": {
+    "criteria": {
+      "has_item": "2024-09-04 23:51:42 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_leggings_repairing": {
+    "criteria": {
+      "has_leather_leggings": "2024-09-04 22:54:48 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_red_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "quark:mine_toretoise": {
+    "criteria": {
+      "mine_toretoise": "2024-09-04 23:16:36 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/amethyst_blocks/cut_amethyst": {
+    "criteria": {
+      "has_item": "2024-09-04 23:56:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/platinum]_ingot": "2024-09-04 23:10:03 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_red_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-04 23:24:57 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_red_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/casing": {
+    "criteria": {
+      "has_item": "2024-09-04 23:08:15 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/amethyst_blocks/cut_amethyst_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-04 23:56:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-09-04 23:20:49 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/graphite_dust_from_ingot": {
+    "criteria": {
+      "has_graphite_ingot": "2024-09-04 23:08:15 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/platinum_dust_from_ingot": {
+    "criteria": {
+      "has_platinum_ingot": "2024-09-04 23:10:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/uranium_dust_from_raw": {
+    "criteria": {
+      "has_raw_uranium": "2024-09-04 23:45:40 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_red": {
+    "criteria": {
+      "has_dyes/black": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_uranium_hammering": {
+    "criteria": {
+      "has_uranium_ingot": "2024-09-04 23:17:19 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_red": {
+    "criteria": {
+      "has_dyes/black": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/basalt_blocks/smooth_basalt_brick_stairs_from_smooth_basalt_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-04 23:51:42 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_shovel_repairing": {
+    "criteria": {
+      "has_diamond_shovel": "2024-09-04 23:25:46 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/uranium]_ingot": "2024-09-04 23:17:19 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/basalt_blocks/smooth_basalt_brick_wall_from_smooth_basalt_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-04 23:51:42 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/crafting/graphite_component_to_storage": {
+    "criteria": {
+      "has_item": "2024-09-04 23:08:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-09-04 23:21:25 +0200"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_computer_normal": {
+    "criteria": {
+      "has_apple": "2024-09-04 23:25:17 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/platinum]_ingot": "2024-09-04 23:10:03 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/platinum_block_1x": {
+    "criteria": {
+      "has_platinum_block": "2024-09-04 23:24:57 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/uranium]_ingot": "2024-09-04 23:17:19 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/persimmon_dye": {
+    "criteria": {
+      "has_red_dye": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-04 23:17:22 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/controller_ingots_uranium": {
+    "criteria": {
+      "has_item2": "2024-09-04 23:17:19 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_red": {
+    "criteria": {
+      "has_dyes/black": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_uranium_block": {
+    "criteria": {
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/uranium]": "2024-09-04 23:45:40 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/platinum]_ingot": "2024-09-04 23:10:03 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/wither": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-09-04 23:20:49 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_red_industrial_lamp": {
+    "criteria": {
+      "has_small_red_industrial_lamp": "2024-09-04 22:43:08 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/platinum]_ingot": "2024-09-04 23:10:03 +0200"
     },
     "done": true
   },

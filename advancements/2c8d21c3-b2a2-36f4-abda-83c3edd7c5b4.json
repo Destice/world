@@ -7939,24 +7939,6 @@
     },
     "done": true
   },
-  "blue_skies:recipes/building_blocks/comet_planks": {
-    "criteria": {
-      "has_item": "2024-09-04 19:54:06 +0200"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/food/comet_berry_pie_with_ventium": {
-    "criteria": {
-      "has_item": "2024-09-04 19:48:25 +0200"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/food/comet_berry_pie_with_iron": {
-    "criteria": {
-      "has_item": "2024-09-04 19:48:25 +0200"
-    },
-    "done": true
-  },
   "additionallanterns:recipes/misc/normal_nether_bricks_lantern_yellow": {
     "criteria": {
       "recipe_condition": "2024-09-04 19:06:19 +0200"
@@ -7972,18 +7954,6 @@
   "additionallanterns:recipes/misc/normal_nether_bricks_lantern_light_blue": {
     "criteria": {
       "recipe_condition": "2024-09-04 19:06:19 +0200"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/comet_ladder": {
-    "criteria": {
-      "has_item": "2024-09-04 19:56:50 +0200"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/comet_chest": {
-    "criteria": {
-      "has_item": "2024-09-04 19:56:50 +0200"
     },
     "done": true
   },
@@ -8032,6 +8002,210 @@
   "additionallanterns:recipes/misc/normal_nether_bricks_lantern_brown": {
     "criteria": {
       "recipe_condition": "2024-09-04 19:06:19 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/food/comet_berry_pie_with_ventium": {
+    "criteria": {
+      "has_item": "2024-09-04 19:48:25 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/food/comet_berry_pie_with_iron": {
+    "criteria": {
+      "has_item": "2024-09-04 19:48:25 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/comet_planks": {
+    "criteria": {
+      "has_item": "2024-09-04 19:54:06 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/comet_ladder": {
+    "criteria": {
+      "has_item": "2024-09-04 19:56:50 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/comet_chest": {
+    "criteria": {
+      "has_item": "2024-09-04 19:56:50 +0200"
+    },
+    "done": true
+  },
+  "wirelesschargers:recipes/misc/basic_wireless_block_charger": {
+    "criteria": {
+      "recipe_condition": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "xnet:recipes/xnet/connector_upgrade": {
+    "criteria": {
+      "pearl": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/fortune_coin": {
+    "criteria": {
+      "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "allthetweaks:recipes/misc/nether_star_from_nether_star_block": {
+    "criteria": {
+      "has_nether_star_block": "2024-09-04 23:14:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/angelic_feather": {
+    "criteria": {
+      "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "buildinggadgets2:recipes/misc/gadget_destruction": {
+    "criteria": {
+      "has_ender_pearl": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/charged_porter": {
+    "criteria": {
+      "pearl": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/teleport_pad": {
+    "criteria": {
+      "has_ender_pearl": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/magicbane": {
+    "criteria": {
+      "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/nether_star_block_1x": {
+    "criteria": {
+      "has_nether_star_block": "2024-09-04 23:14:46 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/enderman": {
+    "criteria": {
+      "has_ender_pearl": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "entangled:recipes/misc/block": {
+    "criteria": {
+      "recipe_condition": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "itemcollectors:recipes/misc/basic_collector": {
+    "criteria": {
+      "recipe_condition": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/alkahestry_altar": {
+    "criteria": {
+      "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/crimson_cloth": {
+    "criteria": {
+      "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "allthetweaks:recipes/misc/ender_pearl_block": {
+    "criteria": {
+      "has_ender_pearl": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/ender_pearl": {
+    "criteria": {
+      "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "dimstorage:recipes/misc/dim_wall": {
+    "criteria": {
+      "has_ender_pearl": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "shrink:recipes/tools/shrinking_device": {
+    "criteria": {
+      "has_enderpearls": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/enderman": {
+    "criteria": {
+      "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/wraith_node": {
+    "criteria": {
+      "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/ender_staff": {
+    "criteria": {
+      "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/void_tear": {
+    "criteria": {
+      "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/enderium_block_1x": {
+    "criteria": {
+      "has_enderium_block": "2024-09-04 23:14:37 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/world_spike": {
+    "criteria": {
+      "has_ender_pearl": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/enderium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-04 23:14:37 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/personal_world_spike": {
+    "criteria": {
+      "has_ender_pearl": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "wirelesschargers:recipes/misc/basic_wireless_player_charger": {
+    "criteria": {
+      "recipe_condition": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "entangled:recipes/misc/item": {
+    "criteria": {
+      "recipe_condition": "2024-09-04 22:11:46 +0200"
     },
     "done": true
   },
