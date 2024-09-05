@@ -8053,12 +8053,6 @@
     },
     "done": true
   },
-  "allthetweaks:recipes/misc/nether_star_from_nether_star_block": {
-    "criteria": {
-      "has_nether_star_block": "2024-09-04 23:14:46 +0200"
-    },
-    "done": true
-  },
   "reliquary:recipes/misc/angelic_feather": {
     "criteria": {
       "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
@@ -8086,12 +8080,6 @@
   "reliquary:recipes/misc/magicbane": {
     "criteria": {
       "has_nebulous_heart": "2024-09-04 22:11:46 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/nether_star_block_1x": {
-    "criteria": {
-      "has_nether_star_block": "2024-09-04 23:14:46 +0200"
     },
     "done": true
   },
@@ -8173,21 +8161,9 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/enderium_block_1x": {
-    "criteria": {
-      "has_enderium_block": "2024-09-04 23:14:37 +0200"
-    },
-    "done": true
-  },
   "railcraft:recipes/misc/world_spike": {
     "criteria": {
       "has_ender_pearl": "2024-09-04 22:11:46 +0200"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/enderium_ingot_from_block": {
-    "criteria": {
-      "has_item": "2024-09-04 23:14:37 +0200"
     },
     "done": true
   },
@@ -8206,6 +8182,240 @@
   "entangled:recipes/misc/item": {
     "criteria": {
       "recipe_condition": "2024-09-04 22:11:46 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/enderium_block_1x": {
+    "criteria": {
+      "has_enderium_block": "2024-09-04 23:14:37 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/enderium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-04 23:14:37 +0200"
+    },
+    "done": true
+  },
+  "allthetweaks:recipes/misc/nether_star_from_nether_star_block": {
+    "criteria": {
+      "has_nether_star_block": "2024-09-04 23:14:46 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/nether_star_block_1x": {
+    "criteria": {
+      "has_nether_star_block": "2024-09-04 23:14:46 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/honey_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/fluorescent_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/navy_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_black": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/ultramarine_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/maroon_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_purple": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_white": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/lavender_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_green": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_blue": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/wine_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_pink": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_gray": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_magenta": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/amber_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/persimmon_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_yellow": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/cherenkov_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/mint_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_light_blue": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/bubblegum_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_colorless": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/conifer_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_light_gray": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_orange": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_red": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_cyan": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/aquamarine_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_brown": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/icy_blue_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/spring_green_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/peach_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/obsidian_lantern_lime": {
+    "criteria": {
+      "recipe_condition": "2024-09-05 23:50:39 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/rose_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-09-06 00:50:34 +0200"
     },
     "done": true
   },
