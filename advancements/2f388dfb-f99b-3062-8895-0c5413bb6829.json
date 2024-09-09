@@ -17796,7 +17796,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2024-09-08 23:21:44 +0200",
-      "minecraft:nether_wastes": "2024-08-31 15:16:12 +0200"
+      "minecraft:nether_wastes": "2024-08-31 15:16:12 +0200",
+      "minecraft:basalt_deltas": "2024-09-09 15:57:13 +0200"
     },
     "done": false
   },
@@ -28476,6 +28477,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/toast_with_jam": {
+    "criteria": {
+      "has_toast": "2024-09-09 01:54:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-09-09 02:19:17 +0200"
@@ -28566,12 +28573,6 @@
     },
     "done": true
   },
-  "croptopia:recipes/toast_with_jam": {
-    "criteria": {
-      "has_toast": "2024-09-09 01:54:43 +0200"
-    },
-    "done": true
-  },
   "alchemistry:recipes/dissolver/smooth_quartz": {
     "criteria": {
       "has_the_recipe": "2024-09-09 02:19:17 +0200"
@@ -28623,6 +28624,96 @@
   "twigs:recipes/columns/quartz_column_stonecutting": {
     "criteria": {
       "has_item": "2024-09-09 02:19:17 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_gloves": "2024-09-09 16:00:51 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/nozzle": {
+    "criteria": {
+      "has_item": "2024-09-09 15:44:34 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_gloves_repairing": {
+    "criteria": {
+      "has_golden_gloves": "2024-09-09 16:00:51 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/snad/soul_snad": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 15:59:55 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_gloves": "2024-09-09 16:00:51 +0200"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_nether": "2024-09-09 15:59:49 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 15:59:55 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/soul_sand_1x": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 15:59:55 +0200"
+    },
+    "done": true
+  },
+  "create:encased_fan": {
+    "criteria": {
+      "0": "2024-09-09 15:51:13 +0200"
+    },
+    "done": true
+  },
+  "create:fan_processing": {
+    "criteria": {
+      "0": "2024-09-09 16:10:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2024-09-09 16:04:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 15:59:55 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/scoria": {
+    "criteria": {
+      "has_item": "2024-09-09 15:59:55 +0200"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/food/warped_moldy_meat": {
+    "criteria": {
+      "has_sirloin": "2024-09-09 15:11:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2024-09-09 16:03:59 +0200"
     },
     "done": true
   },
