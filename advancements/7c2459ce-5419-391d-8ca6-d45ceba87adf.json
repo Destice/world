@@ -101,6 +101,8 @@
       "lavender_forest": "2024-09-04 19:18:51 +0200",
       "mediterranean_forest": "2024-09-04 19:32:58 +0200",
       "spider_nest": "2024-09-04 19:18:30 +0200",
+      "seasonal_orchard": "2024-09-09 22:35:39 +0200",
+      "seasonal_forest": "2024-09-09 22:37:01 +0200",
       "lavender_field": "2024-09-03 22:10:29 +0200",
       "grassland": "2024-09-03 19:23:55 +0200",
       "glowing_grotto": "2024-09-03 19:50:09 +0200",
@@ -731,10 +733,12 @@
       "minecraft:beach": "2024-09-02 21:41:05 +0200",
       "minecraft:dark_forest": "2024-09-03 19:34:23 +0200",
       "minecraft:river": "2024-09-02 21:43:54 +0200",
+      "minecraft:cold_ocean": "2024-09-09 22:30:57 +0200",
       "minecraft:forest": "2024-09-02 21:59:14 +0200",
       "minecraft:lush_caves": "2024-09-02 22:27:27 +0200",
       "minecraft:ocean": "2024-09-02 22:15:57 +0200",
-      "minecraft:old_growth_birch_forest": "2024-09-02 21:59:36 +0200"
+      "minecraft:old_growth_birch_forest": "2024-09-02 21:59:36 +0200",
+      "minecraft:deep_dark": "2024-09-09 22:52:32 +0200"
     },
     "done": false
   },
@@ -19883,105 +19887,9 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/raw_silver_block": {
+  "deepresonance:recipes/deepresonance/resonating_plate": {
     "criteria": {
-      "has_raw_TagKey[minecraft:item / forge:raw_materials/silver]": "2024-09-08 22:38:13 +0200"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/uranium_ingot_from_raw_blasting": {
-    "criteria": {
-      "has_item": "2024-09-08 22:33:38 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/nickel_dust_from_raw_block": {
-    "criteria": {
-      "has_raw_nickel_block": "2024-09-08 22:30:05 +0200"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/leather_gloves_repairing": {
-    "criteria": {
-      "has_leather_gloves": "2024-09-08 23:22:48 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/tuff_4x": {
-    "criteria": {
-      "has_tuff_3x": "2024-09-08 23:12:02 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/tuff_2x": {
-    "criteria": {
-      "has_tuff_1x": "2024-09-08 23:12:05 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/tuff_3x": {
-    "criteria": {
-      "has_tuff_2x": "2024-09-08 23:12:05 +0200"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/silver_ingot_from_raw_blasting": {
-    "criteria": {
-      "has_item": "2024-09-08 22:38:13 +0200"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_leggings_repairing": {
-    "criteria": {
-      "has_diamond_leggings": "2024-09-08 23:22:47 +0200"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/uranium_ingot_from_raw": {
-    "criteria": {
-      "has_item": "2024-09-08 22:33:38 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/tin_dust_from_raw": {
-    "criteria": {
-      "has_raw_tin": "2024-09-08 22:54:45 +0200"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/raw_tin_block": {
-    "criteria": {
-      "has_raw_TagKey[minecraft:item / forge:raw_materials/tin]": "2024-09-08 22:54:45 +0200"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/tin_ingot_from_raw": {
-    "criteria": {
-      "has_item": "2024-09-08 22:54:45 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/lead_dust_from_raw_block": {
-    "criteria": {
-      "has_raw_lead_block": "2024-09-08 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_2x": {
-    "criteria": {
-      "has_cobbled_deepslate_2x": "2024-09-08 23:12:05 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_3x": {
-    "criteria": {
-      "has_cobbled_deepslate_3x": "2024-09-08 23:12:03 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_1x": {
-    "criteria": {
-      "has_cobbled_deepslate_1x": "2024-09-08 23:12:04 +0200"
+      "has_ore": "2024-09-08 22:25:14 +0200"
     },
     "done": true
   },
@@ -19991,159 +19899,9 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/raw_uranium_from_block": {
+  "occultism:recipes/crushing/crushing/nickel_dust_from_raw_block": {
     "criteria": {
-      "has_item": "2024-09-08 22:33:38 +0200"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_sword_repairing": {
-    "criteria": {
-      "has_diamond_sword": "2024-09-08 23:36:42 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/silver_dust_from_raw_block": {
-    "criteria": {
-      "has_raw_silver_block": "2024-09-08 22:38:12 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/misc/test_tube": {
-    "criteria": {
-      "has_item": "2024-09-08 22:36:51 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/honey_glazed_ham_block": {
-    "criteria": {
-      "has_smoked_ham": "2024-09-08 22:48:21 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:main/get_ham": {
-    "criteria": {
-      "smoked_ham": "2024-09-08 22:48:21 +0200"
-    },
-    "done": true
-  },
-  "croptopia:eatcrafted": {
-    "criteria": {
-      "eat_crafted": "2024-09-08 22:48:42 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/gravel_2x": {
-    "criteria": {
-      "has_gravel_1x": "2024-09-08 23:12:03 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/gravel_3x": {
-    "criteria": {
-      "has_gravel_2x": "2024-09-08 23:12:02 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/smoked_ham": {
-    "criteria": {
-      "has_ham": "2024-09-08 22:48:24 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/misc/rune_block_from_rune": {
-    "criteria": {
-      "has_rune": "2024-09-08 22:36:51 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/misc/crafting/raw_silver_block": {
-    "criteria": {
-      "has_raw_silver": "2024-09-08 22:38:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/totem_of_undying": {
-    "criteria": {
-      "used_totem": "2024-09-08 23:38:35 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/uranium_dust_from_raw_block": {
-    "criteria": {
-      "has_raw_uranium_block": "2024-09-08 22:33:38 +0200"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/frozen/cutting/ice_sword": {
-    "criteria": {
-      "has_diamond_sword": "2024-09-08 23:36:42 +0200"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/solid_fueled_firebox": {
-    "criteria": {
-      "has_fire_charge": "2024-09-08 23:17:53 +0200"
-    },
-    "done": true
-  },
-  "croptopia:gather_food": {
-    "criteria": {
-      "nutty_cookie": "2024-09-08 22:48:27 +0200"
-    },
-    "done": false
-  },
-  "allthecompressed:recipes/building_blocks/decompress/gravel_2x": {
-    "criteria": {
-      "has_gravel_2x": "2024-09-08 23:12:02 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/gravel_1x": {
-    "criteria": {
-      "has_gravel_1x": "2024-09-08 23:12:03 +0200"
-    },
-    "done": true
-  },
-  "deepresonance:recipes/deepresonance/resonating_plate": {
-    "criteria": {
-      "has_ore": "2024-09-08 22:25:14 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/uranium_dust_from_raw": {
-    "criteria": {
-      "has_raw_uranium": "2024-09-08 22:33:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "in_better_fortress": "2024-09-08 23:15:07 +0200"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_gloves_repairing": {
-    "criteria": {
-      "has_diamond_gloves": "2024-09-08 23:22:11 +0200"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/raw_lead_from_block": {
-    "criteria": {
-      "has_item": "2024-09-08 23:04:09 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/silver_dust_from_raw": {
-    "criteria": {
-      "has_raw_silver": "2024-09-08 22:38:13 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/nectarine_sapling": {
-    "criteria": {
-      "has_nectarine": "2024-09-08 22:48:55 +0200"
+      "has_raw_nickel_block": "2024-09-08 22:30:05 +0200"
     },
     "done": true
   },
@@ -20153,33 +19911,105 @@
     },
     "done": true
   },
-  "occultism:recipes/misc/smelting/silver_ingot_from_raw": {
+  "alltheores:recipes/misc/uranium_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-09-08 22:33:38 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_raw": {
+    "criteria": {
+      "has_item": "2024-09-08 22:33:38 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_uranium_from_block": {
+    "criteria": {
+      "has_item": "2024-09-08 22:33:38 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/uranium_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_uranium_block": "2024-09-08 22:33:38 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/uranium_dust_from_raw": {
+    "criteria": {
+      "has_raw_uranium": "2024-09-08 22:33:38 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_uranium_block": {
+    "criteria": {
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/uranium]": "2024-09-08 22:33:38 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/test_tube": {
+    "criteria": {
+      "has_item": "2024-09-08 22:36:51 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/rune_block_from_rune": {
+    "criteria": {
+      "has_rune": "2024-09-08 22:36:51 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/dark_rune": {
+    "criteria": {
+      "has_rune": "2024-09-08 22:36:51 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/silver_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_silver_block": "2024-09-08 22:38:12 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/raw_silver_ingot_from_block": {
+    "criteria": {
+      "has_raw_silver_block": "2024-09-08 22:38:12 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_silver_from_block": {
+    "criteria": {
+      "has_item": "2024-09-08 22:38:12 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_silver_block": {
+    "criteria": {
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/silver]": "2024-09-08 22:38:13 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-09-08 22:38:13 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/raw_silver_block": {
     "criteria": {
       "has_raw_silver": "2024-09-08 22:38:13 +0200"
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
+  "occultism:recipes/crushing/crushing/silver_dust_from_raw": {
     "criteria": {
-      "diamond_leggings": "2024-09-08 23:22:47 +0200"
+      "has_raw_silver": "2024-09-08 22:38:13 +0200"
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/decompress/tuff_1x": {
+  "occultism:recipes/misc/smelting/silver_ingot_from_raw": {
     "criteria": {
-      "has_tuff_1x": "2024-09-08 23:12:05 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/tuff_3x": {
-    "criteria": {
-      "has_tuff_3x": "2024-09-08 23:12:02 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/tuff_2x": {
-    "criteria": {
-      "has_tuff_2x": "2024-09-08 23:12:05 +0200"
+      "has_raw_silver": "2024-09-08 22:38:13 +0200"
     },
     "done": true
   },
@@ -20207,33 +20037,117 @@
     },
     "done": true
   },
-  "lootr:100loot": {
+  "farmersdelight:recipes/food/honey_glazed_ham_block": {
     "criteria": {
-      "loot_stat": "2024-09-08 23:22:09 +0200"
+      "has_smoked_ham": "2024-09-08 22:48:21 +0200"
     },
     "done": true
   },
-  "rftoolsbase:recipes/rftoolsbase/machine_frame": {
+  "farmersdelight:main/get_ham": {
     "criteria": {
-      "iron_ingot": "2024-09-08 23:36:42 +0200"
+      "smoked_ham": "2024-09-08 22:48:21 +0200"
     },
     "done": true
   },
-  "alltheores:recipes/misc/raw_uranium_block": {
+  "farmersdelight:recipes/food/smoked_ham": {
     "criteria": {
-      "has_raw_TagKey[minecraft:item / forge:raw_materials/uranium]": "2024-09-08 22:33:38 +0200"
+      "has_ham": "2024-09-08 22:48:24 +0200"
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_2x": {
+  "croptopia:gather_food": {
     "criteria": {
-      "has_cobbled_deepslate_1x": "2024-09-08 23:12:04 +0200"
+      "nutty_cookie": "2024-09-08 22:48:27 +0200"
+    },
+    "done": false
+  },
+  "croptopia:eatcrafted": {
+    "criteria": {
+      "eat_crafted": "2024-09-08 22:48:42 +0200"
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_3x": {
+  "croptopia:recipes/misc/nectarine_sapling": {
     "criteria": {
-      "has_cobbled_deepslate_2x": "2024-09-08 23:12:05 +0200"
+      "has_nectarine": "2024-09-08 22:48:55 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/tin_dust_from_raw": {
+    "criteria": {
+      "has_raw_tin": "2024-09-08 22:54:45 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_tin_block": {
+    "criteria": {
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/tin]": "2024-09-08 22:54:45 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_raw": {
+    "criteria": {
+      "has_item": "2024-09-08 22:54:45 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-09-08 22:54:45 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/lead_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_lead_block": "2024-09-08 23:04:09 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_lead_from_block": {
+    "criteria": {
+      "has_item": "2024-09-08 23:04:09 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/tuff_4x": {
+    "criteria": {
+      "has_tuff_3x": "2024-09-08 23:12:02 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/gravel_3x": {
+    "criteria": {
+      "has_gravel_2x": "2024-09-08 23:12:02 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/gravel_2x": {
+    "criteria": {
+      "has_gravel_2x": "2024-09-08 23:12:02 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/tuff_3x": {
+    "criteria": {
+      "has_tuff_3x": "2024-09-08 23:12:02 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_3x": {
+    "criteria": {
+      "has_cobbled_deepslate_3x": "2024-09-08 23:12:03 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/gravel_2x": {
+    "criteria": {
+      "has_gravel_1x": "2024-09-08 23:12:03 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/gravel_1x": {
+    "criteria": {
+      "has_gravel_1x": "2024-09-08 23:12:03 +0200"
     },
     "done": true
   },
@@ -20243,27 +20157,477 @@
     },
     "done": true
   },
-  "occultism:recipes/misc/crafting/raw_silver_ingot_from_block": {
+  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_1x": {
     "criteria": {
-      "has_raw_silver_block": "2024-09-08 22:38:12 +0200"
+      "has_cobbled_deepslate_1x": "2024-09-08 23:12:04 +0200"
     },
     "done": true
   },
-  "forbidden_arcanus:recipes/misc/dark_rune": {
+  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_2x": {
     "criteria": {
-      "has_rune": "2024-09-08 22:36:51 +0200"
+      "has_cobbled_deepslate_1x": "2024-09-08 23:12:04 +0200"
     },
     "done": true
   },
-  "alltheores:recipes/misc/raw_silver_from_block": {
+  "allthecompressed:recipes/building_blocks/compress/tuff_2x": {
     "criteria": {
-      "has_item": "2024-09-08 22:38:12 +0200"
+      "has_tuff_1x": "2024-09-08 23:12:05 +0200"
     },
     "done": true
   },
-  "alltheores:recipes/misc/tin_ingot_from_raw_blasting": {
+  "allthecompressed:recipes/building_blocks/compress/tuff_3x": {
     "criteria": {
-      "has_item": "2024-09-08 22:54:45 +0200"
+      "has_tuff_2x": "2024-09-08 23:12:05 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_2x": {
+    "criteria": {
+      "has_cobbled_deepslate_2x": "2024-09-08 23:12:05 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/tuff_1x": {
+    "criteria": {
+      "has_tuff_1x": "2024-09-08 23:12:05 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/tuff_2x": {
+    "criteria": {
+      "has_tuff_2x": "2024-09-08 23:12:05 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_3x": {
+    "criteria": {
+      "has_cobbled_deepslate_2x": "2024-09-08 23:12:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2024-09-08 23:15:07 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/solid_fueled_firebox": {
+    "criteria": {
+      "has_fire_charge": "2024-09-08 23:17:53 +0200"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "loot_stat": "2024-09-08 23:22:09 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_gloves_repairing": {
+    "criteria": {
+      "has_diamond_gloves": "2024-09-08 23:22:11 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2024-09-08 23:22:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2024-09-08 23:22:47 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_gloves_repairing": {
+    "criteria": {
+      "has_leather_gloves": "2024-09-08 23:22:48 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_sword_repairing": {
+    "criteria": {
+      "has_diamond_sword": "2024-09-08 23:36:42 +0200"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/frozen/cutting/ice_sword": {
+    "criteria": {
+      "has_diamond_sword": "2024-09-08 23:36:42 +0200"
+    },
+    "done": true
+  },
+  "rftoolsbase:recipes/rftoolsbase/machine_frame": {
+    "criteria": {
+      "iron_ingot": "2024-09-08 23:36:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-09-08 23:38:35 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/apothecary_deepslate": {
+    "criteria": {
+      "has_item": "2024-09-09 22:08:01 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ghast": {
+    "criteria": {
+      "has_ghast_tear": "2024-09-09 21:32:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2024-09-09 21:32:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-09 22:57:12 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/blood_pendant": {
+    "criteria": {
+      "has_item": "2024-09-09 21:32:10 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/red_nether_brick_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-09-09 21:32:09 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/coke_oven/coal_coke_block": {
+    "criteria": {
+      "has_coal_block": "2024-09-09 21:32:11 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/lantern_of_paranoia": {
+    "criteria": {
+      "has_molten_core": "2024-09-09 21:42:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-09-09 23:01:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-09 22:57:12 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/salamander_eye": {
+    "criteria": {
+      "has_molten_core": "2024-09-09 21:42:35 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/blue_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:38:17 +0200"
+    },
+    "done": true
+  },
+  "deeperdarker:main/root": {
+    "criteria": {
+      "deep_dark": "2024-09-09 22:52:32 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/blasting/graphite_from_coalblock": {
+    "criteria": {
+      "has_item": "2024-09-09 21:32:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_stairs": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-09-09 21:32:09 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_mossy_stone_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-09-09 22:57:12 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/snad/soul_snad": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 21:32:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-09 22:57:12 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/coal": {
+    "criteria": {
+      "has_the_recipe": "2024-09-09 21:32:11 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/twig_wand": {
+    "criteria": {
+      "has_item": "2024-09-09 22:08:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_slab_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-09-09 21:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_slab": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-09-09 21:32:09 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/red_nether_bricks_chain": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 21:32:09 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/magma_cream": {
+    "criteria": {
+      "has_molten_core": "2024-09-09 21:42:35 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/magma_cube": {
+    "criteria": {
+      "has_molten_core": "2024-09-09 21:42:35 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/red_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:38:59 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/alfsteel_pylon": {
+    "criteria": {
+      "criterion2": "2024-09-09 21:32:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-09 22:57:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 21:32:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_nether_brick_wall": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-09-09 21:32:09 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/white_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:39:00 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/stone_sword_repairing": {
+    "criteria": {
+      "has_stone_sword": "2024-09-09 21:32:13 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/blaze_rod": {
+    "criteria": {
+      "has_molten_core": "2024-09-09 21:42:35 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/coal_block_1x": {
+    "criteria": {
+      "has_coal_block": "2024-09-09 21:32:11 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/destruction_catalyst": {
+    "criteria": {
+      "has_molten_core": "2024-09-09 21:42:35 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/incense_stick": {
+    "criteria": {
+      "has_item": "2024-09-09 21:32:10 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/soul_sand_1x": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 21:32:15 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_helmet_repairing": {
+    "criteria": {
+      "has_diamond_helmet": "2024-09-09 21:24:12 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_tin_from_block": {
+    "criteria": {
+      "has_item": "2024-09-09 22:45:25 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/dreamwood_wand": {
+    "criteria": {
+      "has_item": "2024-09-09 22:08:01 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/red_nether_bricks": {
+    "criteria": {
+      "has_planks": "2024-09-09 21:32:09 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/apothecary_mossy": {
+    "criteria": {
+      "has_item": "2024-09-09 22:08:01 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/blaze": {
+    "criteria": {
+      "has_molten_core": "2024-09-09 21:42:35 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/midas_touchstone": {
+    "criteria": {
+      "has_molten_core": "2024-09-09 21:42:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 21:32:15 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/smelting/graphite_from_coalblock": {
+    "criteria": {
+      "has_item": "2024-09-09 21:32:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-09 22:57:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-09-09 22:57:12 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/scoria": {
+    "criteria": {
+      "has_item": "2024-09-09 21:32:15 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/orange_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:38:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-09-09 21:32:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-09-09 23:03:09 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/tin_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_tin_block": "2024-09-09 22:45:25 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/cyan_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:38:59 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_zinc_from_block": {
+    "criteria": {
+      "has_item": "2024-09-09 21:59:52 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_chestplate_repairing": {
+    "criteria": {
+      "has_golden_chestplate": "2024-09-09 21:25:34 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/zinc_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_zinc_block": "2024-09-09 21:59:52 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/apothecary_default": {
+    "criteria": {
+      "has_item": "2024-09-09 22:08:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_nether_brick_wall_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2024-09-09 21:32:09 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/interdiction_torch": {
+    "criteria": {
+      "has_molten_core": "2024-09-09 21:42:35 +0200"
     },
     "done": true
   },

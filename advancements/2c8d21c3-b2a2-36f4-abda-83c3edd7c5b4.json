@@ -2532,6 +2532,7 @@
       "minecraft:phantom": "2024-09-03 22:12:52 +0200",
       "minecraft:zombified_piglin": "2024-09-08 16:12:25 +0200",
       "minecraft:silverfish": "2024-09-01 21:29:42 +0200",
+      "minecraft:enderman": "2024-09-10 00:49:25 +0200",
       "minecraft:vex": "2024-09-02 22:11:56 +0200",
       "minecraft:zombie": "2024-08-31 14:31:02 +0200"
     },
@@ -10820,15 +10821,147 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_birch_sign_item": {
+  "productivetrees:recipes/building_blocks/slab/brown_amber_slab": {
     "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
+      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_glass_pane": {
+  "productivetrees:recipes/building_blocks/bookshelves/brown_amber_bookshelf": {
     "criteria": {
-      "has_glass": "2024-09-09 15:15:46 +0200"
+      "has_book": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/decorations/fence/brown_amber_fence": {
+    "criteria": {
+      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/decorations/hanging_sign/brown_amber_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/stairs/brown_amber_stairs": {
+    "criteria": {
+      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/trapdoor/brown_amber_trapdoor": {
+    "criteria": {
+      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/productivetrees/sign_post_brown_amber": {
+    "criteria": {
+      "has_planks": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/decorations/sign/brown_amber_sign": {
+    "criteria": {
+      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/pressure_plate/brown_amber_pressure_plate": {
+    "criteria": {
+      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/fence_gate/brown_amber_fence_gate": {
+    "criteria": {
+      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/door/brown_amber_door": {
+    "criteria": {
+      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/button/brown_amber_button": {
+    "criteria": {
+      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/decorations/hanging_sign/cinnamon_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/door/cinnamon_door": {
+    "criteria": {
+      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/decorations/sign/cinnamon_sign": {
+    "criteria": {
+      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/stairs/cinnamon_stairs": {
+    "criteria": {
+      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/bookshelves/cinnamon_bookshelf": {
+    "criteria": {
+      "has_book": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/fence_gate/cinnamon_fence_gate": {
+    "criteria": {
+      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/decorations/fence/cinnamon_fence": {
+    "criteria": {
+      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/pressure_plate/cinnamon_pressure_plate": {
+    "criteria": {
+      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/trapdoor/cinnamon_trapdoor": {
+    "criteria": {
+      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/button/cinnamon_button": {
+    "criteria": {
+      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/productivetrees/sign_post_cinnamon": {
+    "criteria": {
+      "has_planks": "2024-09-09 14:45:04 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/slab/cinnamon_slab": {
+    "criteria": {
+      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
     },
     "done": true
   },
@@ -10838,21 +10971,160 @@
     },
     "done": true
   },
+  "productivetrees:recipes/building_blocks/stairs/myrtle_ebony_stairs": {
+    "criteria": {
+      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/pressure_plate/myrtle_ebony_pressure_plate": {
+    "criteria": {
+      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/trapdoor/myrtle_ebony_trapdoor": {
+    "criteria": {
+      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/slab/myrtle_ebony_slab": {
+    "criteria": {
+      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/decorations/fence/myrtle_ebony_fence": {
+    "criteria": {
+      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/bookshelves/myrtle_ebony_bookshelf": {
+    "criteria": {
+      "has_book": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/door/myrtle_ebony_door": {
+    "criteria": {
+      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/decorations/sign/myrtle_ebony_sign": {
+    "criteria": {
+      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/productivetrees/sign_post_myrtle_ebony": {
+    "criteria": {
+      "has_planks": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/fence_gate/myrtle_ebony_fence_gate": {
+    "criteria": {
+      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/redstone/button/myrtle_ebony_button": {
+    "criteria": {
+      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
+    },
+    "done": true
+  },
   "forbidden_arcanus:recipes/building_blocks/aurum_stairs": {
     "criteria": {
       "has_aurum_planks": "2024-09-09 14:49:00 +0200"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_acacia_sign_item": {
+  "forbidden_arcanus:recipes/building_blocks/aurum_slab": {
     "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
+      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
     },
     "done": true
   },
-  "additionallanterns:recipes/misc/netherite_lantern_lime": {
+  "forbidden_arcanus:recipes/building_blocks/aurum_trapdoor": {
     "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
+      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/transportation/aurum_boat": {
+    "criteria": {
+      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/redstone/aurum_pressure_plate": {
+    "criteria": {
+      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/aurum_fence": {
+    "criteria": {
+      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/aurum_fence_gate": {
+    "criteria": {
+      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/redstone/aurum_button": {
+    "criteria": {
+      "has_planks": "2024-09-09 14:49:00 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/building_blocks/forbidden_arcanus/sign_post_aurum": {
+    "criteria": {
+      "has_planks": "2024-09-09 14:49:00 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/aurum_door": {
+    "criteria": {
+      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:arborist": {
+    "criteria": {
+      "mossy_towerwood": "2024-09-09 14:54:02 +0200",
+      "thorn_rose": "2024-09-10 02:51:20 +0200"
+    },
+    "done": false
+  },
+  "botania:recipes/misc/petal_purple": {
+    "criteria": {
+      "has_item": "2024-09-09 15:04:22 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/purple_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 15:04:22 +0200"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/food/warped_moldy_meat": {
+    "criteria": {
+      "has_sirloin": "2024-09-09 15:12:16 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-09-09 15:15:46 +0200"
     },
     "done": true
   },
@@ -10862,69 +11134,9 @@
     },
     "done": true
   },
-  "supplementaries:recipes/sign_post_oak": {
-    "criteria": {
-      "has_oak_sign": "2024-09-09 16:27:34 +0200"
-    },
-    "done": true
-  },
-  "botania:main/functional_flower": {
-    "criteria": {
-      "flower": "2024-09-09 16:44:12 +0200"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/misc/light_gray_dye_from_crystal_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 16:42:35 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_colorless": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_sign_item": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/vertical_framed_glass_from_glass_colorless_stonecutting": {
     "criteria": {
       "has_glass_colorless": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_warped_sign_item": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_red": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/stairs/myrtle_ebony_stairs": {
-    "criteria": {
-      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/slab/brown_amber_slab": {
-    "criteria": {
-      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_light_gray": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
     },
     "done": true
   },
@@ -10946,51 +11158,9 @@
     },
     "done": true
   },
-  "productivetrees:recipes/redstone/pressure_plate/myrtle_ebony_pressure_plate": {
-    "criteria": {
-      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/bookshelves/brown_amber_bookshelf": {
-    "criteria": {
-      "has_book": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_brown": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/floating_rannuncarpus": {
-    "criteria": {
-      "has_item": "2024-09-09 16:44:12 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/decorations/hanging_sign/cinnamon_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_gray": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_white_stained_glass": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/blue_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 16:46:56 +0200"
     },
     "done": true
   },
@@ -11000,21 +11170,9 @@
     },
     "done": true
   },
-  "productivetrees:recipes/redstone/door/cinnamon_door": {
-    "criteria": {
-      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_black_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_black": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
     },
     "done": true
   },
@@ -11024,75 +11182,15 @@
     },
     "done": true
   },
-  "botania:recipes/decorations/purple_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 16:47:03 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/building_blocks/dark_runic_glass_pane": {
-    "criteria": {
-      "has_dark_runic_glass": "2024-09-09 15:16:34 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/trapdoor/myrtle_ebony_trapdoor": {
-    "criteria": {
-      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_orange_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
     },
     "done": true
   },
-  "productivetrees:recipes/decorations/fence/brown_amber_fence": {
-    "criteria": {
-      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/snad/soul_snad": {
-    "criteria": {
-      "has_soul_sand": "2024-09-09 16:00:05 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_bamboo_sign_item": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/building_blocks/aurum_slab": {
-    "criteria": {
-      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_magenta": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_pink": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/netherite_shulker_from_netherite_chest": {
-    "criteria": {
-      "has_netherite_chest": "2024-09-09 16:18:05 +0200"
     },
     "done": true
   },
@@ -11108,18 +11206,6 @@
     },
     "done": true
   },
-  "productivetrees:recipes/decorations/sign/cinnamon_sign": {
-    "criteria": {
-      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_cherry_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_black_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
@@ -11132,30 +11218,6 @@
     },
     "done": true
   },
-  "forbidden_arcanus:recipes/building_blocks/aurum_trapdoor": {
-    "criteria": {
-      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_mangrove_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/stairs/cinnamon_stairs": {
-    "criteria": {
-      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_dark_oak_sign_item": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_gray_stained_glass": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
@@ -11165,30 +11227,6 @@
   "securitycraft:recipes/building_blocks/reinforced_pink_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/red_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 16:47:26 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_cherry_sign_item": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/slab/myrtle_ebony_slab": {
-    "criteria": {
-      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2024-09-09 16:00:05 +0200"
     },
     "done": true
   },
@@ -11210,111 +11248,15 @@
     },
     "done": true
   },
-  "productivetrees:recipes/building_blocks/bookshelves/cinnamon_bookshelf": {
-    "criteria": {
-      "has_book": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_black_stained_glass": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
     },
     "done": true
   },
-  "productivetrees:recipes/decorations/fence/myrtle_ebony_fence": {
-    "criteria": {
-      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/building_blocks/deorum_glass_pane": {
-    "criteria": {
-      "has_deorum_glass": "2024-09-09 15:16:26 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_crimson_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_purple": {
-    "criteria": {
-      "has_item": "2024-09-09 15:04:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_spruce_sign_item": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/fence_gate/cinnamon_fence_gate": {
-    "criteria": {
-      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/decorations/hanging_sign/brown_amber_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_cyan": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_green": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/transportation/aurum_boat": {
-    "criteria": {
-      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_magenta_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_bamboo_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_white": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/bookshelves/myrtle_ebony_bookshelf": {
-    "criteria": {
-      "has_book": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/decorations/fence/cinnamon_fence": {
-    "criteria": {
-      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_birch_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
     },
     "done": true
   },
@@ -11330,45 +11272,9 @@
     },
     "done": true
   },
-  "productivetrees:recipes/building_blocks/stairs/brown_amber_stairs": {
-    "criteria": {
-      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_blue": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_blue_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/purple_shiny_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 15:04:22 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_jungle_sign_item": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/door/myrtle_ebony_door": {
-    "criteria": {
-      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/soul_sand_1x": {
-    "criteria": {
-      "has_soul_sand": "2024-09-09 16:00:05 +0200"
     },
     "done": true
   },
@@ -11378,27 +11284,9 @@
     },
     "done": true
   },
-  "productivetrees:recipes/redstone/trapdoor/brown_amber_trapdoor": {
-    "criteria": {
-      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/decorations/productivetrees/sign_post_brown_amber": {
-    "criteria": {
-      "has_planks": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_brown_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/redstone/aurum_pressure_plate": {
-    "criteria": {
-      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
     },
     "done": true
   },
@@ -11414,24 +11302,6 @@
     },
     "done": true
   },
-  "productivetrees:recipes/decorations/sign/brown_amber_sign": {
-    "criteria": {
-      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_jungle_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/pressure_plate/cinnamon_pressure_plate": {
-    "criteria": {
-      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_pink_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
@@ -11444,81 +11314,9 @@
     },
     "done": true
   },
-  "productivetrees:recipes/decorations/sign/myrtle_ebony_sign": {
-    "criteria": {
-      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/decorations/productivetrees/sign_post_myrtle_ebony": {
-    "criteria": {
-      "has_planks": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_oak_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_purple": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_spruce_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/magenta_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 16:46:49 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_light_blue": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_warped_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/building_blocks/aurum_fence": {
-    "criteria": {
-      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_light_blue_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_dark_oak_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2024-09-09 16:00:05 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/building_blocks/aurum_fence_gate": {
-    "criteria": {
-      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
     },
     "done": true
   },
@@ -11534,36 +11332,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/smelting/scoria": {
-    "criteria": {
-      "has_item": "2024-09-09 16:00:05 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/orange_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 16:46:47 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_mangrove_sign_item": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_orange": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/fence_gate/myrtle_ebony_fence_gate": {
-    "criteria": {
-      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_lime_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
@@ -11576,63 +11344,15 @@
     },
     "done": true
   },
-  "forbidden_arcanus:recipes/redstone/aurum_button": {
-    "criteria": {
-      "has_planks": "2024-09-09 14:49:00 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_magenta_stained_glass_pane_from_glass": {
-    "criteria": {
-      "has_glass": "2024-09-09 15:15:47 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/pressure_plate/brown_amber_pressure_plate": {
-    "criteria": {
-      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
-  "twilightforest:arborist": {
-    "criteria": {
-      "mossy_towerwood": "2024-09-09 14:54:02 +0200"
-    },
-    "done": false
-  },
   "securitycraft:recipes/building_blocks/reinforced_purple_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
     },
     "done": true
   },
-  "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
-    "criteria": {
-      "has_flower": "2024-09-09 16:44:05 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/netherite_lantern_yellow": {
-    "criteria": {
-      "recipe_condition": "2024-09-09 16:03:07 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/trapdoor/cinnamon_trapdoor": {
-    "criteria": {
-      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_purple_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/fence_gate/brown_amber_fence_gate": {
-    "criteria": {
-      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
     },
     "done": true
   },
@@ -11660,12 +11380,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_acacia_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_red_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
@@ -11684,12 +11398,6 @@
     },
     "done": true
   },
-  "productivetrees:recipes/redstone/door/brown_amber_door": {
-    "criteria": {
-      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_yellow_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
@@ -11702,33 +11410,9 @@
     },
     "done": true
   },
-  "nethersdelight:recipes/food/warped_moldy_meat": {
-    "criteria": {
-      "has_sirloin": "2024-09-09 15:12:16 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_orange_stained_glass": {
-    "criteria": {
-      "has_glass": "2024-09-09 15:15:47 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_blue_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/button/cinnamon_button": {
-    "criteria": {
-      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_crimson_sign_item": {
-    "criteria": {
-      "has_sign": "2024-09-09 16:19:56 +0200"
     },
     "done": true
   },
@@ -11738,51 +11422,1039 @@
     },
     "done": true
   },
-  "supplementaries:recipes/decorations/productivetrees/sign_post_cinnamon": {
-    "criteria": {
-      "has_planks": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/button/myrtle_ebony_button": {
-    "criteria": {
-      "has_myrtle_ebony_planks": "2024-09-09 14:45:26 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/building_blocks/forbidden_arcanus/sign_post_aurum": {
-    "criteria": {
-      "has_planks": "2024-09-09 14:49:00 +0200"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_cyan_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-09-09 15:15:46 +0200"
     },
     "done": true
   },
-  "forbidden_arcanus:recipes/building_blocks/aurum_door": {
-    "criteria": {
-      "has_aurum_planks": "2024-09-09 14:49:00 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/slab/cinnamon_slab": {
-    "criteria": {
-      "has_cinnamon_planks": "2024-09-09 14:45:04 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/redstone/button/brown_amber_button": {
-    "criteria": {
-      "has_brown_amber_planks": "2024-09-09 14:44:52 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/tiled_glass_from_glass_colorless_stonecutting": {
     "criteria": {
       "has_glass_colorless": "2024-09-09 15:15:46 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_magenta_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2024-09-09 15:15:47 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-09-09 15:15:47 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/deorum_glass_pane": {
+    "criteria": {
+      "has_deorum_glass": "2024-09-09 15:16:26 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/dark_runic_glass_pane": {
+    "criteria": {
+      "has_dark_runic_glass": "2024-09-09 15:16:34 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/snad/soul_snad": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 16:00:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 16:00:05 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/soul_sand_1x": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 16:00:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-09-09 16:00:05 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/scoria": {
+    "criteria": {
+      "has_item": "2024-09-09 16:00:05 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_lime": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_colorless": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_red": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_light_gray": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_brown": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_gray": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_black": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_magenta": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_pink": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_cyan": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_green": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_white": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_blue": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_purple": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_light_blue": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_orange": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_yellow": {
+    "criteria": {
+      "recipe_condition": "2024-09-09 16:03:07 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/netherite_shulker_from_netherite_chest": {
+    "criteria": {
+      "has_netherite_chest": "2024-09-09 16:18:05 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_birch_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_acacia_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_warped_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_bamboo_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_cherry_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_mangrove_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_dark_oak_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_cherry_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_crimson_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_spruce_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_bamboo_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_birch_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_jungle_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_jungle_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_oak_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_spruce_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_warped_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_dark_oak_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_mangrove_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_acacia_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_crimson_sign_item": {
+    "criteria": {
+      "has_sign": "2024-09-09 16:19:56 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_oak": {
+    "criteria": {
+      "has_oak_sign": "2024-09-09 16:27:34 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/light_gray_dye_from_crystal_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 16:42:35 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
+    "criteria": {
+      "has_flower": "2024-09-09 16:44:05 +0200"
+    },
+    "done": true
+  },
+  "botania:main/functional_flower": {
+    "criteria": {
+      "flower": "2024-09-09 16:44:12 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_rannuncarpus": {
+    "criteria": {
+      "has_item": "2024-09-09 16:44:12 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/orange_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 16:46:47 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/magenta_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 16:46:49 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/blue_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 16:46:56 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/purple_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 16:47:03 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/red_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 16:47:26 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/corporea_brick": {
+    "criteria": {
+      "has_item": "2024-09-09 22:57:59 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_trapdoors": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_kitchen_counter": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_crate": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_boats": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/jungle": {
+    "criteria": {
+      "has_wood": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_pink_pane1": {
+    "criteria": {
+      "recipe_condition": "2024-09-10 01:30:59 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_pressure_plates": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_cyan": {
+    "criteria": {
+      "has_item": "2024-09-10 02:39:12 +0200"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_plains": {
+    "criteria": {
+      "orange_sapling": "2024-09-09 23:39:31 +0200",
+      "apple_sapling": "2024-09-09 23:39:04 +0200",
+      "peach_sapling": "2024-09-09 23:39:09 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/lemon_sapling": {
+    "criteria": {
+      "has_lemon": "2024-09-10 01:35:23 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/lemonade": {
+    "criteria": {
+      "has_lemon": "2024-09-10 01:35:23 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/wither_aconite_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/gray_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:21 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/corporea_stairs": {
+    "criteria": {
+      "has_item": "2024-09-09 22:57:59 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/planks/sparkle_cherry_planks": {
+    "criteria": {
+      "has_logs": "2024-09-10 00:54:21 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/hellebore_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/brown_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:03 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/jungle": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/wood/sparkle_cherry_wood": {
+    "criteria": {
+      "has_log": "2024-09-10 00:54:21 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_white": {
+    "criteria": {
+      "has_item": "2024-09-10 02:39:04 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/green_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:00 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/thorn_rose_to_red": {
+    "criteria": {
+      "has_item": "2024-09-10 02:51:20 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_kitchen_counter": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_park_bench": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_table": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/jungle_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_spectranthemum": {
+    "criteria": {
+      "has_item": "2024-09-10 02:38:20 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_desk": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
+    "criteria": {
+      "has_flower": "2024-09-10 02:43:34 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_bedside_cabinet": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_blinds": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/exoblaze_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-09-10 01:07:37 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_marimorphosis_chibi": {
+    "criteria": {
+      "has_item": "2024-09-10 02:38:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_crate": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/white_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-10 02:39:04 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_brown_pane1": {
+    "criteria": {
+      "recipe_condition": "2024-09-10 01:30:45 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mango_ice_cream": {
+    "criteria": {
+      "has_mango": "2024-09-09 23:52:23 +0200",
+      "has_the_recipe": "2024-09-09 23:52:23 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/pink_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:26 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_bedside_cabinet": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "undergarden:recipes/misc/forgotten_block_to_ingot": {
+    "criteria": {
+      "has_forgotten_block": "2024-09-09 23:00:51 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_coffee_table": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "croptopia:getsapling": {
+    "criteria": {
+      "has_sapling": "2024-09-09 23:38:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/wood/cherry_plum_wood": {
+    "criteria": {
+      "has_log": "2024-09-10 00:55:01 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_stairs": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/planks/cherry_plum_planks": {
+    "criteria": {
+      "has_logs": "2024-09-10 00:55:01 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/light_gray_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/yellow_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:36 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "botania:main/generating_flower": {
+    "criteria": {
+      "flower": "2024-09-10 02:42:07 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_slabs": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/orange_juice": {
+    "criteria": {
+      "has_orange": "2024-09-09 22:00:18 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/compressed_blocks/reversed/fiery_block_to_ingot": {
+    "criteria": {
+      "has_item": "2024-09-09 22:55:40 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_table": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/cooking/thorn_rose_tea": {
+    "criteria": {
+      "has_thorn_rose": "2024-09-10 02:51:20 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_manastar": {
+    "criteria": {
+      "has_item": "2024-09-10 02:42:04 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_orange": {
+    "criteria": {
+      "has_item": "2024-09-10 02:39:08 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_cabinet": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_chair": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/arcane_crystal_from_arcane_crystal_block": {
+    "criteria": {
+      "has_item": "2024-09-09 22:59:04 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2024-09-10 01:06:15 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/jungle_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/feysythia_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_all": {
+    "criteria": {
+      "orange_sapling": "2024-09-09 23:39:31 +0200",
+      "nectarine_sapling": "2024-09-09 23:40:05 +0200",
+      "persimmon_sapling": "2024-09-09 23:39:51 +0200",
+      "pear_sapling": "2024-09-09 23:40:58 +0200",
+      "dragonfruit_sapling": "2024-09-09 23:39:20 +0200",
+      "peach_sapling": "2024-09-09 23:39:09 +0200",
+      "plum_sapling": "2024-09-09 23:39:25 +0200",
+      "cherry_sapling": "2024-09-09 23:39:42 +0200",
+      "mango_sapling": "2024-09-09 23:38:55 +0200",
+      "kumquat_sapling": "2024-09-09 23:40:09 +0200",
+      "apple_sapling": "2024-09-09 23:39:04 +0200",
+      "starfruit_sapling": "2024-09-09 23:39:25 +0200"
+    },
+    "done": false
+  },
+  "allthecompressed:recipes/building_blocks/compress/jungle_log_1x": {
+    "criteria": {
+      "has_jungle_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_forest": {
+    "criteria": {
+      "pear_sapling": "2024-09-09 23:40:58 +0200",
+      "orange_sapling": "2024-09-09 23:39:31 +0200",
+      "plum_sapling": "2024-09-09 23:39:25 +0200",
+      "cherry_sapling": "2024-09-09 23:39:42 +0200",
+      "starfruit_sapling": "2024-09-09 23:39:25 +0200",
+      "nectarine_sapling": "2024-09-09 23:40:05 +0200",
+      "persimmon_sapling": "2024-09-09 23:39:51 +0200"
+    },
+    "done": false
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_doors": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/raindeletia_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mango_sapling": {
+    "criteria": {
+      "has_mango": "2024-09-09 23:52:23 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_beach": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_desk": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/black_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:32:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/lime_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_jungle": {
+    "criteria": {
+      "dragonfruit_sapling": "2024-09-09 23:39:20 +0200",
+      "kumquat_sapling": "2024-09-09 23:40:09 +0200",
+      "mango_sapling": "2024-09-09 23:38:55 +0200"
+    },
+    "done": false
+  },
+  "cfm:recipes/decorations/stripped_jungle_cabinet": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_lemon_coconut_bar": {
+    "criteria": {
+      "has_lemon": "2024-09-10 01:35:23 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/dark_nether_star_from_dark_nether_star_block": {
+    "criteria": {
+      "has_item": "2024-09-09 22:54:45 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/lemon_chicken": {
+    "criteria": {
+      "has_lemon": "2024-09-10 01:35:23 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/light_blue_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:39 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_desk_cabinet": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/corporea_slab": {
+    "criteria": {
+      "has_item": "2024-09-09 22:57:59 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/orange_sapling": {
+    "criteria": {
+      "has_orange": "2024-09-09 22:00:18 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_park_bench": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/jungle": {
+    "criteria": {
+      "has_wood": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/mango_ice_cream": {
+    "criteria": {
+      "has_mango": "2024-09-09 23:52:23 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/orange_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-10 02:39:08 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/aquapanthus_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/petrunia_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_chair": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_coffee_table": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/cyan_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-10 02:39:12 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_rafflowsia": {
+    "criteria": {
+      "has_item": "2024-09-10 02:42:07 +0200"
     },
     "done": true
   },
