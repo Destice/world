@@ -28727,69 +28727,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2024-09-09 23:18:26 +0200"
-    },
-    "done": true
-  },
   "irons_spellbooks:irons_spellbooks/spell_book_blaze": {
     "criteria": {
       "requirement": "2024-09-09 21:42:37 +0200"
-    },
-    "done": true
-  },
-  "railcraft:recipes/coke_oven/coal_coke_block": {
-    "criteria": {
-      "has_coal_block": "2024-09-09 23:18:26 +0200"
-    },
-    "done": true
-  },
-  "deeperdarker:main/kill_warden": {
-    "criteria": {
-      "warden": "2024-09-09 23:06:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2024-09-09 23:09:48 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/cobblestone_3x": {
-    "criteria": {
-      "has_cobblestone_3x": "2024-09-10 02:41:27 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/cobblestone_2x": {
-    "criteria": {
-      "has_cobblestone_2x": "2024-09-10 02:41:30 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/cobblestone_1x": {
-    "criteria": {
-      "has_cobblestone_1x": "2024-09-10 02:34:45 +0200"
-    },
-    "done": true
-  },
-  "deeperdarker:main/root": {
-    "criteria": {
-      "deep_dark": "2024-09-09 23:04:19 +0200"
-    },
-    "done": true
-  },
-  "deeperdarker:recipes/misc/reinforced_echo_shard": {
-    "criteria": {
-      "has_warden_carapace": "2024-09-09 23:06:13 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/misc/blasting/graphite_from_coalblock": {
-    "criteria": {
-      "has_item": "2024-09-09 23:18:26 +0200"
     },
     "done": true
   },
@@ -28799,15 +28739,9 @@
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/coal": {
+  "botania:recipes/decorations/white_floating_flower": {
     "criteria": {
-      "has_the_recipe": "2024-09-09 23:18:26 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/backpack_compacting_upgrade_from_storage_compacting_upgrade": {
-    "criteria": {
-      "has_storage_upgrade": "2024-09-09 23:16:52 +0200"
+      "has_item": "2024-09-09 21:54:05 +0200"
     },
     "done": true
   },
@@ -28817,15 +28751,135 @@
     },
     "done": true
   },
-  "botania:recipes/decorations/white_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 21:54:05 +0200"
-    },
-    "done": true
-  },
   "alltheores:recipes/misc/raw_uranium_from_block": {
     "criteria": {
       "has_item": "2024-09-09 22:57:54 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/uranium_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_uranium_block": "2024-09-09 22:57:54 +0200"
+    },
+    "done": true
+  },
+  "deeperdarker:main/root": {
+    "criteria": {
+      "deep_dark": "2024-09-09 23:04:19 +0200"
+    },
+    "done": true
+  },
+  "deeperdarker:main/kill_warden": {
+    "criteria": {
+      "warden": "2024-09-09 23:06:13 +0200"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/misc/reinforced_echo_shard": {
+    "criteria": {
+      "has_warden_carapace": "2024-09-09 23:06:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2024-09-09 23:06:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-09-09 23:09:48 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/backpack_compacting_upgrade_from_storage_compacting_upgrade": {
+    "criteria": {
+      "has_storage_upgrade": "2024-09-09 23:16:52 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/advanced_compacting_upgrade": {
+    "criteria": {
+      "has_compacting_upgrade": "2024-09-09 23:16:52 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/backpack_advanced_compacting_upgrade_from_storage_advanced_compacting_upgrade": {
+    "criteria": {
+      "has_storage_upgrade": "2024-09-09 23:16:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2024-09-09 23:18:26 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/coke_oven/coal_coke_block": {
+    "criteria": {
+      "has_coal_block": "2024-09-09 23:18:26 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/blasting/graphite_from_coalblock": {
+    "criteria": {
+      "has_item": "2024-09-09 23:18:26 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/coal": {
+    "criteria": {
+      "has_the_recipe": "2024-09-09 23:18:26 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/coal_block_1x": {
+    "criteria": {
+      "has_coal_block": "2024-09-09 23:18:26 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/smelting/graphite_from_coalblock": {
+    "criteria": {
+      "has_item": "2024-09-09 23:18:26 +0200"
+    },
+    "done": true
+  },
+  "croptopia:gather_swamp": {
+    "criteria": {
+      "currant_seed": "2024-09-09 23:30:51 +0200"
+    },
+    "done": false
+  },
+  "croptopia:recipes/misc/dragonfruit_sapling": {
+    "criteria": {
+      "has_dragonfruit": "2024-09-09 23:53:31 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/peach_sapling": {
+    "criteria": {
+      "has_peach": "2024-09-09 23:53:32 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/peach_jam": {
+    "criteria": {
+      "has_peach": "2024-09-09 23:53:32 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/orange_juice": {
+    "criteria": {
+      "has_orange": "2024-09-09 23:53:33 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/orange_sapling": {
+    "criteria": {
+      "has_orange": "2024-09-09 23:53:33 +0200"
     },
     "done": true
   },
@@ -28836,15 +28890,27 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/coal_block_1x": {
+  "croptopia:recipes/misc/mango_sapling": {
     "criteria": {
-      "has_coal_block": "2024-09-09 23:18:26 +0200"
+      "has_mango": "2024-09-09 23:53:34 +0200"
     },
     "done": true
   },
-  "croptopia:recipes/misc/peach_sapling": {
+  "croptopia:recipes/mango_ice_cream": {
     "criteria": {
-      "has_peach": "2024-09-09 23:53:32 +0200"
+      "has_mango": "2024-09-09 23:53:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2024-09-09 23:59:24 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_axe_repairing": {
+    "criteria": {
+      "has_diamond_axe": "2024-09-10 00:50:24 +0200"
     },
     "done": true
   },
@@ -28860,45 +28926,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/recovery_compass": {
+  "allthecompressed:recipes/building_blocks/decompress/cobblestone_1x": {
     "criteria": {
-      "has_echo_shard": "2024-09-09 23:06:13 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/orange_juice": {
-    "criteria": {
-      "has_orange": "2024-09-09 23:53:33 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/andesite_2x": {
-    "criteria": {
-      "has_andesite_1x": "2024-09-10 02:40:40 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/andesite_3x": {
-    "criteria": {
-      "has_andesite_2x": "2024-09-10 02:40:34 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/uranium_dust_from_raw_block": {
-    "criteria": {
-      "has_raw_uranium_block": "2024-09-09 22:57:54 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/cobblestone_4x": {
-    "criteria": {
-      "has_cobblestone_3x": "2024-09-10 02:41:27 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/cobblestone_3x": {
-    "criteria": {
-      "has_cobblestone_2x": "2024-09-10 02:41:30 +0200"
+      "has_cobblestone_1x": "2024-09-10 02:34:45 +0200"
     },
     "done": true
   },
@@ -28908,27 +28938,9 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+  "allthecompressed:recipes/building_blocks/compress/andesite_3x": {
     "criteria": {
-      "has_diamond_backpack": "2024-09-09 23:59:24 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/misc/smelting/graphite_from_coalblock": {
-    "criteria": {
-      "has_item": "2024-09-09 23:18:26 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/advanced_compacting_upgrade": {
-    "criteria": {
-      "has_compacting_upgrade": "2024-09-09 23:16:52 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/dragonfruit_sapling": {
-    "criteria": {
-      "has_dragonfruit": "2024-09-09 23:53:31 +0200"
+      "has_andesite_2x": "2024-09-10 02:40:34 +0200"
     },
     "done": true
   },
@@ -28938,9 +28950,9 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/mango_sapling": {
+  "allthecompressed:recipes/building_blocks/compress/andesite_2x": {
     "criteria": {
-      "has_mango": "2024-09-09 23:53:34 +0200"
+      "has_andesite_1x": "2024-09-10 02:40:40 +0200"
     },
     "done": true
   },
@@ -28950,39 +28962,27 @@
     },
     "done": true
   },
-  "croptopia:gather_swamp": {
+  "allthecompressed:recipes/building_blocks/decompress/cobblestone_3x": {
     "criteria": {
-      "currant_seed": "2024-09-09 23:30:51 +0200"
-    },
-    "done": false
-  },
-  "croptopia:recipes/misc/orange_sapling": {
-    "criteria": {
-      "has_orange": "2024-09-09 23:53:33 +0200"
+      "has_cobblestone_3x": "2024-09-10 02:41:27 +0200"
     },
     "done": true
   },
-  "croptopia:recipes/mango_ice_cream": {
+  "allthecompressed:recipes/building_blocks/compress/cobblestone_4x": {
     "criteria": {
-      "has_mango": "2024-09-09 23:53:34 +0200"
+      "has_cobblestone_3x": "2024-09-10 02:41:27 +0200"
     },
     "done": true
   },
-  "aether:recipes/tools/diamond_axe_repairing": {
+  "allthecompressed:recipes/building_blocks/decompress/cobblestone_2x": {
     "criteria": {
-      "has_diamond_axe": "2024-09-10 00:50:24 +0200"
+      "has_cobblestone_2x": "2024-09-10 02:41:30 +0200"
     },
     "done": true
   },
-  "croptopia:recipes/misc/peach_jam": {
+  "allthecompressed:recipes/building_blocks/compress/cobblestone_3x": {
     "criteria": {
-      "has_peach": "2024-09-09 23:53:32 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/backpack_advanced_compacting_upgrade_from_storage_advanced_compacting_upgrade": {
-    "criteria": {
-      "has_storage_upgrade": "2024-09-09 23:16:58 +0200"
+      "has_cobblestone_2x": "2024-09-10 02:41:30 +0200"
     },
     "done": true
   },
