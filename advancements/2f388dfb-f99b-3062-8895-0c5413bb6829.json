@@ -19744,7 +19744,8 @@
       "apple": "2024-09-01 19:04:19 +0200",
       "bread": "2024-09-01 18:54:00 +0200",
       "golden_apple": "2024-09-08 21:44:33 +0200",
-      "golden_carrot": "2024-09-08 20:41:26 +0200"
+      "golden_carrot": "2024-09-08 20:41:26 +0200",
+      "cooked_chicken": "2024-09-11 22:24:06 +0200"
     },
     "done": false
   },
@@ -28988,6 +28989,60 @@
     },
     "done": true
   },
+  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_1x": {
+    "criteria": {
+      "has_cobbled_deepslate_1x": "2024-09-11 16:08:49 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_2x": {
+    "criteria": {
+      "has_cobbled_deepslate_1x": "2024-09-11 16:08:49 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_2x": {
+    "criteria": {
+      "has_cobbled_deepslate_2x": "2024-09-11 16:08:51 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_3x": {
+    "criteria": {
+      "has_cobbled_deepslate_2x": "2024-09-11 16:08:51 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_barrel": {
+    "criteria": {
+      "has_barrel": "2024-09-11 16:36:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/copper_barrel": {
+    "criteria": {
+      "has_barrel": "2024-09-11 16:36:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/gold_barrel": {
+    "criteria": {
+      "has_iron_barrel": "2024-09-11 16:37:04 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_2": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-11 17:43:55 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_2_from_backpack_stack_upgrade_tier_1": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2024-09-11 17:43:55 +0200"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/filter_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-09-11 17:52:31 +0200"
@@ -28997,12 +29052,6 @@
   "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1": {
     "criteria": {
       "has_upgrade_base": "2024-09-11 17:52:31 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_2": {
-    "criteria": {
-      "has_upgrade_base": "2024-09-11 17:43:55 +0200"
     },
     "done": true
   },
@@ -29054,18 +29103,6 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_2x": {
-    "criteria": {
-      "has_cobbled_deepslate_2x": "2024-09-11 16:08:51 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_1x": {
-    "criteria": {
-      "has_cobbled_deepslate_1x": "2024-09-11 16:08:49 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/stack_upgrade_starter_tier": {
     "criteria": {
       "has_upgrade_base": "2024-09-11 17:52:31 +0200"
@@ -29078,18 +29115,6 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/iron_barrel": {
-    "criteria": {
-      "has_barrel": "2024-09-11 16:36:50 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/roast_chicken_block": {
-    "criteria": {
-      "has_cooked_chicken": "2024-09-11 18:03:28 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/refill_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-09-11 17:52:31 +0200"
@@ -29099,12 +29124,6 @@
   "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1_from_starter": {
     "criteria": {
       "has_upgrade_base": "2024-09-11 17:52:31 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/copper_barrel": {
-    "criteria": {
-      "has_barrel": "2024-09-11 16:36:50 +0200"
     },
     "done": true
   },
@@ -29156,12 +29175,6 @@
     },
     "done": true
   },
-  "apotheosis:spawner/capturing": {
-    "criteria": {
-      "egg": "2024-09-11 18:03:47 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/feeding_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-09-11 17:52:31 +0200"
@@ -29180,18 +29193,6 @@
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_2_from_backpack_stack_upgrade_tier_1": {
-    "criteria": {
-      "has_backpack_stack_upgrade": "2024-09-11 17:43:55 +0200"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/gold_barrel": {
-    "criteria": {
-      "has_iron_barrel": "2024-09-11 16:37:04 +0200"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/pickup_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-09-11 17:52:31 +0200"
@@ -29201,24 +29202,6 @@
   "sophisticatedbackpacks:recipes/misc/jukebox_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-09-11 17:52:31 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/cashew_chicken": {
-    "criteria": {
-      "has_cooked_chicken": "2024-09-11 18:03:28 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_2x": {
-    "criteria": {
-      "has_cobbled_deepslate_1x": "2024-09-11 16:08:49 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_3x": {
-    "criteria": {
-      "has_cobbled_deepslate_2x": "2024-09-11 16:08:51 +0200"
     },
     "done": true
   },
@@ -29246,9 +29229,225 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/roast_chicken_block": {
+    "criteria": {
+      "has_cooked_chicken": "2024-09-11 18:03:28 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cashew_chicken": {
+    "criteria": {
+      "has_cooked_chicken": "2024-09-11 18:03:28 +0200"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/chicken_sandwich": {
     "criteria": {
       "has_cooked_chicken": "2024-09-11 18:03:28 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/capturing": {
+    "criteria": {
+      "egg": "2024-09-11 18:03:47 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_lime": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_colorless": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_oak_blinds": {
+    "criteria": {
+      "has_log": "2024-09-11 22:46:30 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_red": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_light_gray": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/facade": {
+    "criteria": {
+      "facade": "2024-09-12 00:52:27 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_brown": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/sand_2x": {
+    "criteria": {
+      "has_sand_1x": "2024-09-12 01:15:32 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_gray": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/obsidian_2x": {
+    "criteria": {
+      "has_obsidian_1x": "2024-09-11 23:30:29 +0200"
+    },
+    "done": true
+  },
+  "create:deployer": {
+    "criteria": {
+      "0": "2024-09-11 22:36:49 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_black": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_oak_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-09-11 22:46:30 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/obsidian_1x": {
+    "criteria": {
+      "has_obsidian_1x": "2024-09-11 23:30:29 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_magenta": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_pink": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-09-11 22:46:30 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/sand_1x": {
+    "criteria": {
+      "has_sand_1x": "2024-09-12 01:15:32 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_cyan": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_green": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_white": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/andesite_4x": {
+    "criteria": {
+      "has_andesite_3x": "2024-09-11 22:25:38 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_blue": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_purple": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_light_blue": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2024-09-11 22:17:46 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/andesite_3x": {
+    "criteria": {
+      "has_andesite_3x": "2024-09-11 22:25:38 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_orange": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2024-09-11 22:52:35 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/netherite_lantern_yellow": {
+    "criteria": {
+      "recipe_condition": "2024-09-11 23:20:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2024-09-11 22:46:30 +0200"
+    },
+    "done": true
+  },
+  "create:saw_processing": {
+    "criteria": {
+      "0": "2024-09-11 23:04:03 +0200"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2024-09-11 22:19:41 +0200"
     },
     "done": true
   },

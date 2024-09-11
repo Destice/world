@@ -11788,143 +11788,9 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/jungle/jungle_swamp_trapdoor": {
+  "botania:recipes/decorations/black_floating_flower": {
     "criteria": {
-      "has_logs": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/corporea_brick": {
-    "criteria": {
-      "has_item": "2024-09-09 22:57:59 +0200"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/jungle/jungle_ranch_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/jungle_logs_to_trapdoors": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/jungle_kitchen_counter": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/jungle_crate": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/jungle_logs_to_boats": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/jungle": {
-    "criteria": {
-      "has_wood": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_pink_pane1": {
-    "criteria": {
-      "recipe_condition": "2024-09-10 01:30:59 +0200"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/jungle_logs_to_pressure_plates": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_cyan": {
-    "criteria": {
-      "has_item": "2024-09-10 02:39:12 +0200"
-    },
-    "done": true
-  },
-  "croptopia:gather_tree_plains": {
-    "criteria": {
-      "orange_sapling": "2024-09-09 23:39:31 +0200",
-      "apple_sapling": "2024-09-09 23:39:04 +0200",
-      "peach_sapling": "2024-09-09 23:39:09 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/lemon_sapling": {
-    "criteria": {
-      "has_lemon": "2024-09-10 01:35:23 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/lemonade": {
-    "criteria": {
-      "has_lemon": "2024-09-10 01:35:23 +0200"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/wither_aconite_floating": {
-    "criteria": {
-      "criterion0": "2024-09-10 02:37:28 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/gray_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 21:33:21 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/corporea_stairs": {
-    "criteria": {
-      "has_item": "2024-09-09 22:57:59 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/planks/sparkle_cherry_planks": {
-    "criteria": {
-      "has_logs": "2024-09-10 00:54:21 +0200"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/hellebore_floating": {
-    "criteria": {
-      "criterion0": "2024-09-10 02:37:28 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/brown_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 21:33:03 +0200"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/jungle": {
-    "criteria": {
-      "has_planks": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/wood/sparkle_cherry_wood": {
-    "criteria": {
-      "has_log": "2024-09-10 00:54:21 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_white": {
-    "criteria": {
-      "has_item": "2024-09-10 02:39:04 +0200"
+      "has_item": "2024-09-09 21:32:55 +0200"
     },
     "done": true
   },
@@ -11934,160 +11800,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/misc/thorn_rose_to_red": {
+  "botania:recipes/decorations/brown_floating_flower": {
     "criteria": {
-      "has_item": "2024-09-10 02:51:20 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_jungle_kitchen_counter": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/jungle_park_bench": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/jungle_table": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/jungle_bridge_pier": {
-    "criteria": {
-      "has_planks": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/floating_spectranthemum": {
-    "criteria": {
-      "has_item": "2024-09-10 02:38:20 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/jungle_desk": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
-    "criteria": {
-      "has_flower": "2024-09-10 02:43:34 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/jungle_bedside_cabinet": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/jungle_blinds": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/exoblaze_floating": {
-    "criteria": {
-      "criterion0": "2024-09-10 02:37:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2024-09-10 01:07:37 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/floating_marimorphosis_chibi": {
-    "criteria": {
-      "has_item": "2024-09-10 02:38:48 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_jungle_crate": {
-    "criteria": {
-      "has_planks": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/white_shiny_flower": {
-    "criteria": {
-      "has_item": "2024-09-10 02:39:04 +0200"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_brown_pane1": {
-    "criteria": {
-      "recipe_condition": "2024-09-10 01:30:45 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/mango_ice_cream": {
-    "criteria": {
-      "has_mango": "2024-09-09 23:52:23 +0200",
-      "has_the_recipe": "2024-09-09 23:52:23 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/pink_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 21:33:26 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_jungle_bedside_cabinet": {
-    "criteria": {
-      "has_planks": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "undergarden:recipes/misc/forgotten_block_to_ingot": {
-    "criteria": {
-      "has_forgotten_block": "2024-09-09 23:00:51 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/jungle_coffee_table": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "croptopia:getsapling": {
-    "criteria": {
-      "has_sapling": "2024-09-09 23:38:55 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_jungle_desk_cabinet": {
-    "criteria": {
-      "has_planks": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/wood/cherry_plum_wood": {
-    "criteria": {
-      "has_log": "2024-09-10 00:55:01 +0200"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/jungle_logs_to_stairs": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/planks/cherry_plum_planks": {
-    "criteria": {
-      "has_logs": "2024-09-10 00:55:01 +0200"
+      "has_item": "2024-09-09 21:33:03 +0200"
     },
     "done": true
   },
@@ -12097,33 +11812,33 @@
     },
     "done": true
   },
+  "botania:recipes/decorations/gray_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:21 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/pink_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:26 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/lime_floating_flower": {
+    "criteria": {
+      "has_item": "2024-09-09 21:33:33 +0200"
+    },
+    "done": true
+  },
   "botania:recipes/decorations/yellow_floating_flower": {
     "criteria": {
       "has_item": "2024-09-09 21:33:36 +0200"
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/jungle/jungle_mystic_trapdoor": {
+  "botania:recipes/decorations/light_blue_floating_flower": {
     "criteria": {
-      "has_logs": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "botania:main/generating_flower": {
-    "criteria": {
-      "flower": "2024-09-10 02:42:07 +0200"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/jungle/jungle_paper_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/jungle_logs_to_slabs": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
+      "has_item": "2024-09-09 21:33:39 +0200"
     },
     "done": true
   },
@@ -12133,45 +11848,39 @@
     },
     "done": true
   },
+  "croptopia:recipes/misc/orange_sapling": {
+    "criteria": {
+      "has_orange": "2024-09-09 22:00:18 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/dark_nether_star_from_dark_nether_star_block": {
+    "criteria": {
+      "has_item": "2024-09-09 22:54:45 +0200"
+    },
+    "done": true
+  },
   "twilightforest:recipes/misc/compressed_blocks/reversed/fiery_block_to_ingot": {
     "criteria": {
       "has_item": "2024-09-09 22:55:40 +0200"
     },
     "done": true
   },
-  "cfm:recipes/decorations/stripped_jungle_table": {
+  "botania:recipes/building_blocks/corporea_brick": {
     "criteria": {
-      "has_planks": "2024-09-09 23:51:48 +0200"
+      "has_item": "2024-09-09 22:57:59 +0200"
     },
     "done": true
   },
-  "twilightdelight:recipes/cooking/thorn_rose_tea": {
+  "botania:recipes/building_blocks/corporea_stairs": {
     "criteria": {
-      "has_thorn_rose": "2024-09-10 02:51:20 +0200"
+      "has_item": "2024-09-09 22:57:59 +0200"
     },
     "done": true
   },
-  "botania:recipes/decorations/floating_manastar": {
+  "botania:recipes/building_blocks/corporea_slab": {
     "criteria": {
-      "has_item": "2024-09-10 02:42:04 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_orange": {
-    "criteria": {
-      "has_item": "2024-09-10 02:39:08 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/jungle_cabinet": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/jungle_chair": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:48 +0200"
+      "has_item": "2024-09-09 22:57:59 +0200"
     },
     "done": true
   },
@@ -12181,33 +11890,15 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/jungle/jungle_four_panel_trapdoor": {
+  "undergarden:recipes/misc/forgotten_block_to_ingot": {
     "criteria": {
-      "has_logs": "2024-09-09 23:51:48 +0200"
+      "has_forgotten_block": "2024-09-09 23:00:51 +0200"
     },
     "done": true
   },
-  "cfm:recipes/decorations/jungle_upgraded_fence": {
+  "croptopia:getsapling": {
     "criteria": {
-      "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "tombstone:adventure/bone_crusher": {
-    "criteria": {
-      "coded_trigger": "2024-09-10 01:06:15 +0200"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/jungle_bark_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/feysythia_floating": {
-    "criteria": {
-      "criterion0": "2024-09-10 02:37:28 +0200"
+      "has_sapling": "2024-09-09 23:38:55 +0200"
     },
     "done": true
   },
@@ -12228,9 +11919,19 @@
     },
     "done": false
   },
-  "allthecompressed:recipes/building_blocks/compress/jungle_log_1x": {
+  "croptopia:gather_tree_jungle": {
     "criteria": {
-      "has_jungle_log": "2024-09-09 23:51:48 +0200"
+      "dragonfruit_sapling": "2024-09-09 23:39:20 +0200",
+      "kumquat_sapling": "2024-09-09 23:40:09 +0200",
+      "mango_sapling": "2024-09-09 23:38:55 +0200"
+    },
+    "done": false
+  },
+  "croptopia:gather_tree_plains": {
+    "criteria": {
+      "orange_sapling": "2024-09-09 23:39:31 +0200",
+      "apple_sapling": "2024-09-09 23:39:04 +0200",
+      "peach_sapling": "2024-09-09 23:39:09 +0200"
     },
     "done": true
   },
@@ -12246,21 +11947,99 @@
     },
     "done": false
   },
-  "utilitarian:recipes/misc/utility/jungle_logs_to_doors": {
+  "mcwtrpdoors:recipes/jungle/jungle_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_kitchen_counter": {
     "criteria": {
       "has_log": "2024-09-09 23:51:47 +0200"
     },
     "done": true
   },
-  "mythicbotany:recipes/misc/raindeletia_floating": {
+  "cfm:recipes/decorations/jungle_crate": {
     "criteria": {
-      "criterion0": "2024-09-10 02:37:28 +0200"
+      "has_log": "2024-09-09 23:51:47 +0200"
     },
     "done": true
   },
-  "croptopia:recipes/misc/mango_sapling": {
+  "mcwfurnitures:recipes/jungle": {
     "criteria": {
-      "has_mango": "2024-09-09 23:52:23 +0200"
+      "has_wood": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_pressure_plates": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_park_bench": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_table": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_bedside_cabinet": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_blinds": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_bedside_cabinet": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_coffee_table": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_slabs": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_cabinet": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_doors": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:47 +0200"
     },
     "done": true
   },
@@ -12270,71 +12049,9 @@
     },
     "done": true
   },
-  "cfm:recipes/decorations/stripped_jungle_desk": {
-    "criteria": {
-      "has_planks": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/black_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 21:32:55 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/lime_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 21:33:33 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
       "has_log": "2024-09-09 23:51:47 +0200"
-    },
-    "done": true
-  },
-  "croptopia:gather_tree_jungle": {
-    "criteria": {
-      "dragonfruit_sapling": "2024-09-09 23:39:20 +0200",
-      "kumquat_sapling": "2024-09-09 23:40:09 +0200",
-      "mango_sapling": "2024-09-09 23:38:55 +0200"
-    },
-    "done": false
-  },
-  "cfm:recipes/decorations/stripped_jungle_cabinet": {
-    "criteria": {
-      "has_log": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/shaped_lemon_coconut_bar": {
-    "criteria": {
-      "has_lemon": "2024-09-10 01:35:23 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/building_blocks/dark_nether_star_from_dark_nether_star_block": {
-    "criteria": {
-      "has_item": "2024-09-09 22:54:45 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/lemon_chicken": {
-    "criteria": {
-      "has_lemon": "2024-09-10 01:35:23 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/light_blue_floating_flower": {
-    "criteria": {
-      "has_item": "2024-09-09 21:33:39 +0200"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/jungle/jungle_tropical_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-09-09 23:51:48 +0200"
     },
     "done": true
   },
@@ -12356,18 +12073,6 @@
     },
     "done": true
   },
-  "botania:recipes/building_blocks/corporea_slab": {
-    "criteria": {
-      "has_item": "2024-09-09 22:57:59 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/orange_sapling": {
-    "criteria": {
-      "has_orange": "2024-09-09 22:00:18 +0200"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/stripped_jungle_park_bench": {
     "criteria": {
       "has_log": "2024-09-09 23:51:47 +0200"
@@ -12380,21 +12085,280 @@
     },
     "done": true
   },
-  "croptopia:recipes/mango_ice_cream": {
-    "criteria": {
-      "has_mango": "2024-09-09 23:52:23 +0200"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/jungle/jungle_barrel_trapdoor": {
     "criteria": {
       "has_logs": "2024-09-09 23:51:47 +0200"
     },
     "done": true
   },
-  "botania:recipes/decorations/orange_shiny_flower": {
+  "mcwtrpdoors:recipes/jungle/jungle_barn_trapdoor": {
     "criteria": {
-      "has_item": "2024-09-10 02:39:08 +0200"
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_coffee_table": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:47 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_trapdoors": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_boats": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/jungle": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_kitchen_counter": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/jungle_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_desk": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_crate": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/jungle_logs_to_stairs": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_table": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_chair": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/jungle_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/jungle_log_1x": {
+    "criteria": {
+      "has_jungle_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_desk": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_cabinet": {
+    "criteria": {
+      "has_log": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/jungle/jungle_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_chair": {
+    "criteria": {
+      "has_planks": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2024-09-09 23:51:48 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mango_ice_cream": {
+    "criteria": {
+      "has_mango": "2024-09-09 23:52:23 +0200",
+      "has_the_recipe": "2024-09-09 23:52:23 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mango_sapling": {
+    "criteria": {
+      "has_mango": "2024-09-09 23:52:23 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/mango_ice_cream": {
+    "criteria": {
+      "has_mango": "2024-09-09 23:52:23 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/planks/sparkle_cherry_planks": {
+    "criteria": {
+      "has_logs": "2024-09-10 00:54:21 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/wood/sparkle_cherry_wood": {
+    "criteria": {
+      "has_log": "2024-09-10 00:54:21 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/wood/cherry_plum_wood": {
+    "criteria": {
+      "has_log": "2024-09-10 00:55:01 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/planks/cherry_plum_planks": {
+    "criteria": {
+      "has_logs": "2024-09-10 00:55:01 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2024-09-10 01:06:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-09-10 01:07:37 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_brown_pane1": {
+    "criteria": {
+      "recipe_condition": "2024-09-10 01:30:45 +0200"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_pink_pane1": {
+    "criteria": {
+      "recipe_condition": "2024-09-10 01:30:59 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/lemon_sapling": {
+    "criteria": {
+      "has_lemon": "2024-09-10 01:35:23 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/lemonade": {
+    "criteria": {
+      "has_lemon": "2024-09-10 01:35:23 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_lemon_coconut_bar": {
+    "criteria": {
+      "has_lemon": "2024-09-10 01:35:23 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/lemon_chicken": {
+    "criteria": {
+      "has_lemon": "2024-09-10 01:35:23 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/wither_aconite_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/hellebore_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/exoblaze_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/feysythia_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/raindeletia_floating": {
+    "criteria": {
+      "criterion0": "2024-09-10 02:37:28 +0200"
     },
     "done": true
   },
@@ -12410,21 +12374,45 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/jungle/jungle_barn_trapdoor": {
+  "botania:recipes/decorations/floating_spectranthemum": {
     "criteria": {
-      "has_logs": "2024-09-09 23:51:47 +0200"
+      "has_item": "2024-09-10 02:38:20 +0200"
     },
     "done": true
   },
-  "cfm:recipes/decorations/stripped_jungle_chair": {
+  "botania:recipes/decorations/floating_marimorphosis_chibi": {
     "criteria": {
-      "has_planks": "2024-09-09 23:51:48 +0200"
+      "has_item": "2024-09-10 02:38:48 +0200"
     },
     "done": true
   },
-  "cfm:recipes/decorations/stripped_jungle_coffee_table": {
+  "botania:recipes/misc/petal_white": {
     "criteria": {
-      "has_planks": "2024-09-09 23:51:47 +0200"
+      "has_item": "2024-09-10 02:39:04 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/white_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-10 02:39:04 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_orange": {
+    "criteria": {
+      "has_item": "2024-09-10 02:39:08 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/orange_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-10 02:39:08 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_cyan": {
+    "criteria": {
+      "has_item": "2024-09-10 02:39:12 +0200"
     },
     "done": true
   },
@@ -12434,27 +12422,171 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/jungle/jungle_cottage_trapdoor": {
+  "botania:recipes/decorations/floating_manastar": {
     "criteria": {
-      "has_logs": "2024-09-09 23:51:47 +0200"
+      "has_item": "2024-09-10 02:42:04 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_planks": {
+  "botania:main/generating_flower": {
     "criteria": {
-      "has_logs": "2024-09-09 23:51:48 +0200"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/jungle/jungle_classic_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-09-09 23:51:47 +0200"
+      "flower": "2024-09-10 02:42:07 +0200"
     },
     "done": true
   },
   "botania:recipes/decorations/floating_rafflowsia": {
     "criteria": {
       "has_item": "2024-09-10 02:42:07 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
+    "criteria": {
+      "has_flower": "2024-09-10 02:43:34 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/thorn_rose_to_red": {
+    "criteria": {
+      "has_item": "2024-09-10 02:51:20 +0200"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/cooking/thorn_rose_tea": {
+    "criteria": {
+      "has_thorn_rose": "2024-09-10 02:51:20 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_to_gold_tier_upgrade": {
+    "criteria": {
+      "has_redstone_torch": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/diamond_to_netherite_tier_upgrade": {
+    "criteria": {
+      "has_redstone_torch": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_tool": {
+    "criteria": {
+      "has_redstone_torch": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/light_blue_dye_from_blue_hydrangea": {
+    "criteria": {
+      "has_flower": "2024-09-11 22:55:55 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/gold_to_diamond_tier_upgrade": {
+    "criteria": {
+      "has_redstone_torch": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "simplemagnets:recipes/misc/advancedmagnet": {
+    "criteria": {
+      "recipe_condition": "2024-09-12 00:01:30 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/copper_to_iron_tier_upgrade": {
+    "criteria": {
+      "has_redstone_torch": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/animated_torch": {
+    "criteria": {
+      "has_item": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_tier_upgrade": {
+    "criteria": {
+      "has_redstone_torch": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
+    "criteria": {
+      "has_pitcher_plant": "2024-09-11 22:54:54 +0200"
+    },
+    "done": true
+  },
+  "xnet:recipes/xnet/redstoneproxy_update": {
+    "criteria": {
+      "torch": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-09-12 00:24:29 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_to_iron_tier_upgrade": {
+    "criteria": {
+      "has_redstone_torch": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/statue": {
+    "criteria": {
+      "has_smooth_stone_slab": "2024-09-12 00:24:29 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_tall_lavender": {
+    "criteria": {
+      "has_flower": "2024-09-11 22:55:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "croptopia:gather_food": {
+    "criteria": {
+      "cherry_pie": "2024-09-11 23:40:31 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2024-09-11 22:54:44 +0200"
+    },
+    "done": true
+  },
+  "productivebees:husbandry/advanced_beehive/expansion_box": {
+    "criteria": {
+      "get_box": "2024-09-11 23:16:47 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/pink_dye_from_pink_hibiscus": {
+    "criteria": {
+      "has_flower": "2024-09-11 22:55:59 +0200"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/linked_repeater": {
+    "criteria": {
+      "criterion1": "2024-09-12 01:23:16 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/basic_to_copper_tier_upgrade": {
+    "criteria": {
+      "has_redstone_torch": "2024-09-12 01:23:16 +0200"
     },
     "done": true
   },
