@@ -2,9 +2,7 @@
 	id: "2f388dfb-f99b-3062-8895-0c5413bb6829"
 	type: "player"
 	player_name: "Destice"
-	ranks: {
-		2f388dfb-f99b-3062-8895-0c5413bb6829: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "Destice"
 		"ftbteams:description": ""

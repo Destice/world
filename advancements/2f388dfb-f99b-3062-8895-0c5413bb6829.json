@@ -2480,11 +2480,14 @@
       "minecraft:piglin_brute": "2024-09-06 22:04:32 +0200",
       "minecraft:creeper": "2024-08-25 21:08:36 +0200",
       "minecraft:evoker": "2024-09-02 21:11:24 +0200",
+      "minecraft:slime": "2024-09-12 18:35:10 +0200",
+      "quark:forgotten": "2024-09-12 18:39:12 +0200",
       "minecraft:phantom": "2024-08-25 23:23:54 +0200",
       "minecraft:zombified_piglin": "2024-09-01 16:39:05 +0200",
       "minecraft:witch": "2024-08-30 21:04:44 +0200",
       "minecraft:wither_skeleton": "2024-09-06 22:07:53 +0200",
       "minecraft:husk": "2024-08-29 22:47:37 +0200",
+      "minecraft:cave_spider": "2024-09-12 19:14:32 +0200",
       "minecraft:piglin": "2024-09-06 22:15:20 +0200",
       "minecraft:enderman": "2024-08-27 22:19:22 +0200",
       "minecraft:silverfish": "2024-08-31 00:12:04 +0200",
@@ -16447,6 +16450,8 @@
       "blackbean_seed": "2024-09-09 23:30:52 +0200",
       "radish_seed": "2024-09-03 21:44:15 +0200",
       "elderberry_seed": "2024-08-31 00:52:08 +0200",
+      "blueberry_seed": "2024-09-12 19:18:26 +0200",
+      "strawberry_seed": "2024-09-12 19:18:26 +0200",
       "celery_seed": "2024-09-09 23:30:52 +0200"
     },
     "done": false
@@ -16468,8 +16473,10 @@
       "pepper_seed": "2024-09-09 01:23:30 +0200",
       "cabbage_seed": "2024-09-09 01:23:30 +0200",
       "kale_seed": "2024-08-31 00:52:08 +0200",
+      "blueberry_seed": "2024-09-12 19:18:26 +0200",
       "soybean_seed": "2024-09-03 22:37:38 +0200",
       "rutabaga_seed": "2024-09-03 21:44:15 +0200",
+      "strawberry_seed": "2024-09-12 19:18:26 +0200",
       "celery_seed": "2024-09-09 23:30:52 +0200",
       "greenonion_seed": "2024-09-03 22:37:38 +0200",
       "barley_seed": "2024-09-03 21:44:17 +0200",
@@ -19740,6 +19747,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-09-08 22:41:20 +0200",
+      "cooked_beef": "2024-09-12 17:24:15 +0200",
       "baked_potato": "2024-09-01 20:34:54 +0200",
       "apple": "2024-09-01 19:04:19 +0200",
       "bread": "2024-09-01 18:54:00 +0200",
@@ -22352,7 +22360,8 @@
       "scrambled_eggs": "2024-09-11 17:56:34 +0200",
       "nougat": "2024-09-03 00:02:15 +0200",
       "toast": "2024-09-09 01:54:43 +0200",
-      "candied_nuts": "2024-09-03 00:02:02 +0200"
+      "candied_nuts": "2024-09-03 00:02:02 +0200",
+      "glowing_calamari": "2024-09-12 18:45:38 +0200"
     },
     "done": false
   },
@@ -29253,6 +29262,72 @@
     },
     "done": true
   },
+  "create:belt": {
+    "criteria": {
+      "0": "2024-09-11 22:17:46 +0200"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2024-09-11 22:19:41 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/andesite_4x": {
+    "criteria": {
+      "has_andesite_3x": "2024-09-11 22:25:38 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/andesite_3x": {
+    "criteria": {
+      "has_andesite_3x": "2024-09-11 22:25:38 +0200"
+    },
+    "done": true
+  },
+  "create:deployer": {
+    "criteria": {
+      "0": "2024-09-11 22:36:49 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_oak_blinds": {
+    "criteria": {
+      "has_log": "2024-09-11 22:46:30 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_oak_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-09-11 22:46:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-09-11 22:46:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2024-09-11 22:46:30 +0200"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2024-09-11 22:52:35 +0200"
+    },
+    "done": true
+  },
+  "create:saw_processing": {
+    "criteria": {
+      "0": "2024-09-11 23:04:03 +0200"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/misc/netherite_lantern_lime": {
     "criteria": {
       "recipe_condition": "2024-09-11 23:20:32 +0200"
@@ -29262,12 +29337,6 @@
   "additionallanterns:recipes/misc/netherite_lantern_colorless": {
     "criteria": {
       "recipe_condition": "2024-09-11 23:20:32 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_oak_blinds": {
-    "criteria": {
-      "has_log": "2024-09-11 22:46:30 +0200"
     },
     "done": true
   },
@@ -29283,21 +29352,9 @@
     },
     "done": true
   },
-  "ae2:main/facade": {
-    "criteria": {
-      "facade": "2024-09-12 00:52:27 +0200"
-    },
-    "done": true
-  },
   "additionallanterns:recipes/misc/netherite_lantern_brown": {
     "criteria": {
       "recipe_condition": "2024-09-11 23:20:32 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/sand_2x": {
-    "criteria": {
-      "has_sand_1x": "2024-09-12 01:15:32 +0200"
     },
     "done": true
   },
@@ -29307,33 +29364,9 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/obsidian_2x": {
-    "criteria": {
-      "has_obsidian_1x": "2024-09-11 23:30:29 +0200"
-    },
-    "done": true
-  },
-  "create:deployer": {
-    "criteria": {
-      "0": "2024-09-11 22:36:49 +0200"
-    },
-    "done": true
-  },
   "additionallanterns:recipes/misc/netherite_lantern_black": {
     "criteria": {
       "recipe_condition": "2024-09-11 23:20:32 +0200"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_oak_upgraded_fence": {
-    "criteria": {
-      "has_log": "2024-09-11 22:46:30 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/obsidian_1x": {
-    "criteria": {
-      "has_obsidian_1x": "2024-09-11 23:30:29 +0200"
     },
     "done": true
   },
@@ -29346,18 +29379,6 @@
   "additionallanterns:recipes/misc/netherite_lantern_pink": {
     "criteria": {
       "recipe_condition": "2024-09-11 23:20:32 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2024-09-11 22:46:30 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/sand_1x": {
-    "criteria": {
-      "has_sand_1x": "2024-09-12 01:15:32 +0200"
     },
     "done": true
   },
@@ -29379,12 +29400,6 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/andesite_4x": {
-    "criteria": {
-      "has_andesite_3x": "2024-09-11 22:25:38 +0200"
-    },
-    "done": true
-  },
   "additionallanterns:recipes/misc/netherite_lantern_blue": {
     "criteria": {
       "recipe_condition": "2024-09-11 23:20:32 +0200"
@@ -29403,27 +29418,9 @@
     },
     "done": true
   },
-  "create:belt": {
-    "criteria": {
-      "0": "2024-09-11 22:17:46 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/andesite_3x": {
-    "criteria": {
-      "has_andesite_3x": "2024-09-11 22:25:38 +0200"
-    },
-    "done": true
-  },
   "additionallanterns:recipes/misc/netherite_lantern_orange": {
     "criteria": {
       "recipe_condition": "2024-09-11 23:20:32 +0200"
-    },
-    "done": true
-  },
-  "create:funnel": {
-    "criteria": {
-      "0": "2024-09-11 22:52:35 +0200"
     },
     "done": true
   },
@@ -29433,21 +29430,591 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+  "allthecompressed:recipes/building_blocks/compress/obsidian_2x": {
     "criteria": {
-      "has_log": "2024-09-11 22:46:30 +0200"
+      "has_obsidian_1x": "2024-09-11 23:30:29 +0200"
     },
     "done": true
   },
-  "create:saw_processing": {
+  "allthecompressed:recipes/building_blocks/decompress/obsidian_1x": {
     "criteria": {
-      "0": "2024-09-11 23:04:03 +0200"
+      "has_obsidian_1x": "2024-09-11 23:30:29 +0200"
     },
     "done": true
   },
-  "create:mechanical_press": {
+  "ae2:main/facade": {
     "criteria": {
-      "0": "2024-09-11 22:19:41 +0200"
+      "facade": "2024-09-12 00:52:27 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/sand_2x": {
+    "criteria": {
+      "has_sand_1x": "2024-09-12 01:15:32 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/sand_1x": {
+    "criteria": {
+      "has_sand_1x": "2024-09-12 01:15:32 +0200"
+    },
+    "done": true
+  },
+  "mekanism:fluid_tank": {
+    "criteria": {
+      "basic_fluid_tank": "2024-09-12 13:52:10 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/dry_bamboo_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "create:mechanical_crafter": {
+    "criteria": {
+      "0": "2024-09-12 15:45:12 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/manadiamond_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/polished_bloodstone": {
+    "criteria": {
+      "has_item": "2024-09-12 22:32:34 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/misc/dry_bamboo": {
+    "criteria": {
+      "has_bamboo": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/backpack_stack_upgrade_tier_2_from_storage_stack_upgrade_tier_3": {
+    "criteria": {
+      "has_storage_stack_upgrade": "2024-09-12 15:00:31 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_birch_blinds": {
+    "criteria": {
+      "has_log": "2024-09-12 15:31:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2024-09-12 19:14:26 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/experience_rotor": {
+    "criteria": {
+      "has_item": "2024-09-12 17:35:28 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/sand_3x": {
+    "criteria": {
+      "has_sand_2x": "2024-09-12 14:54:23 +0200"
+    },
+    "done": true
+  },
+  "create:crushing_wheel": {
+    "criteria": {
+      "0": "2024-09-12 17:30:38 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_tablet_alt": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/polished_bloodstone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-12 22:32:34 +0200"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/bug_net": {
+    "criteria": {
+      "has_bamboo": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_gun": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/building_blocks/bamboo_ladder": {
+    "criteria": {
+      "has_bamboo": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/blackstone_3x": {
+    "criteria": {
+      "has_blackstone_2x": "2024-09-12 20:01:10 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/blackstone_2x": {
+    "criteria": {
+      "has_blackstone_1x": "2024-09-12 20:01:16 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2024-09-12 18:40:20 +0200"
+    },
+    "done": true
+  },
+  "chimes:recipes/decorations/bamboo_chimes": {
+    "criteria": {
+      "has_planks": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_wall": {
+    "criteria": {
+      "has_item": "2024-09-12 22:32:34 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/goddess_charm": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_4": {
+    "criteria": {
+      "has_upgrade_base": "2024-09-12 15:00:31 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/sand_2x": {
+    "criteria": {
+      "has_sand_2x": "2024-09-12 14:54:23 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flute": {
+    "criteria": {
+      "has_bamboo": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/bamboo": {
+    "criteria": {
+      "has_wood": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/slime": {
+    "criteria": {
+      "has_slime_pearl": "2024-09-12 18:35:13 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_wall_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-12 22:32:34 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_3x": {
+    "criteria": {
+      "has_cobbled_deepslate_3x": "2024-09-12 16:07:54 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_slab": {
+    "criteria": {
+      "has_item": "2024-09-12 22:32:34 +0200"
+    },
+    "done": true
+  },
+  "integratedtunnels:interfaces/interface_fluid": {
+    "criteria": {
+      "criteria_0": "2024-09-12 13:51:04 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_stairs_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-12 22:32:34 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/fertile_essence": {
+    "criteria": {
+      "has_slime_pearl": "2024-09-12 18:35:13 +0200"
+    },
+    "done": true
+  },
+  "mekanism:enricher": {
+    "criteria": {
+      "enrichment_chamber": "2024-09-12 20:42:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_smoking_glowing_calamari": {
+    "criteria": {
+      "has_glowing_calamari": "2024-09-12 18:45:38 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/mana_diamond_block": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2024-09-12 15:31:40 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_beach_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/divining_rod": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/smart_chute": {
+    "criteria": {
+      "has_item": "2024-09-12 17:31:27 +0200"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/building_blocks/bamboo_torch": {
+    "criteria": {
+      "has_bamboo": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/third_eye": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/brass_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:nuggets/brass]_nugget": "2024-09-12 15:32:43 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/bamboo_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/runic_altar_alt": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/crafter_slot_cover": {
+    "criteria": {
+      "has_item": "2024-09-12 15:28:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/avatar": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_glowing_calamari": {
+    "criteria": {
+      "has_glowing_calamari": "2024-09-12 18:45:38 +0200"
+    },
+    "done": true
+  },
+  "mekanism:chemical_tank": {
+    "criteria": {
+      "basic_chemical_tank": "2024-09-12 20:54:44 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/blackstone_1x": {
+    "criteria": {
+      "has_blackstone_1x": "2024-09-12 20:01:16 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/blackstone_2x": {
+    "criteria": {
+      "has_blackstone_2x": "2024-09-12 20:01:10 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/experience_nugget_from_block": {
+    "criteria": {
+      "has_item": "2024-09-12 17:35:28 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/attribute_filter_clear": {
+    "criteria": {
+      "has_item": "2024-09-12 15:31:07 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/experience_block": {
+    "criteria": {
+      "has_item": "2024-09-12 17:35:28 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_blossom_trapdoor": {
+    "criteria": {
+      "has_plankss": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "quark:get_forgotten_hat": {
+    "criteria": {
+      "get_forgotten_hat": "2024-09-12 18:39:12 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_pylon": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/dry_bamboo_bridge": {
+    "criteria": {
+      "has_planks": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "croptopia:gather_drinks": {
+    "criteria": {
+      "tea": "2024-09-12 19:02:23 +0200"
+    },
+    "done": false
+  },
+  "create_enchantment_industry:experienced_engineer": {
+    "criteria": {
+      "have_experience_nugget": "2024-09-12 17:35:28 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/slime_ball": {
+    "criteria": {
+      "has_slime_pearl": "2024-09-12 18:35:13 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/polished_bloodstone_bricks_from_bloodstone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-12 22:32:34 +0200"
+    },
+    "done": true
+  },
+  "integratedtunnels:interfaces/interface_energy": {
+    "criteria": {
+      "criteria_0": "2024-09-12 16:09:40 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/stressometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2024-09-12 16:50:30 +0200"
+    },
+    "done": true
+  },
+  "mekanism:advanced_control_circuit": {
+    "criteria": {
+      "advanced_control_circuit": "2024-09-12 22:49:18 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_stairs": {
+    "criteria": {
+      "has_item": "2024-09-12 22:32:34 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/filter_clear": {
+    "criteria": {
+      "has_item": "2024-09-12 15:31:09 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/infernal_claw": {
+    "criteria": {
+      "has_slime_pearl": "2024-09-12 18:35:13 +0200"
+    },
+    "done": true
+  },
+  "croptopia:getdrinks": {
+    "criteria": {
+      "has_drink": "2024-09-12 19:02:23 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bamboo_mat": {
+    "criteria": {
+      "has_bamboo": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_birch_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-09-12 15:31:40 +0200"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2024-09-12 17:35:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-09-12 15:31:40 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/auto_crafting_halo": {
+    "criteria": {
+      "has_item": "2024-09-12 22:50:06 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/bamboo_bridge": {
+    "criteria": {
+      "has_planks": "2024-09-12 18:48:34 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_slab_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-12 22:32:34 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_4x": {
+    "criteria": {
+      "has_cobbled_deepslate_3x": "2024-09-12 16:07:54 +0200"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-09-12 18:48:34 +0200"
     },
     "done": true
   },
