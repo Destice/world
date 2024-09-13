@@ -94,8 +94,10 @@
       "shrubland": "2024-09-01 21:16:55 +0200",
       "rocky_shrubland": "2024-08-25 20:50:06 +0200",
       "erupting_inferno": "2024-08-31 15:16:24 +0200",
+      "clover_patch": "2024-09-13 20:50:18 +0200",
       "mystic_grove": "2024-08-25 20:48:05 +0200",
       "crystalline_chasm": "2024-08-31 15:09:23 +0200",
+      "orchard": "2024-09-13 20:48:26 +0200",
       "lavender_forest": "2024-08-30 21:50:04 +0200",
       "mediterranean_forest": "2024-09-01 21:52:17 +0200",
       "coniferous_forest": "2024-09-09 23:08:42 +0200",
@@ -4290,6 +4292,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-09-13 21:08:38 +0200",
+      "minecraft:taiga": "2024-09-13 21:08:50 +0200",
       "minecraft:deep_ocean": "2024-09-01 21:08:25 +0200",
       "minecraft:birch_forest": "2024-09-01 20:15:33 +0200",
       "minecraft:beach": "2024-08-25 21:13:13 +0200",
@@ -4297,6 +4301,7 @@
       "minecraft:river": "2024-08-25 21:28:32 +0200",
       "minecraft:forest": "2024-08-27 20:16:20 +0200",
       "minecraft:lush_caves": "2024-08-27 22:45:41 +0200",
+      "minecraft:windswept_forest": "2024-09-13 20:56:08 +0200",
       "minecraft:ocean": "2024-08-25 21:31:08 +0200",
       "minecraft:windswept_savanna": "2024-09-01 20:17:00 +0200",
       "minecraft:old_growth_birch_forest": "2024-08-27 21:14:59 +0200",
@@ -16460,7 +16465,8 @@
     "criteria": {
       "yam_seed": "2024-09-09 01:23:30 +0200",
       "zucchini_seed": "2024-08-31 00:52:08 +0200",
-      "rutabaga_seed": "2024-09-03 21:44:15 +0200"
+      "rutabaga_seed": "2024-09-03 21:44:15 +0200",
+      "olive_seed": "2024-09-13 21:00:45 +0200"
     },
     "done": false
   },
@@ -16472,6 +16478,7 @@
       "greenbean_seed": "2024-09-09 23:30:51 +0200",
       "pepper_seed": "2024-09-09 01:23:30 +0200",
       "cabbage_seed": "2024-09-09 01:23:30 +0200",
+      "olive_seed": "2024-09-13 21:00:45 +0200",
       "kale_seed": "2024-08-31 00:52:08 +0200",
       "blueberry_seed": "2024-09-12 19:18:26 +0200",
       "soybean_seed": "2024-09-03 22:37:38 +0200",
@@ -30018,12 +30025,6 @@
     },
     "done": true
   },
-  "allthemodium:recipes/misc/allthemodium_ingot": {
-    "criteria": {
-      "has_TagKey[minecraft:item / forge:nuggets/allthemodium]_nugget": "2024-09-13 01:20:11 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/allthemodium_mage_chestplate_smithing": {
     "criteria": {
       "allthewizardgear:has_ingots/allthemodium_ingot": "2024-09-13 01:19:00 +0200"
@@ -30048,24 +30049,6 @@
     },
     "done": true
   },
-  "occultism:recipes/crushing/crushing/sulfur_dust_from_gem": {
-    "criteria": {
-      "has_sulfur_gem": "2024-09-13 01:41:24 +0200"
-    },
-    "done": true
-  },
-  "twigs:recipes/bamboo_thatch/bamboo_thatch": {
-    "criteria": {
-      "has_bamboo_leaves": "2024-09-13 02:05:37 +0200"
-    },
-    "done": true
-  },
-  "allthemodium:recipes/misc/allthemodium_apple": {
-    "criteria": {
-      "has_allthemodium_nugget": "2024-09-13 01:20:11 +0200"
-    },
-    "done": true
-  },
   "occultism:recipes/crushing/crushing/allthemodium_dust_from_ingot": {
     "criteria": {
       "has_allthemodium_ingot": "2024-09-13 01:19:00 +0200"
@@ -30081,12 +30064,6 @@
   "minecraft:recipes/combat/allthemodium_mage_helmet_smithing": {
     "criteria": {
       "allthewizardgear:has_ingots/allthemodium_ingot": "2024-09-13 01:19:00 +0200"
-    },
-    "done": true
-  },
-  "allthemodium:recipes/misc/allthemodium_carrot": {
-    "criteria": {
-      "has_allthemodium_nugget": "2024-09-13 01:20:11 +0200"
     },
     "done": true
   },
@@ -30111,6 +30088,738 @@
   "allthemodium:recipes/misc/allthemodium_plate": {
     "criteria": {
       "has_TagKey[minecraft:item / forge:ingots/allthemodium]_ingot": "2024-09-13 01:19:00 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:nuggets/allthemodium]_nugget": "2024-09-13 01:20:11 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_apple": {
+    "criteria": {
+      "has_allthemodium_nugget": "2024-09-13 01:20:11 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_carrot": {
+    "criteria": {
+      "has_allthemodium_nugget": "2024-09-13 01:20:11 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/sulfur_dust_from_gem": {
+    "criteria": {
+      "has_sulfur_gem": "2024-09-13 01:41:24 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bamboo_thatch/bamboo_thatch": {
+    "criteria": {
+      "has_bamboo_leaves": "2024-09-13 02:05:37 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/darkstone_pedestal": {
+    "criteria": {
+      "has_polished_darkstone": "2024-09-13 20:30:26 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/tiled_polished_darkstone_bricks_from_polished_darkstone_stonecutting": {
+    "criteria": {
+      "has_polished_darkstone": "2024-09-13 20:30:26 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/deorum_block_from_deorum_ingot": {
+    "criteria": {
+      "has_deorum_ingot": "2024-09-13 20:31:28 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/golden_orchid_seeds": {
+    "criteria": {
+      "has_deorum_ingot": "2024-09-13 20:31:28 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/decorations/deorum_chain": {
+    "criteria": {
+      "has_ingots/deorum": "2024-09-13 20:31:28 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/deorum_trapdoor": {
+    "criteria": {
+      "has_ingots/deorum": "2024-09-13 20:31:28 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/deorum_door": {
+    "criteria": {
+      "has_ingots/deorum": "2024-09-13 20:31:28 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/redstone/deorum_pressure_plate": {
+    "criteria": {
+      "has_ingots/deorum": "2024-09-13 20:31:28 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/deorum_nugget_from_deorum_ingot": {
+    "criteria": {
+      "has_item": "2024-09-13 20:31:28 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/arcane_edelwood_planks": {
+    "criteria": {
+      "has_ingots/deorum": "2024-09-13 20:31:28 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-09-13 20:42:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
+    "criteria": {
+      "has_item": "2024-09-13 20:43:09 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_chestplate_repairing": {
+    "criteria": {
+      "has_netherite_chestplate": "2024-09-13 20:43:09 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/strengthened_glass_invar": {
+    "criteria": {
+      "has_saltpeter_dust": "2024-09-13 20:43:42 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/strengthened_glass_nickel": {
+    "criteria": {
+      "has_saltpeter_dust": "2024-09-13 20:43:42 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/strengthened_glass_brass": {
+    "criteria": {
+      "has_saltpeter_dust": "2024-09-13 20:43:42 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/strengthened_glass_tin": {
+    "criteria": {
+      "has_saltpeter_dust": "2024-09-13 20:43:42 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/fertilizer": {
+    "criteria": {
+      "has_saltpeter": "2024-09-13 20:43:42 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/strengthened_glass_iron": {
+    "criteria": {
+      "has_saltpeter_dust": "2024-09-13 20:43:42 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/dead_bush": {
+    "criteria": {
+      "has_salts": "2024-09-13 20:43:52 +0200"
+    },
+    "done": true
+  },
+  "croptopia:salt": {
+    "criteria": {
+      "salt": "2024-09-13 20:44:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/magenta_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-13 20:50:41 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_magenta": {
+    "criteria": {
+      "has_item": "2024-09-13 20:50:41 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_orange": {
+    "criteria": {
+      "has_item": "2024-09-13 20:51:04 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/orange_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-13 20:51:04 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_smoking": {
+    "criteria": {
+      "beef_patty": "2024-09-13 20:55:39 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty": {
+    "criteria": {
+      "beef_patty": "2024-09-13 20:55:39 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
+    "criteria": {
+      "beef_patty": "2024-09-13 20:55:39 +0200"
+    },
+    "done": true
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_mountains": "2024-09-13 20:56:04 +0200"
+    },
+    "done": false
+  },
+  "travelersbackpack:recipes/misc/fox": {
+    "criteria": {
+      "has_sweet_berries": "2024-09-13 20:56:27 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/berry_jam_jar": {
+    "criteria": {
+      "has_berry_jam_jar": "2024-09-13 20:56:27 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2024-09-13 20:56:27 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_orig_recipe": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_14": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_15": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_10": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_12": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_13": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_0": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_1": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_2": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_3": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_7": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_8": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_9": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_11": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:20 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_4": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:20 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_5": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:20 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_6": {
+    "criteria": {
+      "has_alt_item": "2024-09-13 20:57:20 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_mossy_cobblestone_bridge": {
+    "criteria": {
+      "has_planks": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/mossy_cobblestone": {
+    "criteria": {
+      "has_wood": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_brick_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mossy_stone_brick_bridge": {
+    "criteria": {
+      "has_planks": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mossy_stone_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/mossy_cobblestone_chain": {
+    "criteria": {
+      "recipe_condition": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_brick_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_bricks_from_mossy_cobblestone": {
+    "criteria": {
+      "has_item": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mossy_cobblestone_bridge_stair": {
+    "criteria": {
+      "has_planks": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_brick_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/mossy_cobblestone_extra": {
+    "criteria": {
+      "has_material": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mossy_cobblestone_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/mob_detector": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_bricks_stonecutting": {
+    "criteria": {
+      "has_item": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mossy_cobblestone_bridge": {
+    "criteria": {
+      "has_planks": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_bricks_cobblestone": {
+    "criteria": {
+      "has_item": "2024-09-13 21:00:09 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/fine_silk_cloth": {
+    "criteria": {
+      "has_item": "2024-09-13 21:02:08 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/fine_silk": {
+    "criteria": {
+      "has_item": "2024-09-13 21:02:08 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/edelwood_planks": {
+    "criteria": {
+      "has_log": "2024-09-13 21:05:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2024-09-13 21:10:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2024-09-13 21:11:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab": {
+    "criteria": {
+      "has_cut_copper": "2024-09-13 21:11:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs": {
+    "criteria": {
+      "has_cut_copper": "2024-09-13 21:11:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting": {
+    "criteria": {
+      "has_cut_copper": "2024-09-13 21:11:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting": {
+    "criteria": {
+      "has_cut_copper": "2024-09-13 21:11:55 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/copper_pillar/copper_pillar_from_cut_copper_stonecutting": {
+    "criteria": {
+      "has_cut_copper_slab": "2024-09-13 21:11:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_cut_copper": "2024-09-13 21:11:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/melon": {
+    "criteria": {
+      "has_the_recipe": "2024-09-13 21:13:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2024-09-13 21:13:20 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2024-09-13 21:13:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2024-09-13 21:13:20 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2024-09-13 21:13:20 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/melon_juice": {
+    "criteria": {
+      "has_melon": "2024-09-13 21:13:20 +0200"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/melon": {
+    "criteria": {
+      "has_melon_slice": "2024-09-13 21:13:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2024-09-13 21:13:20 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/yellow_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-13 21:15:30 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_yellow": {
+    "criteria": {
+      "has_item": "2024-09-13 21:15:30 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/light_blue_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-13 21:15:47 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_light_blue": {
+    "criteria": {
+      "has_item": "2024-09-13 21:15:47 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_light_blue_double": {
+    "criteria": {
+      "has_item": "2024-09-13 21:15:52 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/deorum_ingot_from_deorum_nugget": {
+    "criteria": {
+      "has_deorum_nugget": "2024-09-13 21:40:17 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/decorations/deorum_soul_lantern": {
+    "criteria": {
+      "has_nuggets/deorum": "2024-09-13 21:40:17 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/edelwood_slab": {
+    "criteria": {
+      "has_edelwood_planks": "2024-09-14 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/edelwood_fence_gate": {
+    "criteria": {
+      "has_edelwood_planks": "2024-09-14 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/refined_obsidian_knife": {
+    "criteria": {
+      "has_ingots/refined_obsidian": "2024-09-13 23:41:22 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/arcane_crystal_dust": {
+    "criteria": {
+      "has_arcane_crystal_dust_speck": "2024-09-13 23:52:10 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/edelwood_bucket": {
+    "criteria": {
+      "has_planks": "2024-09-14 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/transportation/edelwood_boat": {
+    "criteria": {
+      "has_edelwood_planks": "2024-09-14 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/arcane_crystal_from_arcane_crystal_block": {
+    "criteria": {
+      "has_item": "2024-09-13 23:51:52 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/edelwood_trapdoor": {
+    "criteria": {
+      "has_edelwood_planks": "2024-09-14 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/edelwood_stairs": {
+    "criteria": {
+      "has_edelwood_planks": "2024-09-14 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/building_blocks/forbidden_arcanus/sign_post_edelwood": {
+    "criteria": {
+      "has_planks": "2024-09-14 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/edelwood_fence": {
+    "criteria": {
+      "has_edelwood_planks": "2024-09-14 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/tools/soul_extractor": {
+    "criteria": {
+      "has_utrem_jar": "2024-09-14 00:00:40 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/redstone/edelwood_pressure_plate": {
+    "criteria": {
+      "has_edelwood_planks": "2024-09-14 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/redstone/edelwood_button": {
+    "criteria": {
+      "has_planks": "2024-09-14 00:00:30 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/edelwood_door": {
+    "criteria": {
+      "has_edelwood_planks": "2024-09-14 00:00:30 +0200"
     },
     "done": true
   },
