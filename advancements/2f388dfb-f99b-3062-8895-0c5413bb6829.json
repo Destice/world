@@ -31446,12 +31446,6 @@
     },
     "done": true
   },
-  "mekanismgenerators:solar_generator": {
-    "criteria": {
-      "solar_generator": "2024-09-15 00:37:08 +0200"
-    },
-    "done": true
-  },
   "allthemodium:recipes/misc/raw_allthemodium_block": {
     "criteria": {
       "has_raw_allthemodium": "2024-09-14 23:21:35 +0200"
@@ -31464,15 +31458,21 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/raw_aluminum_from_block": {
-    "criteria": {
-      "has_item": "2024-09-14 23:26:50 +0200"
-    },
-    "done": true
-  },
   "occultism:recipes/crushing/crushing/allthemodium_dust_from_raw": {
     "criteria": {
       "has_raw_allthemodium": "2024-09-14 23:21:35 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/apatite_dust_from_gem": {
+    "criteria": {
+      "has_apatite_gem": "2024-09-14 23:23:19 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_aluminum_from_block": {
+    "criteria": {
+      "has_item": "2024-09-14 23:26:50 +0200"
     },
     "done": true
   },
@@ -31482,9 +31482,9 @@
     },
     "done": true
   },
-  "occultism:recipes/crushing/crushing/apatite_dust_from_gem": {
+  "mekanismgenerators:solar_generator": {
     "criteria": {
-      "has_apatite_gem": "2024-09-14 23:23:19 +0200"
+      "solar_generator": "2024-09-15 00:37:08 +0200"
     },
     "done": true
   },
