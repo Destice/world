@@ -31488,5 +31488,185 @@
     },
     "done": true
   },
+  "mekanism:configurator": {
+    "criteria": {
+      "configurator": "2024-09-15 14:21:46 +0200"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/electrum_knife": {
+    "criteria": {
+      "has_ingots/electrum": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/lantern_of_paranoia": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/generator": {
+    "criteria": {
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/salamander_eye": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/heavy_engineering": {
+    "criteria": {
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_ingot_from_dust": {
+    "criteria": {
+      "has_item": "2024-09-15 14:56:33 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/electrum_dust_from_ingot": {
+    "criteria": {
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/magma_cream": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/magma_cube": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-09-15 14:56:33 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_black_double": {
+    "criteria": {
+      "has_alt_item": "2024-09-15 16:32:12 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/wire_electrum": {
+    "criteria": {
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/blaze_rod": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_electrum_hammering": {
+    "criteria": {
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/destruction_catalyst": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/connector_mv_relay": {
+    "criteria": {
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/connector_mv": {
+    "criteria": {
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/blaze": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_black": {
+    "criteria": {
+      "has_item": "2024-09-15 16:32:12 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/midas_touchstone": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/wirecoil_electrum": {
+    "criteria": {
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/black_petal_block": {
+    "criteria": {
+      "has_item": "2024-09-15 16:32:12 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/black_petal_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-09-15 16:32:12 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/interdiction_torch": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
