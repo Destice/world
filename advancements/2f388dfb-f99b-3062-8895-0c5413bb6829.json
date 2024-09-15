@@ -31494,57 +31494,9 @@
     },
     "done": true
   },
-  "delightful:recipes/knives/electrum_knife": {
-    "criteria": {
-      "has_ingots/electrum": "2024-09-15 15:00:23 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/lantern_of_paranoia": {
-    "criteria": {
-      "has_molten_core": "2024-09-15 16:35:48 +0200"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/generator": {
-    "criteria": {
-      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/salamander_eye": {
-    "criteria": {
-      "has_molten_core": "2024-09-15 16:35:48 +0200"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/heavy_engineering": {
-    "criteria": {
-      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
-    },
-    "done": true
-  },
   "alltheores:recipes/misc/electrum_ingot_from_dust": {
     "criteria": {
       "has_item": "2024-09-15 14:56:33 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/electrum_dust_from_ingot": {
-    "criteria": {
-      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/uncrafting/magma_cream": {
-    "criteria": {
-      "has_molten_core": "2024-09-15 16:35:48 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/mob_charm_fragments/magma_cube": {
-    "criteria": {
-      "has_molten_core": "2024-09-15 16:35:48 +0200"
     },
     "done": true
   },
@@ -31554,15 +31506,33 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/electrum_gear": {
+  "delightful:recipes/knives/electrum_knife": {
     "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-09-15 15:00:23 +0200"
+      "has_ingots/electrum": "2024-09-15 15:00:23 +0200"
     },
     "done": true
   },
-  "botania:recipes/misc/petal_black_double": {
+  "immersiveengineering:recipes/misc/crafting/generator": {
     "criteria": {
-      "has_alt_item": "2024-09-15 16:32:12 +0200"
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/heavy_engineering": {
+    "criteria": {
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/electrum_dust_from_ingot": {
+    "criteria": {
+      "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-09-15 15:00:23 +0200"
     },
     "done": true
   },
@@ -31572,21 +31542,9 @@
     },
     "done": true
   },
-  "reliquary:recipes/misc/uncrafting/blaze_rod": {
-    "criteria": {
-      "has_molten_core": "2024-09-15 16:35:48 +0200"
-    },
-    "done": true
-  },
   "immersiveengineering:recipes/misc/crafting/plate_electrum_hammering": {
     "criteria": {
       "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/destruction_catalyst": {
-    "criteria": {
-      "has_molten_core": "2024-09-15 16:35:48 +0200"
     },
     "done": true
   },
@@ -31608,33 +31566,9 @@
     },
     "done": true
   },
-  "reliquary:recipes/misc/mob_charm_fragments/blaze": {
-    "criteria": {
-      "has_molten_core": "2024-09-15 16:35:48 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/dye_black": {
-    "criteria": {
-      "has_item": "2024-09-15 16:32:12 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/midas_touchstone": {
-    "criteria": {
-      "has_molten_core": "2024-09-15 16:35:48 +0200"
-    },
-    "done": true
-  },
   "immersiveengineering:recipes/misc/crafting/wirecoil_electrum": {
     "criteria": {
       "has_electrum_ingot": "2024-09-15 15:00:23 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/black_petal_block": {
-    "criteria": {
-      "has_item": "2024-09-15 16:32:12 +0200"
     },
     "done": true
   },
@@ -31644,15 +31578,87 @@
     },
     "done": true
   },
+  "alltheores:recipes/misc/electrum_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-09-15 15:00:23 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_black_double": {
+    "criteria": {
+      "has_alt_item": "2024-09-15 16:32:12 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_black": {
+    "criteria": {
+      "has_item": "2024-09-15 16:32:12 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/black_petal_block": {
+    "criteria": {
+      "has_item": "2024-09-15 16:32:12 +0200"
+    },
+    "done": true
+  },
   "botania:recipes/misc/conversions/black_petal_block_deconstruct": {
     "criteria": {
       "has_item": "2024-09-15 16:32:12 +0200"
     },
     "done": true
   },
-  "alltheores:recipes/misc/electrum_rod": {
+  "reliquary:recipes/misc/lantern_of_paranoia": {
     "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-09-15 15:00:23 +0200"
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/salamander_eye": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/magma_cream": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/magma_cube": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/blaze_rod": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/destruction_catalyst": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/blaze": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/midas_touchstone": {
+    "criteria": {
+      "has_molten_core": "2024-09-15 16:35:48 +0200"
     },
     "done": true
   },
@@ -31662,9 +31668,69 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/electrum_plate": {
+  "allthemodium:recipes/misc/raw_allthemodium_from_block": {
     "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-09-15 15:00:23 +0200"
+      "has_item": "2024-09-15 21:00:04 +0200"
+    },
+    "done": true
+  },
+  "mekanism:injection_chamber": {
+    "criteria": {
+      "chemical_injection_chamber": "2024-09-15 20:39:15 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/allthemodium_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_allthemodium_block": "2024-09-15 21:00:04 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/gold_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_gold_block": "2024-09-15 21:05:59 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/raw_gold": {
+    "criteria": {
+      "has_the_recipe": "2024-09-15 21:05:59 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-15 21:20:51 +0200"
+    },
+    "done": true
+  },
+  "mekanism:purification_chamber": {
+    "criteria": {
+      "purification_chamber": "2024-09-15 20:38:59 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_ingot_from_dust_smelting": {
+    "criteria": {
+      "has_item": "2024-09-15 21:02:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2024-09-15 21:05:59 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/allthemodium_block_1x": {
+    "criteria": {
+      "has_allthemodium_block": "2024-09-15 21:20:51 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-09-15 21:02:50 +0200"
     },
     "done": true
   },
