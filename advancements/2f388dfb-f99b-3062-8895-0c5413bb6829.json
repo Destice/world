@@ -31668,9 +31668,9 @@
     },
     "done": true
   },
-  "allthemodium:recipes/misc/raw_allthemodium_from_block": {
+  "mekanism:purification_chamber": {
     "criteria": {
-      "has_item": "2024-09-15 21:00:04 +0200"
+      "purification_chamber": "2024-09-15 20:38:59 +0200"
     },
     "done": true
   },
@@ -31680,9 +31680,27 @@
     },
     "done": true
   },
+  "allthemodium:recipes/misc/raw_allthemodium_from_block": {
+    "criteria": {
+      "has_item": "2024-09-15 21:00:04 +0200"
+    },
+    "done": true
+  },
   "occultism:recipes/crushing/crushing/allthemodium_dust_from_raw_block": {
     "criteria": {
       "has_raw_allthemodium_block": "2024-09-15 21:00:04 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_ingot_from_dust_smelting": {
+    "criteria": {
+      "has_item": "2024-09-15 21:02:50 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-09-15 21:02:50 +0200"
     },
     "done": true
   },
@@ -31698,27 +31716,15 @@
     },
     "done": true
   },
-  "allthemodium:recipes/misc/allthemodium_ingot_from_block": {
-    "criteria": {
-      "has_item": "2024-09-15 21:20:51 +0200"
-    },
-    "done": true
-  },
-  "mekanism:purification_chamber": {
-    "criteria": {
-      "purification_chamber": "2024-09-15 20:38:59 +0200"
-    },
-    "done": true
-  },
-  "allthemodium:recipes/misc/allthemodium_ingot_from_dust_smelting": {
-    "criteria": {
-      "has_item": "2024-09-15 21:02:50 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/raw_gold": {
     "criteria": {
       "has_raw_gold_block": "2024-09-15 21:05:59 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-15 21:20:51 +0200"
     },
     "done": true
   },
@@ -31728,9 +31734,135 @@
     },
     "done": true
   },
-  "allthemodium:recipes/misc/allthemodium_ingot_from_dust_blasting": {
+  "botania:recipes/misc/petal_cyan": {
     "criteria": {
-      "has_item": "2024-09-15 21:02:50 +0200"
+      "has_item": "2024-09-16 16:01:23 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/white_petal_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-09-16 16:06:31 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_white": {
+    "criteria": {
+      "has_item": "2024-09-16 16:02:41 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/unobtainium_block_1x": {
+    "criteria": {
+      "has_unobtainium_block": "2024-09-16 14:18:05 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/controller_ingots_yellorium": {
+    "criteria": {
+      "has_item": "2024-09-16 14:26:14 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-16 14:18:05 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/white_petal_block": {
+    "criteria": {
+      "has_item": "2024-09-16 16:06:31 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/white_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-16 16:02:41 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_white": {
+    "criteria": {
+      "has_item": "2024-09-16 16:06:31 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/iesnium_ingot_from_block": {
+    "criteria": {
+      "has_iesnium_block": "2024-09-16 14:13:35 +0200"
+    },
+    "done": true
+  },
+  "undergarden:recipes/misc/forgotten_block_to_ingot": {
+    "criteria": {
+      "has_forgotten_block": "2024-09-16 14:11:53 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_white_double": {
+    "criteria": {
+      "has_alt_item": "2024-09-16 16:06:31 +0200"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-16 14:18:28 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/vibranium_block_1x": {
+    "criteria": {
+      "has_vibranium_block": "2024-09-16 14:18:28 +0200"
+    },
+    "done": true
+  },
+  "botania:main/apothecary_pickup": {
+    "criteria": {
+      "apothecary": "2024-09-16 15:57:02 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_pure_daisy": {
+    "criteria": {
+      "has_item": "2024-09-16 16:07:37 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/glass": {
+    "criteria": {
+      "has_item": "2024-09-16 14:26:14 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/dark_nether_star_from_dark_nether_star_block": {
+    "criteria": {
+      "has_item": "2024-09-16 14:10:15 +0200"
+    },
+    "done": true
+  },
+  "botania:main/pure_daisy_pickup": {
+    "criteria": {
+      "daisy": "2024-09-16 16:07:37 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/enderium_block_1x": {
+    "criteria": {
+      "has_enderium_block": "2024-09-16 14:17:11 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/enderium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-16 14:17:11 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/cyan_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-09-16 16:01:23 +0200"
     },
     "done": true
   },
