@@ -32076,7 +32076,109 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/network/blocks/crystal_processing_charger": {
+    "criteria": {
+      "has_the_recipe": "2024-09-17 18:27:24 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/charger": {
+    "criteria": {
+      "certus": "2024-09-17 18:27:25 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_spade": {
+    "criteria": {
+      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/quartz_block": {
+    "criteria": {
+      "has_certus_quartz_crystal": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_pickaxe": {
+    "criteria": {
+      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_cutting_knife": {
+    "criteria": {
+      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/certus_quartz_knife": {
+    "criteria": {
+      "has_gems/certus_quartz": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/certus_quartz_dust_from_gem": {
+    "criteria": {
+      "has_certus_quartz_gem": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_sword": {
+    "criteria": {
+      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_wrench": {
+    "criteria": {
+      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_axe": {
+    "criteria": {
+      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/energy_energy_cell": {
+    "criteria": {
+      "has_crystals/certus": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_hoe": {
+    "criteria": {
+      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/inscribers": {
+    "criteria": {
+      "has_the_recipe": "2024-09-17 18:41:57 +0200"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/decorative/quartz_fixture": {
+    "criteria": {
+      "has_charged_certus_quartz_crystal": "2024-09-17 18:49:59 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/charged_quartz": {
+    "criteria": {
+      "certus": "2024-09-17 18:49:59 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/misctools_charged_staff": {
+    "criteria": {
+      "has_charged_certus_quartz_crystal": "2024-09-17 18:49:59 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/quartz_fixture_from_anchors": {
     "criteria": {
       "has_charged_certus_quartz_crystal": "2024-09-17 18:49:59 +0200"
     },
@@ -32088,51 +32190,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_diorite": {
-    "criteria": {
-      "has_diorite": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/misc/fluixpearl": {
     "criteria": {
       "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/decorative/quartz_vibrant_glass": {
-    "criteria": {
-      "has_quartz_glass": "2024-09-17 19:00:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/certus_quartz_spade": {
-    "criteria": {
-      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/covered_yellow": {
-    "criteria": {
-      "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/diorite_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_diorite_brick_wall_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:59 +0200"
     },
     "done": true
   },
@@ -32142,81 +32202,9 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/network/cables/glass_cyan": {
-    "criteria": {
-      "has_fluix_glass_cable": "2024-09-17 19:08:38 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_diorite_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite_slab": {
-    "criteria": {
-      "has_diorite": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/decorative/quartz_block": {
-    "criteria": {
-      "has_certus_quartz_crystal": "2024-09-17 18:41:03 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/covered_cyan": {
-    "criteria": {
-      "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_diorite_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/certus_quartz_pickaxe": {
-    "criteria": {
-      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_diorite_slab_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "megacells:recipes/misc/network/cell_dock": {
-    "criteria": {
-      "has_glass_cable": "2024-09-17 19:08:38 +0200"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/decorative/fluix_block": {
     "criteria": {
       "has_fluix_crystal": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
-  "mcwpaths:recipes/diorite": {
-    "criteria": {
-      "has_wood": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/covered_light_blue": {
-    "criteria": {
-      "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
     },
     "done": true
   },
@@ -32232,15 +32220,123 @@
     },
     "done": true
   },
-  "additionallanterns:recipes/misc/diorite_chain": {
+  "expatternprovider:recipes/misc/crystal_fixer": {
     "criteria": {
-      "recipe_condition": "2024-09-17 19:35:58 +0200"
+      "has_item": "2024-09-17 18:56:06 +0200"
     },
     "done": true
   },
-  "handcrafted:recipes/misc/diorite_corner_trim": {
+  "ae2:recipes/misc/tools/fluix_axe": {
     "criteria": {
-      "has_diorite_corner_trim": "2024-09-17 19:35:59 +0200"
+      "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/fluix": {
+    "criteria": {
+      "certus": "2024-09-17 18:56:06 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/fluix_hoe": {
+    "criteria": {
+      "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/fluix_upgrade_smithing_template": {
+    "criteria": {
+      "has_fluix_crystal": "2024-09-17 18:56:06 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/spatial_io_pylon": {
+    "criteria": {
+      "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/controller": {
+    "criteria": {
+      "has_purified_fluix_crystal": "2024-09-17 18:56:06 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/fluix_pickaxe": {
+    "criteria": {
+      "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/fluix_shovel": {
+    "criteria": {
+      "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/io_condenser": {
+    "criteria": {
+      "has_dusts/fluix": "2024-09-17 18:58:41 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/quartz_vibrant_glass": {
+    "criteria": {
+      "has_quartz_glass": "2024-09-17 19:00:33 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/crystal_processing_growth_accelerator": {
+    "criteria": {
+      "has_quartz_glass": "2024-09-17 19:00:33 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/panels_semi_dark_monitor": {
+    "criteria": {
+      "has_quartz_glass": "2024-09-17 19:00:33 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/energy_vibration_chamber": {
+    "criteria": {
+      "has_energy_acceptor": "2024-09-17 19:00:39 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/energy_acceptor": {
+    "criteria": {
+      "has_energy_acceptor": "2024-09-17 19:00:39 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/raw_copper": {
+    "criteria": {
+      "has_the_recipe": "2024-09-17 19:07:12 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/copper_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_copper_block": "2024-09-17 19:07:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2024-09-17 19:07:12 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_cyan": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-09-17 19:08:38 +0200"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/network/cell_dock": {
+    "criteria": {
+      "has_glass_cable": "2024-09-17 19:08:38 +0200"
     },
     "done": true
   },
@@ -32250,33 +32346,63 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/network/cables/glass_fluix_clean": {
+    "criteria": {
+      "has_glass_cable": "2024-09-17 19:08:38 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_brown": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-09-17 19:08:38 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/glass_cable": {
+    "criteria": {
+      "certus": "2024-09-17 19:08:38 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/toggle_bus": {
+    "criteria": {
+      "has_glass_cable": "2024-09-17 19:08:38 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/covered_fluix": {
+    "criteria": {
+      "has_glass_cable": "2024-09-17 19:08:38 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/covered_yellow": {
+    "criteria": {
+      "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/covered_cyan": {
+    "criteria": {
+      "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/covered_light_blue": {
+    "criteria": {
+      "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
+    },
+    "done": true
+  },
   "ae2:recipes/misc/network/cables/covered_orange": {
     "criteria": {
       "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
     },
     "done": true
   },
-  "ae2:recipes/misc/tools/certus_quartz_cutting_knife": {
-    "criteria": {
-      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/cables/covered_purple": {
     "criteria": {
       "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
-    },
-    "done": true
-  },
-  "delightful:recipes/knives/certus_quartz_knife": {
-    "criteria": {
-      "has_gems/certus_quartz": "2024-09-17 18:41:03 +0200"
     },
     "done": true
   },
@@ -32292,51 +32418,9 @@
     },
     "done": true
   },
-  "expatternprovider:recipes/misc/crystal_fixer": {
-    "criteria": {
-      "has_item": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/fluix_axe": {
-    "criteria": {
-      "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/diorite": {
-    "criteria": {
-      "has_planks": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/cables/covered_gray": {
     "criteria": {
       "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/certus_quartz_dust_from_gem": {
-    "criteria": {
-      "has_certus_quartz_gem": "2024-09-17 18:41:03 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/glass_fluix_clean": {
-    "criteria": {
-      "has_glass_cable": "2024-09-17 19:08:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite_stairs": {
-    "criteria": {
-      "has_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/glass_brown": {
-    "criteria": {
-      "has_fluix_glass_cable": "2024-09-17 19:08:38 +0200"
     },
     "done": true
   },
@@ -32346,111 +32430,15 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_diorite_brick_slab_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/certus_quartz_sword": {
-    "criteria": {
-      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/diorite_bridge_pier": {
-    "criteria": {
-      "has_planks": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "ae2:main/charged_quartz": {
-    "criteria": {
-      "certus": "2024-09-17 18:49:59 +0200"
-    },
-    "done": true
-  },
-  "ae2:main/glass_cable": {
-    "criteria": {
-      "certus": "2024-09-17 19:08:38 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/energy_vibration_chamber": {
-    "criteria": {
-      "has_energy_acceptor": "2024-09-17 19:00:39 +0200"
-    },
-    "done": true
-  },
-  "ae2:main/fluix": {
-    "criteria": {
-      "certus": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/cables/covered_black": {
     "criteria": {
       "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
     },
     "done": true
   },
-  "ae2:recipes/misc/tools/fluix_hoe": {
-    "criteria": {
-      "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/crystal_processing_charger": {
-    "criteria": {
-      "has_the_recipe": "2024-09-17 18:27:24 +0200"
-    },
-    "done": true
-  },
-  "mekanism:cleaning_gauges": {
-    "criteria": {
-      "use_dropper": "2024-09-17 19:41:14 +0200"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/raw_copper": {
-    "criteria": {
-      "has_the_recipe": "2024-09-17 19:07:12 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_diorite_wall_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/cables/covered_lime": {
     "criteria": {
       "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/diorite_bridge": {
-    "criteria": {
-      "has_planks": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/polished_diorite": {
-    "criteria": {
-      "has_the_recipe": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/inscribers": {
-    "criteria": {
-      "has_the_recipe": "2024-09-17 18:41:57 +0200"
     },
     "done": true
   },
@@ -32466,123 +32454,9 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/tools/fluix_upgrade_smithing_template": {
-    "criteria": {
-      "has_fluix_crystal": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_diorite_brick_slab_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/energy_acceptor": {
-    "criteria": {
-      "has_energy_acceptor": "2024-09-17 19:00:39 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/io_condenser": {
-    "criteria": {
-      "has_dusts/fluix": "2024-09-17 18:58:41 +0200"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/cables/covered_light_gray": {
     "criteria": {
       "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/toggle_bus": {
-    "criteria": {
-      "has_glass_cable": "2024-09-17 19:08:38 +0200"
-    },
-    "done": true
-  },
-  "ae2:main/charger": {
-    "criteria": {
-      "certus": "2024-09-17 18:27:25 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/layered_diorite_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_diorite_wall_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/misctools_charged_staff": {
-    "criteria": {
-      "has_charged_certus_quartz_crystal": "2024-09-17 18:49:59 +0200"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/diorite_bridge_stair": {
-    "criteria": {
-      "has_planks": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/diorite_wall": {
-    "criteria": {
-      "has_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_diorite_slab_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/balustrade_diorite_bridge": {
-    "criteria": {
-      "has_planks": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/crystal_processing_growth_accelerator": {
-    "criteria": {
-      "has_quartz_glass": "2024-09-17 19:00:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/andesite": {
-    "criteria": {
-      "has_stone": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "ae2:main/compass": {
-    "criteria": {
-      "compass": "2024-09-17 19:11:21 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/spatial_io_pylon": {
-    "criteria": {
-      "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_diorite_brick_stairs_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:59 +0200"
     },
     "done": true
   },
@@ -32592,21 +32466,33 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/tools/certus_quartz_wrench": {
-    "criteria": {
-      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/cables/covered_magenta": {
     "criteria": {
       "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
     },
     "done": true
   },
-  "create:recipes/building_blocks/small_diorite_brick_stairs_from_stone_types_diorite_stonecutting": {
+  "ae2:recipes/misc/network/cables/covered_red": {
     "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:59 +0200"
+      "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/covered_blue": {
+    "criteria": {
+      "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/compass": {
+    "criteria": {
+      "compass": "2024-09-17 19:11:21 +0200"
+    },
+    "done": true
+  },
+  "mekanismgenerators:burn_the_gas": {
+    "criteria": {
+      "gas_burning_generator": "2024-09-17 19:20:12 +0200"
     },
     "done": true
   },
@@ -32616,9 +32502,9 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/network/parts/panels_semi_dark_monitor": {
+  "trashcans:recipes/misc/ultimate_trash_can": {
     "criteria": {
-      "has_quartz_glass": "2024-09-17 19:00:33 +0200"
+      "recipe_condition": "2024-09-17 19:20:19 +0200"
     },
     "done": true
   },
@@ -32628,9 +32514,225 @@
     },
     "done": true
   },
-  "trashcans:recipes/misc/ultimate_trash_can": {
+  "create:recipes/building_blocks/diorite_from_stone_types_diorite_stonecutting": {
     "criteria": {
-      "recipe_condition": "2024-09-17 19:20:19 +0200"
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_diorite_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/diorite_chain": {
+    "criteria": {
+      "recipe_condition": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_brick_slab_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/diorite_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_diorite_wall_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/diorite_bridge": {
+    "criteria": {
+      "has_planks": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_diorite_brick_slab_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_diorite_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_diorite_slab_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_bricks_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/diorite_pillar_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_diorite_stairs_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/diorite_1x": {
+    "criteria": {
+      "has_diorite": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/andesite": {
+    "criteria": {
+      "has_the_recipe": "2024-09-17 19:35:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_brick_wall_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_slab_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/diorite": {
+    "criteria": {
+      "has_wood": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/diorite_corner_trim": {
+    "criteria": {
+      "has_diorite_corner_trim": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/diorite": {
+    "criteria": {
+      "has_planks": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/polished_diorite": {
+    "criteria": {
+      "has_the_recipe": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_wall_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/diorite_bridge_stair": {
+    "criteria": {
+      "has_planks": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_diorite_bridge": {
+    "criteria": {
+      "has_planks": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_brick_stairs_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:59 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_diorite_brick_stairs_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-09-17 19:35:59 +0200"
     },
     "done": true
   },
@@ -32652,93 +32754,9 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/tools/certus_quartz_axe": {
-    "criteria": {
-      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_diorite_bricks_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/diorite_pillar_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/controller": {
-    "criteria": {
-      "has_purified_fluix_crystal": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/covered_fluix": {
-    "criteria": {
-      "has_glass_cable": "2024-09-17 19:08:38 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/fluix_pickaxe": {
-    "criteria": {
-      "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_diorite_stairs_from_stone_types_diorite_stonecutting": {
-    "criteria": {
-      "has_stone_types_diorite": "2024-09-17 19:35:58 +0200"
-    },
-    "done": true
-  },
-  "mekanismgenerators:burn_the_gas": {
-    "criteria": {
-      "gas_burning_generator": "2024-09-17 19:20:12 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/copper_dust_from_raw_block": {
-    "criteria": {
-      "has_raw_copper_block": "2024-09-17 19:07:12 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/covered_red": {
-    "criteria": {
-      "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/fluix_shovel": {
-    "criteria": {
-      "has_crystals/fluix": "2024-09-17 18:56:06 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/energy_energy_cell": {
-    "criteria": {
-      "has_crystals/certus": "2024-09-17 18:41:03 +0200"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/certus_quartz_hoe": {
-    "criteria": {
-      "has_certus_quartz": "2024-09-17 18:41:03 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2024-09-17 19:35:59 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/diorite_1x": {
-    "criteria": {
-      "has_diorite": "2024-09-17 19:35:58 +0200"
     },
     "done": true
   },
@@ -32748,27 +32766,45 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/decorative/quartz_fixture_from_anchors": {
+  "mekanism:cleaning_gauges": {
     "criteria": {
-      "has_charged_certus_quartz_crystal": "2024-09-17 18:49:59 +0200"
+      "use_dropper": "2024-09-17 19:41:14 +0200"
     },
     "done": true
   },
-  "ae2:recipes/misc/network/cables/covered_blue": {
+  "ae2:recipes/misc/materials/annihilationcore": {
     "criteria": {
-      "has_fluix_covered_cable": "2024-09-17 19:10:00 +0200"
+      "has_logic_processor": "2024-09-17 20:40:30 +0200"
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/andesite": {
+  "ae2:recipes/misc/network/cells/item_storage_components_cell_1k_part": {
     "criteria": {
-      "has_the_recipe": "2024-09-17 19:35:58 +0200"
+      "has_logic_processor": "2024-09-17 20:40:30 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/raw_copper": {
+  "megacells:recipes/misc/crafting/mega_crafting_unit": {
     "criteria": {
-      "has_raw_copper_block": "2024-09-17 19:07:12 +0200"
+      "has_logic_processor": "2024-09-17 20:40:30 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/terminals": {
+    "criteria": {
+      "has_logic_processor": "2024-09-17 20:40:30 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/quantum_ring": {
+    "criteria": {
+      "has_logic_processor": "2024-09-17 20:40:30 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/materials/formationcore": {
+    "criteria": {
+      "has_logic_processor": "2024-09-17 20:40:30 +0200"
     },
     "done": true
   },
