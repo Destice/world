@@ -12592,39 +12592,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_deepslate": {
+  "occultism:recipes/misc/crafting/iesnium_ingot_from_block": {
     "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+      "has_iesnium_block": "2024-09-16 14:04:41 +0200"
     },
     "done": true
   },
-  "mcwpaths:recipes/cobbled_deepslate": {
+  "allthecompressed:recipes/building_blocks/compress/unobtainium_block_1x": {
     "criteria": {
-      "has_wood": "2024-09-16 15:41:33 +0200"
+      "has_unobtainium_block": "2024-09-16 14:14:13 +0200"
     },
     "done": true
   },
-  "occultism:recipes/spirit_trade/spirit_trade/stone_to_otherstone": {
+  "allthemodium:recipes/misc/unobtainium_ingot_from_block": {
     "criteria": {
-      "has_stone": "2024-09-16 16:43:38 +0200"
+      "has_item": "2024-09-16 14:14:13 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+  "allthemodium:recipes/misc/vibranium_ingot_from_block": {
     "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+      "has_item": "2024-09-16 14:15:56 +0200"
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/polished_deepslate": {
+  "allthecompressed:recipes/building_blocks/compress/vibranium_block_1x": {
     "criteria": {
-      "has_the_recipe": "2024-09-16 15:41:33 +0200"
+      "has_vibranium_block": "2024-09-16 14:15:56 +0200"
     },
     "done": true
   },
-  "twilightforest:recipes/misc/compressed_blocks/reversed/steeleaf_block_ingot": {
+  "allthemodium:recipes/misc/unobtainium_vibranium_alloy_ingot_from_block": {
     "criteria": {
-      "has_item": "2024-09-16 14:20:48 +0200"
+      "has_item": "2024-09-16 14:16:06 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/unobtainium_vibranium_alloy_block_1x": {
+    "criteria": {
+      "has_unobtainium_vibranium_alloy_block": "2024-09-16 14:16:06 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/ostrum_plate_from_compressing_ostrum_blocks": {
+    "criteria": {
+      "has_item": "2024-09-16 14:19:43 +0200"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/ostrum_ingot_from_ostrum_block": {
+    "criteria": {
+      "has_ostrum_ingot": "2024-09-16 14:19:43 +0200"
     },
     "done": true
   },
@@ -12634,7 +12652,97 @@
     },
     "done": true
   },
+  "twilightforest:recipes/misc/compressed_blocks/reversed/knightmetal_block_ingot": {
+    "criteria": {
+      "has_item": "2024-09-16 14:20:14 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/compressed_blocks/reversed/steeleaf_block_ingot": {
+    "criteria": {
+      "has_item": "2024-09-16 14:20:48 +0200"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/building_blocks/corrupted_arcane_crystal_from_corrupted_arcane_crystal_block": {
+    "criteria": {
+      "has_item": "2024-09-16 14:22:01 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/controller_ingots_yellorium": {
+    "criteria": {
+      "has_item": "2024-09-16 14:26:32 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/activefluidport_forge": {
+    "criteria": {
+      "has_item": "2024-09-16 14:26:32 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/passivetap_fe": {
+    "criteria": {
+      "has_item": "2024-09-16 14:26:32 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/activetap_fe": {
+    "criteria": {
+      "has_item": "2024-09-16 14:26:32 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/glass": {
+    "criteria": {
+      "has_item": "2024-09-16 14:26:32 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/controller_ingots_uranium": {
+    "criteria": {
+      "has_item": "2024-09-16 14:26:32 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/explosion_crafting/compressed_iron_ingot": {
+    "criteria": {
+      "tnt": "2024-09-16 14:27:19 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/explosion_crafting/wheat_flour": {
+    "criteria": {
+      "tnt": "2024-09-16 14:27:19 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/explosion_crafting/compressed_iron_block": {
+    "criteria": {
+      "tnt": "2024-09-16 14:27:19 +0200"
+    },
+    "done": true
+  },
   "botania:recipes/misc/bifrost_pane": {
+    "criteria": {
+      "has_item": "2024-09-16 14:33:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/fabulous_pool_upgrade": {
+    "criteria": {
+      "has_item": "2024-09-16 14:33:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/shimmerrock": {
+    "criteria": {
+      "has_item": "2024-09-16 14:33:19 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/shimmerwood_planks": {
     "criteria": {
       "has_item": "2024-09-16 14:33:19 +0200"
     },
@@ -12646,57 +12754,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
   "allthecompressed:recipes/building_blocks/compress/lead_block_1x": {
     "criteria": {
       "has_lead_block": "2024-09-16 14:39:13 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/fabulous_pool_upgrade": {
-    "criteria": {
-      "has_item": "2024-09-16 14:33:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/explosion_crafting/compressed_iron_ingot": {
-    "criteria": {
-      "tnt": "2024-09-16 14:27:19 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/building_blocks/deorum_ingot_from_deorum_block": {
-    "criteria": {
-      "has_item": "2024-09-16 14:42:28 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "allthemodium:recipes/misc/unobtainium_vibranium_alloy_ingot_from_block": {
-    "criteria": {
-      "has_item": "2024-09-16 14:16:06 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
     },
     "done": true
   },
@@ -12706,27 +12766,9 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/unobtainium_block_1x": {
+  "forbidden_arcanus:recipes/building_blocks/deorum_ingot_from_deorum_block": {
     "criteria": {
-      "has_unobtainium_block": "2024-09-16 14:14:13 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/reactor/reinforced/controller_ingots_yellorium": {
-    "criteria": {
-      "has_item": "2024-09-16 14:26:32 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
-    "criteria": {
-      "has_raw_copper": "2024-09-16 15:39:44 +0200"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/building_blocks/corrupted_arcane_crystal_from_corrupted_arcane_crystal_block": {
-    "criteria": {
-      "has_item": "2024-09-16 14:22:01 +0200"
+      "has_item": "2024-09-16 14:42:28 +0200"
     },
     "done": true
   },
@@ -12736,21 +12778,9 @@
     },
     "done": true
   },
-  "allthemodium:recipes/misc/unobtainium_ingot_from_block": {
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
     "criteria": {
-      "has_item": "2024-09-16 14:14:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+      "has_raw_copper": "2024-09-16 15:39:44 +0200"
     },
     "done": true
   },
@@ -12760,207 +12790,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/misc/crafting/iesnium_ingot_from_block": {
-    "criteria": {
-      "has_iesnium_block": "2024-09-16 14:04:41 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/reactor/reinforced/activefluidport_forge": {
-    "criteria": {
-      "has_item": "2024-09-16 14:26:32 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/shimmerrock": {
-    "criteria": {
-      "has_item": "2024-09-16 14:33:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/planks/purple_crepe_myrtle_planks": {
-    "criteria": {
-      "has_logs": "2024-09-16 17:13:51 +0200"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/explosion_crafting/wheat_flour": {
-    "criteria": {
-      "tnt": "2024-09-16 14:27:19 +0200"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/cobbled_deepslate_chain": {
-    "criteria": {
-      "recipe_condition": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/deepslate": {
-    "criteria": {
-      "has_the_recipe": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/reactor/reinforced/passivetap_fe": {
-    "criteria": {
-      "has_item": "2024-09-16 14:26:32 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/compressing/compressing/ostrum_plate_from_compressing_ostrum_blocks": {
-    "criteria": {
-      "has_item": "2024-09-16 14:19:43 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/reactor/reinforced/activetap_fe": {
-    "criteria": {
-      "has_item": "2024-09-16 14:26:32 +0200"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/explosion_crafting/compressed_iron_block": {
-    "criteria": {
-      "tnt": "2024-09-16 14:27:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "allthemodium:recipes/misc/vibranium_ingot_from_block": {
-    "criteria": {
-      "has_item": "2024-09-16 14:15:56 +0200"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/cobbled_deepslate_slab": {
-    "criteria": {
-      "has_the_recipe": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/vibranium_block_1x": {
-    "criteria": {
-      "has_vibranium_block": "2024-09-16 14:15:56 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
   "utilitarian:recipes/misc/utility/copper_block_from_blasting": {
     "criteria": {
       "has_raw_copper": "2024-09-16 15:39:44 +0200"
     },
     "done": true
   },
-  "twilightforest:recipes/misc/compressed_blocks/reversed/knightmetal_block_ingot": {
-    "criteria": {
-      "has_item": "2024-09-16 14:20:14 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "productivetrees:recipes/building_blocks/wood/purple_crepe_myrtle_wood": {
-    "criteria": {
-      "has_log": "2024-09-16 17:13:51 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/unobtainium_vibranium_alloy_block_1x": {
-    "criteria": {
-      "has_unobtainium_vibranium_alloy_block": "2024-09-16 14:16:06 +0200"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/building_blocks/reactor/reinforced/glass": {
-    "criteria": {
-      "has_item": "2024-09-16 14:26:32 +0200"
-    },
-    "done": true
-  },
-  "utilitix:recipes/misc/anvil_cart": {
-    "criteria": {
-      "criterion0": "2024-09-16 16:20:43 +0200"
-    },
-    "done": true
-  },
   "utilitarian:recipes/misc/utility/copper_block_from_smelting": {
     "criteria": {
       "has_raw_copper": "2024-09-16 15:39:44 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_trade/spirit_trade/test": {
-    "criteria": {
-      "has_stone": "2024-09-16 16:43:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
     },
     "done": true
   },
@@ -12976,27 +12814,165 @@
     },
     "done": true
   },
-  "bigreactors:recipes/building_blocks/reactor/reinforced/controller_ingots_uranium": {
-    "criteria": {
-      "has_item": "2024-09-16 14:26:32 +0200"
-    },
-    "done": true
-  },
   "forbidden_arcanus:recipes/misc/clibano_combustion/copper_ingot_from_clibano_combusting_raw_copper": {
     "criteria": {
       "has_item": "2024-09-16 15:39:44 +0200"
     },
     "done": true
   },
-  "botania:recipes/building_blocks/shimmerwood_planks": {
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
-      "has_item": "2024-09-16 14:33:19 +0200"
+      "has_raw_copper": "2024-09-16 15:39:44 +0200"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/ostrum_ingot_from_ostrum_block": {
+  "minecraft:recipes/building_blocks/polished_deepslate": {
     "criteria": {
-      "has_ostrum_ingot": "2024-09-16 14:19:43 +0200"
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/cobbled_deepslate": {
+    "criteria": {
+      "has_wood": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/polished_deepslate": {
+    "criteria": {
+      "has_the_recipe": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/cobbled_deepslate_chain": {
+    "criteria": {
+      "recipe_condition": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/deepslate": {
+    "criteria": {
+      "has_the_recipe": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2024-09-16 15:41:33 +0200"
     },
     "done": true
   },
@@ -13012,9 +12988,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+  "utilitix:recipes/misc/anvil_cart": {
     "criteria": {
-      "has_raw_copper": "2024-09-16 15:39:44 +0200"
+      "criterion0": "2024-09-16 16:20:43 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/stone_to_otherstone": {
+    "criteria": {
+      "has_stone": "2024-09-16 16:43:38 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/test": {
+    "criteria": {
+      "has_stone": "2024-09-16 16:43:38 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/planks/purple_crepe_myrtle_planks": {
+    "criteria": {
+      "has_logs": "2024-09-16 17:13:51 +0200"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/building_blocks/wood/purple_crepe_myrtle_wood": {
+    "criteria": {
+      "has_log": "2024-09-16 17:13:51 +0200"
     },
     "done": true
   },
