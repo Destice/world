@@ -2,9 +2,7 @@
 	id: "2c8d21c3-b2a2-36f4-abda-83c3edd7c5b4"
 	type: "player"
 	player_name: "Majo-Jajo"
-	ranks: {
-		2c8d21c3-b2a2-36f4-abda-83c3edd7c5b4: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "Majo-Jajo"
 		"ftbteams:description": ""

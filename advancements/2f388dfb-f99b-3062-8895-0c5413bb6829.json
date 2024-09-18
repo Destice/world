@@ -12902,7 +12902,9 @@
   },
   "quark:get_all_corundum": {
     "criteria": {
-      "red": "2024-08-30 00:00:39 +0200"
+      "red": "2024-08-30 00:00:39 +0200",
+      "blue": "2024-09-18 22:46:34 +0200",
+      "indigo": "2024-09-18 22:45:42 +0200"
     },
     "done": false
   },
@@ -32961,6 +32963,66 @@
   "mcwfencesbop:recipes/umbran": {
     "criteria": {
       "has_acacia": "2024-09-18 18:25:09 +0200"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/deepslate": {
+    "criteria": {
+      "has_wood": "2024-09-18 19:30:43 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/grass": {
+    "criteria": {
+      "has_planks": "2024-09-18 19:42:55 +0200"
+    },
+    "done": true
+  },
+  "mekanism:elite_control_circuit": {
+    "criteria": {
+      "elite_control_circuit": "2024-09-18 22:00:30 +0200"
+    },
+    "done": true
+  },
+  "dankstorage:recipes/tools/dank_1": {
+    "criteria": {
+      "has_barrel": "2024-09-18 22:39:16 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/grit_sand": {
+    "criteria": {
+      "has_gravel": "2024-09-18 23:02:39 +0200"
+    },
+    "done": true
+  },
+  "mekanism:ultimate_control_circuit": {
+    "criteria": {
+      "ultimate_control_circuit": "2024-09-18 22:04:43 +0200"
+    },
+    "done": true
+  },
+  "mekanism:chemical_crystallizer": {
+    "criteria": {
+      "chemical_crystallizer": "2024-09-18 22:05:10 +0200"
+    },
+    "done": false
+  },
+  "minecolonies:recipes/misc/large_empty_bottle": {
+    "criteria": {
+      "has_glass": "2024-09-18 23:04:01 +0200"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/metal": {
+    "criteria": {
+      "has_wood": "2024-09-18 22:01:33 +0200"
+    },
+    "done": true
+  },
+  "mekanism:atomic_alloy": {
+    "criteria": {
+      "alloy_atomic": "2024-09-18 22:03:36 +0200"
     },
     "done": true
   },

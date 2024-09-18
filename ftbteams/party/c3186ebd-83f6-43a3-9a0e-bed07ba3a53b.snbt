@@ -3,6 +3,7 @@
 	type: "party"
 	owner: "2f388dfb-f99b-3062-8895-0c5413bb6829"
 	ranks: {
+		2c8d21c3-b2a2-36f4-abda-83c3edd7c5b4: "member"
 		2f388dfb-f99b-3062-8895-0c5413bb6829: "owner"
 	}
 	properties: {
@@ -24,6 +25,10 @@
 		"ftbchunks:claim_visibility": "public"
 		"ftbchunks:location_mode": "public"
 	}
-	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1726165724229L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Destice\"}]}" }]
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1726165724229L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Destice\"}]}" }
+		{ from: "2f388dfb-f99b-3062-8895-0c5413bb6829", date: 1726679952680L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Majo-Jajo\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1726679979244L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Majo-Jajo\"}]}" }
+	]
 	extra: { }
 }
