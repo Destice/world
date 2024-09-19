@@ -32984,15 +32984,15 @@
     },
     "done": true
   },
-  "dankstorage:recipes/tools/dank_1": {
+  "mcwwindows:recipes/metal": {
     "criteria": {
-      "has_barrel": "2024-09-18 22:39:16 +0200"
+      "has_wood": "2024-09-18 22:01:33 +0200"
     },
     "done": true
   },
-  "immersiveengineering:recipes/misc/crafting/grit_sand": {
+  "mekanism:atomic_alloy": {
     "criteria": {
-      "has_gravel": "2024-09-18 23:02:39 +0200"
+      "alloy_atomic": "2024-09-18 22:03:36 +0200"
     },
     "done": true
   },
@@ -33008,21 +33008,521 @@
     },
     "done": false
   },
+  "dankstorage:recipes/tools/dank_1": {
+    "criteria": {
+      "has_barrel": "2024-09-18 22:39:16 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/grit_sand": {
+    "criteria": {
+      "has_gravel": "2024-09-18 23:02:39 +0200"
+    },
+    "done": true
+  },
   "minecolonies:recipes/misc/large_empty_bottle": {
     "criteria": {
       "has_glass": "2024-09-18 23:04:01 +0200"
     },
     "done": true
   },
-  "mcwwindows:recipes/metal": {
+  "dyenamics:recipes/misc/navy_terracotta": {
     "criteria": {
-      "has_wood": "2024-09-18 22:01:33 +0200"
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
     },
     "done": true
   },
-  "mekanism:atomic_alloy": {
+  "handcrafted:recipes/misc/terracotta_medium_pot": {
     "criteria": {
-      "alloy_atomic": "2024-09-18 22:03:36 +0200"
+      "has_terracotta_medium_pot": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/lavender_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2024-09-19 18:04:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/brown_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_thin_pot": {
+    "criteria": {
+      "has_terracotta_thin_pot": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/conifer_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/red_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/lime_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/gray_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/amber_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/orange_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/yellow_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/peach_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_plate": {
+    "criteria": {
+      "has_terracotta_plate": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_4x": {
+    "criteria": {
+      "has_cobbled_deepslate_4x": "2024-09-19 21:08:42 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/green_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/magenta_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/pink_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:04:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/mint_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/black_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/magenta_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/cherenkov_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/green_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/light_gray_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/blue_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/orange_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/lime_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_bowl": {
+    "criteria": {
+      "has_terracotta_bowl": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_thick_pot": {
+    "criteria": {
+      "has_terracotta_thick_pot": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/brown_stone_bricks": {
+    "criteria": {
+      "has_item1_domum_ornamentum_brown_stone_bricks": "2024-09-19 18:05:55 +0200",
+      "has_item2_domum_ornamentum_brown_stone_bricks": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/cyan_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bubblegum_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/red_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/silt/silt_from_clay": {
+    "criteria": {
+      "has_item": "2024-09-19 18:04:48 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/ultramarine_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_blue_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_wide_pot": {
+    "criteria": {
+      "has_terracotta_wide_pot": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_gray_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/fluorescent_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/blue_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/black_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/terracotta": {
+    "criteria": {
+      "has_planks": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/terracotta_1x": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/persimmon_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/honey_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/wine_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/light_blue_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/pink_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/icy_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/gray_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/clay_1x": {
+    "criteria": {
+      "has_clay": "2024-09-19 18:04:48 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/rose_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/yellow_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/aquamarine_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/purple_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/raw_zinc_block": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 20:00:32 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/purple_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/terracotta_cup": {
+    "criteria": {
+      "has_terracotta_cup": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/spring_green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/maroon_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_5x": {
+    "criteria": {
+      "has_cobbled_deepslate_4x": "2024-09-19 21:08:42 +0200"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/brown_bricks": {
+    "criteria": {
+      "has_item2_domum_ornamentum_brown_bricks": "2024-09-19 18:05:55 +0200",
+      "has_item1_domum_ornamentum_brown_bricks": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/white_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cyan_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/brown_kitchen_counter": {
+    "criteria": {
+      "has_stone": "2024-09-19 18:05:55 +0200"
     },
     "done": true
   },
