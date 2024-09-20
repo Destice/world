@@ -2497,6 +2497,7 @@
       "minecraft:vex": "2024-09-02 21:11:22 +0200",
       "minecraft:zombie": "2024-08-25 21:21:09 +0200",
       "quark:foxhound": "2024-08-31 15:16:45 +0200",
+      "minecraft:drowned": "2024-09-20 18:39:26 +0200",
       "minecraft:zombie_villager": "2024-09-01 19:26:32 +0200"
     },
     "done": false
@@ -16448,6 +16449,7 @@
   "croptopia:gather_forest": {
     "criteria": {
       "spinach_seed": "2024-09-03 22:37:38 +0200",
+      "blackberry_seed": "2024-09-20 19:32:05 +0200",
       "blackbean_seed": "2024-09-09 23:30:52 +0200",
       "radish_seed": "2024-09-03 21:44:15 +0200",
       "elderberry_seed": "2024-08-31 00:52:08 +0200",
@@ -16460,8 +16462,11 @@
   "croptopia:gather_savanna": {
     "criteria": {
       "yam_seed": "2024-09-09 01:23:30 +0200",
+      "leek_seed": "2024-09-20 19:32:04 +0200",
       "zucchini_seed": "2024-08-31 00:52:08 +0200",
+      "ginger_seed": "2024-09-20 19:32:04 +0200",
       "rutabaga_seed": "2024-09-03 21:44:15 +0200",
+      "turmeric_seed": "2024-09-20 19:32:05 +0200",
       "olive_seed": "2024-09-13 21:00:45 +0200"
     },
     "done": false
@@ -16477,14 +16482,19 @@
       "olive_seed": "2024-09-13 21:00:45 +0200",
       "kale_seed": "2024-08-31 00:52:08 +0200",
       "blueberry_seed": "2024-09-12 19:18:26 +0200",
+      "ginger_seed": "2024-09-20 19:32:04 +0200",
       "soybean_seed": "2024-09-03 22:37:38 +0200",
       "rutabaga_seed": "2024-09-03 21:44:15 +0200",
       "strawberry_seed": "2024-09-12 19:18:26 +0200",
       "celery_seed": "2024-09-09 23:30:52 +0200",
+      "leek_seed": "2024-09-20 19:32:04 +0200",
       "greenonion_seed": "2024-09-03 22:37:38 +0200",
       "barley_seed": "2024-09-03 21:44:17 +0200",
+      "coffee_seed": "2024-09-20 19:32:04 +0200",
       "spinach_seed": "2024-09-03 22:37:38 +0200",
+      "blackberry_seed": "2024-09-20 19:32:05 +0200",
       "corn_seed": "2024-09-03 21:44:17 +0200",
+      "turmeric_seed": "2024-09-20 19:32:05 +0200",
       "currant_seed": "2024-09-09 23:30:51 +0200",
       "zucchini_seed": "2024-08-31 00:52:08 +0200",
       "garlic_seed": "2024-09-08 23:32:42 +0200"
@@ -25075,6 +25085,7 @@
   },
   "croptopia:gather_jungle": {
     "criteria": {
+      "coffee_seed": "2024-09-20 19:32:04 +0200",
       "greenonion_seed": "2024-09-03 22:37:38 +0200",
       "garlic_seed": "2024-09-08 23:32:42 +0200"
     },
@@ -33026,6 +33037,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2024-09-19 18:04:48 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 18:04:48 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/silt/silt_from_clay": {
+    "criteria": {
+      "has_item": "2024-09-19 18:04:48 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/clay_1x": {
+    "criteria": {
+      "has_clay": "2024-09-19 18:04:48 +0200"
+    },
+    "done": true
+  },
   "dyenamics:recipes/misc/navy_terracotta": {
     "criteria": {
       "has_terracotta": "2024-09-19 18:05:55 +0200"
@@ -33041,12 +33076,6 @@
   "dyenamics:recipes/misc/lavender_terracotta": {
     "criteria": {
       "has_terracotta": "2024-09-19 18:05:55 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/terracotta": {
-    "criteria": {
-      "has_clay_block": "2024-09-19 18:04:48 +0200"
     },
     "done": true
   },
@@ -33134,12 +33163,6 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_4x": {
-    "criteria": {
-      "has_cobbled_deepslate_4x": "2024-09-19 21:08:42 +0200"
-    },
-    "done": true
-  },
   "alchemistry:recipes/dissolver/green_terracotta": {
     "criteria": {
       "has_the_recipe": "2024-09-19 18:05:55 +0200"
@@ -33155,12 +33178,6 @@
   "alchemistry:recipes/dissolver/pink_terracotta": {
     "criteria": {
       "has_the_recipe": "2024-09-19 18:05:55 +0200"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/terracotta": {
-    "criteria": {
-      "has_the_recipe": "2024-09-19 18:04:48 +0200"
     },
     "done": true
   },
@@ -33276,12 +33293,6 @@
   "minecraft:recipes/building_blocks/blue_terracotta": {
     "criteria": {
       "has_terracotta": "2024-09-19 18:05:55 +0200"
-    },
-    "done": true
-  },
-  "twigs:recipes/silt/silt_from_clay": {
-    "criteria": {
-      "has_item": "2024-09-19 18:04:48 +0200"
     },
     "done": true
   },
@@ -33429,12 +33440,6 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/clay_1x": {
-    "criteria": {
-      "has_clay": "2024-09-19 18:04:48 +0200"
-    },
-    "done": true
-  },
   "dyenamics:recipes/misc/rose_terracotta": {
     "criteria": {
       "has_terracotta": "2024-09-19 18:05:55 +0200"
@@ -33459,12 +33464,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/raw_zinc_block": {
-    "criteria": {
-      "has_the_recipe": "2024-09-19 20:00:32 +0200"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/purple_kitchen_counter": {
     "criteria": {
       "has_stone": "2024-09-19 18:05:55 +0200"
@@ -33486,12 +33485,6 @@
   "dyenamics:recipes/misc/maroon_terracotta": {
     "criteria": {
       "has_terracotta": "2024-09-19 18:05:55 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_5x": {
-    "criteria": {
-      "has_cobbled_deepslate_4x": "2024-09-19 21:08:42 +0200"
     },
     "done": true
   },
@@ -33523,6 +33516,228 @@
   "cfm:recipes/decorations/brown_kitchen_counter": {
     "criteria": {
       "has_stone": "2024-09-19 18:05:55 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/raw_zinc_block": {
+    "criteria": {
+      "has_the_recipe": "2024-09-19 20:00:32 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_4x": {
+    "criteria": {
+      "has_cobbled_deepslate_4x": "2024-09-19 21:08:42 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_5x": {
+    "criteria": {
+      "has_cobbled_deepslate_4x": "2024-09-19 21:08:42 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_slab_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_wall_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_wall_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_bricks_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_wall_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_limestone_bricks_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_limestone_brick_wall_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_slab_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/redstone": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/universal_owner_changer": {
+    "criteria": {
+      "has_name_tag": "2024-09-20 18:44:56 +0200"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/curtain_rods": {
+    "criteria": {
+      "has_wood": "2024-09-20 18:45:01 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:programming_puzzle": {
+    "criteria": {
+      "0": "2024-09-20 19:00:33 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/silver_block_1x": {
+    "criteria": {
+      "has_silver_block": "2024-09-20 19:39:37 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/limestone_pillar_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/sugar": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/witch": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:affix/mythic_gem": {
+    "criteria": {
+      "gem": "2024-09-20 18:39:32 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/silver_ingot_from_block": {
+    "criteria": {
+      "has_silver_block": "2024-09-20 19:39:37 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/refined_glowstone_knife": {
+    "criteria": {
+      "has_ingots/refined_glowstone": "2024-09-20 20:04:33 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/glowstone_dust": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_brick_stairs_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-20 19:39:37 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gunpowder_witch_hat": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_limestone_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_stairs_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_stairs_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/limestone_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_limestone_brick_stairs_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_limestone_brick_slab_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/stick": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/glass_bottle": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_limestone_slab_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
     },
     "done": true
   },
