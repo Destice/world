@@ -33537,6 +33537,72 @@
     },
     "done": true
   },
+  "apotheosis:affix/mythic_gem": {
+    "criteria": {
+      "gem": "2024-09-20 18:39:32 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/universal_owner_changer": {
+    "criteria": {
+      "has_name_tag": "2024-09-20 18:44:56 +0200"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/curtain_rods": {
+    "criteria": {
+      "has_wood": "2024-09-20 18:45:01 +0200"
+    },
+    "done": true
+  },
+  "pneumaticcraft:programming_puzzle": {
+    "criteria": {
+      "0": "2024-09-20 19:00:33 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/redstone": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/sugar": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/witch": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/glowstone_dust": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gunpowder_witch_hat": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/stick": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/glass_bottle": {
+    "criteria": {
+      "has_witch_hat": "2024-09-20 19:07:31 +0200"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_limestone_brick_slab_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
@@ -33591,63 +33657,9 @@
     },
     "done": true
   },
-  "reliquary:recipes/misc/uncrafting/redstone": {
-    "criteria": {
-      "has_witch_hat": "2024-09-20 19:07:31 +0200"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/tools/universal_owner_changer": {
-    "criteria": {
-      "has_name_tag": "2024-09-20 18:44:56 +0200"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/curtain_rods": {
-    "criteria": {
-      "has_wood": "2024-09-20 18:45:01 +0200"
-    },
-    "done": true
-  },
-  "pneumaticcraft:programming_puzzle": {
-    "criteria": {
-      "0": "2024-09-20 19:00:33 +0200"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/silver_block_1x": {
-    "criteria": {
-      "has_silver_block": "2024-09-20 19:39:37 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/limestone_pillar_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/uncrafting/sugar": {
-    "criteria": {
-      "has_witch_hat": "2024-09-20 19:07:31 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/mob_charm_fragments/witch": {
-    "criteria": {
-      "has_witch_hat": "2024-09-20 19:07:31 +0200"
-    },
-    "done": true
-  },
-  "apotheosis:affix/mythic_gem": {
-    "criteria": {
-      "gem": "2024-09-20 18:39:32 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/misc/crafting/silver_ingot_from_block": {
-    "criteria": {
-      "has_silver_block": "2024-09-20 19:39:37 +0200"
     },
     "done": true
   },
@@ -33657,33 +33669,9 @@
     },
     "done": true
   },
-  "delightful:recipes/knives/refined_glowstone_knife": {
-    "criteria": {
-      "has_ingots/refined_glowstone": "2024-09-20 20:04:33 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/uncrafting/glowstone_dust": {
-    "criteria": {
-      "has_witch_hat": "2024-09-20 19:07:31 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_limestone_brick_stairs_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/silver_ingot_from_block": {
-    "criteria": {
-      "has_item": "2024-09-20 19:39:37 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/uncrafting/gunpowder_witch_hat": {
-    "criteria": {
-      "has_witch_hat": "2024-09-20 19:07:31 +0200"
     },
     "done": true
   },
@@ -33723,21 +33711,33 @@
     },
     "done": true
   },
-  "reliquary:recipes/misc/uncrafting/stick": {
-    "criteria": {
-      "has_witch_hat": "2024-09-20 19:07:31 +0200"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/uncrafting/glass_bottle": {
-    "criteria": {
-      "has_witch_hat": "2024-09-20 19:07:31 +0200"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_limestone_slab_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2024-09-20 19:09:52 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/silver_block_1x": {
+    "criteria": {
+      "has_silver_block": "2024-09-20 19:39:37 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/silver_ingot_from_block": {
+    "criteria": {
+      "has_silver_block": "2024-09-20 19:39:37 +0200"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-09-20 19:39:37 +0200"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/refined_glowstone_knife": {
+    "criteria": {
+      "has_ingots/refined_glowstone": "2024-09-20 20:04:33 +0200"
     },
     "done": true
   },
