@@ -34163,15 +34163,39 @@
     },
     "done": true
   },
+  "ad_astra:recipes/misc/ostrum_ingot_from_ostrum_block": {
+    "criteria": {
+      "has_ostrum_ingot": "2024-09-22 21:55:46 +0200"
+    },
+    "done": true
+  },
   "create_enchantment_industry:spirit_taking": {
     "criteria": {
       "builtin": "2024-09-22 22:04:56 +0200"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/ostrum_ingot_from_ostrum_block": {
+  "mekanism:sawmill": {
     "criteria": {
-      "has_ostrum_ingot": "2024-09-22 21:55:46 +0200"
+      "precision_sawmill": "2024-09-24 20:56:15 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2024-09-24 20:47:39 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2024-09-24 20:47:39 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mortar_and_pestle": {
+    "criteria": {
+      "has_bowl": "2024-09-24 20:47:39 +0200"
     },
     "done": true
   },
