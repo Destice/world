@@ -34175,12 +34175,6 @@
     },
     "done": true
   },
-  "mekanism:sawmill": {
-    "criteria": {
-      "precision_sawmill": "2024-09-24 20:56:15 +0200"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/food/mixed_salad": {
     "criteria": {
       "has_bowl": "2024-09-24 20:47:39 +0200"
@@ -34196,6 +34190,78 @@
   "croptopia:recipes/misc/mortar_and_pestle": {
     "criteria": {
       "has_bowl": "2024-09-24 20:47:39 +0200"
+    },
+    "done": true
+  },
+  "mekanism:sawmill": {
+    "criteria": {
+      "precision_sawmill": "2024-09-24 20:56:15 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/shaft": {
+    "criteria": {
+      "has_item": "2024-09-28 16:59:48 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/tinted_glass_lead_wire": {
+    "criteria": {
+      "has_amethyst": "2024-09-28 18:45:35 +0200"
+    },
+    "done": true
+  },
+  "mekanismtools:not_enough_shielding": {
+    "criteria": {
+      "shields": "2024-09-28 18:35:02 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_light_gray": {
+    "criteria": {
+      "has_item": "2024-09-28 17:33:58 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/blade": {
+    "criteria": {
+      "has_item": "2024-09-28 16:59:48 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/crafting/cyanite_component_to_storage": {
+    "criteria": {
+      "has_item": "2024-09-28 16:59:48 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/light_gray_petal_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-09-28 17:33:58 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/casing": {
+    "criteria": {
+      "has_item": "2024-09-28 16:59:48 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/light_gray_petal_block": {
+    "criteria": {
+      "has_item": "2024-09-28 17:33:58 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_light_gray_double": {
+    "criteria": {
+      "has_alt_item": "2024-09-28 17:33:58 +0200"
+    },
+    "done": true
+  },
+  "mekanism:sna": {
+    "criteria": {
+      "solar_neutron_activator": "2024-09-28 17:45:16 +0200"
     },
     "done": true
   },
