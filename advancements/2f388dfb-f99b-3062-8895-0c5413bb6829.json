@@ -96,6 +96,7 @@
       "erupting_inferno": "2024-08-31 15:16:24 +0200",
       "clover_patch": "2024-09-13 20:50:18 +0200",
       "mystic_grove": "2024-08-25 20:48:05 +0200",
+      "old_growth_woodland": "2024-09-28 23:08:35 +0200",
       "crystalline_chasm": "2024-08-31 15:09:23 +0200",
       "orchard": "2024-09-13 20:48:26 +0200",
       "lavender_forest": "2024-08-30 21:50:04 +0200",
@@ -19769,6 +19770,7 @@
       "golden_carrot": "2024-09-08 20:41:26 +0200",
       "cooked_chicken": "2024-09-11 22:24:06 +0200",
       "enchanted_golden_apple": "2024-09-22 19:37:43 +0200",
+      "rabbit_stew": "2024-09-28 23:02:07 +0200",
       "cooked_salmon": "2024-09-14 16:42:02 +0200"
     },
     "done": false
@@ -34205,24 +34207,6 @@
     },
     "done": true
   },
-  "immersiveengineering:recipes/misc/crafting/tinted_glass_lead_wire": {
-    "criteria": {
-      "has_amethyst": "2024-09-28 18:45:35 +0200"
-    },
-    "done": true
-  },
-  "mekanismtools:not_enough_shielding": {
-    "criteria": {
-      "shields": "2024-09-28 18:35:02 +0200"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/dye_light_gray": {
-    "criteria": {
-      "has_item": "2024-09-28 17:33:58 +0200"
-    },
-    "done": true
-  },
   "bigreactors:recipes/building_blocks/turbine/basic/blade": {
     "criteria": {
       "has_item": "2024-09-28 16:59:48 +0200"
@@ -34235,15 +34219,21 @@
     },
     "done": true
   },
-  "botania:recipes/misc/conversions/light_gray_petal_block_deconstruct": {
+  "bigreactors:recipes/building_blocks/turbine/basic/casing": {
+    "criteria": {
+      "has_item": "2024-09-28 16:59:48 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_light_gray": {
     "criteria": {
       "has_item": "2024-09-28 17:33:58 +0200"
     },
     "done": true
   },
-  "bigreactors:recipes/building_blocks/turbine/basic/casing": {
+  "botania:recipes/misc/conversions/light_gray_petal_block_deconstruct": {
     "criteria": {
-      "has_item": "2024-09-28 16:59:48 +0200"
+      "has_item": "2024-09-28 17:33:58 +0200"
     },
     "done": true
   },
@@ -34262,6 +34252,258 @@
   "mekanism:sna": {
     "criteria": {
       "solar_neutron_activator": "2024-09-28 17:45:16 +0200"
+    },
+    "done": true
+  },
+  "mekanismtools:not_enough_shielding": {
+    "criteria": {
+      "shields": "2024-09-28 18:35:02 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/tinted_glass_lead_wire": {
+    "criteria": {
+      "has_amethyst": "2024-09-28 18:45:35 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_sword": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/obedience_stick": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/pump": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/lemon_sapling": {
+    "criteria": {
+      "has_lemon": "2024-09-28 22:48:13 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/ice_pendant": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/lemonade": {
+    "criteria": {
+      "has_lemon": "2024-09-28 22:48:13 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/magnet_ring": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_leggings": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_shovel": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/manasteel_block": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pear_sapling": {
+    "criteria": {
+      "has_pear": "2024-09-28 22:47:04 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/roasted_pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin_seed": "2024-09-28 22:57:24 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/travel_belt": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/monocle": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/sextant": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/manasteel_knife": {
+    "criteria": {
+      "has_ingots/manasteel": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/glass_pickaxe": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/swap_ring": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_steel_leggings": {
+    "criteria": {
+      "has_steel_leggings": "2024-09-28 22:56:55 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mining_ring": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "chipped:recipes/alchemy_bench": {
+    "criteria": {
+      "has_alchemy_bench": "2024-09-28 22:17:43 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/manasteel_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/bauble_box": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_hoe": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/knockback_belt": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_axe": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/forest_eye": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/dodge_ring": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_lemon_coconut_bar": {
+    "criteria": {
+      "has_lemon": "2024-09-28 22:48:13 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2024-09-28 23:02:07 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/lemon_chicken": {
+    "criteria": {
+      "has_lemon": "2024-09-28 22:48:13 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_chestplate": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_shears": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_distributor": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/lava_pendant": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_pick": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_helmet": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/plum_sapling": {
+    "criteria": {
+      "has_plum": "2024-09-28 22:48:34 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_boots": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/lens_normal": {
+    "criteria": {
+      "has_item": "2024-09-28 22:56:54 +0200"
     },
     "done": true
   },
