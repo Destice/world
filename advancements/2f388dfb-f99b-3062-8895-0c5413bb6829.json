@@ -20446,6 +20446,7 @@
   },
   "repurposed_structures:pyramids": {
     "criteria": {
+      "in_pyramid_ocean": "2024-10-05 19:12:06 +0200",
       "in_pyramid_flower_forest": "2024-09-01 21:59:20 +0200"
     },
     "done": false
@@ -22376,6 +22377,7 @@
       "fried_chicken": "2024-09-11 17:58:15 +0200",
       "nutty_cookie": "2024-09-03 00:03:20 +0200",
       "buttered_toast": "2024-09-14 19:35:33 +0200",
+      "clam": "2024-10-05 17:55:47 +0200",
       "scrambled_eggs": "2024-09-11 17:56:34 +0200",
       "nougat": "2024-09-03 00:02:15 +0200",
       "toast": "2024-09-09 01:54:43 +0200",
@@ -34267,6 +34269,48 @@
     },
     "done": true
   },
+  "chipped:recipes/alchemy_bench": {
+    "criteria": {
+      "has_alchemy_bench": "2024-09-28 22:17:43 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pear_sapling": {
+    "criteria": {
+      "has_pear": "2024-09-28 22:47:04 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/lemon_sapling": {
+    "criteria": {
+      "has_lemon": "2024-09-28 22:48:13 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/lemonade": {
+    "criteria": {
+      "has_lemon": "2024-09-28 22:48:13 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_lemon_coconut_bar": {
+    "criteria": {
+      "has_lemon": "2024-09-28 22:48:13 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/lemon_chicken": {
+    "criteria": {
+      "has_lemon": "2024-09-28 22:48:13 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/plum_sapling": {
+    "criteria": {
+      "has_plum": "2024-09-28 22:48:34 +0200"
+    },
+    "done": true
+  },
   "botania:recipes/combat/manasteel_sword": {
     "criteria": {
       "has_item": "2024-09-28 22:56:54 +0200"
@@ -34285,21 +34329,9 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/lemon_sapling": {
-    "criteria": {
-      "has_lemon": "2024-09-28 22:48:13 +0200"
-    },
-    "done": true
-  },
   "botania:recipes/tools/ice_pendant": {
     "criteria": {
       "has_item": "2024-09-28 22:56:54 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/lemonade": {
-    "criteria": {
-      "has_lemon": "2024-09-28 22:48:13 +0200"
     },
     "done": true
   },
@@ -34324,18 +34356,6 @@
   "botania:recipes/building_blocks/manasteel_block": {
     "criteria": {
       "has_item": "2024-09-28 22:56:54 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/pear_sapling": {
-    "criteria": {
-      "has_pear": "2024-09-28 22:47:04 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/roasted_pumpkin_seeds": {
-    "criteria": {
-      "has_pumpkin_seed": "2024-09-28 22:57:24 +0200"
     },
     "done": true
   },
@@ -34375,21 +34395,9 @@
     },
     "done": true
   },
-  "railcraft:recipes/blast_furnace/blasting_steel_leggings": {
-    "criteria": {
-      "has_steel_leggings": "2024-09-28 22:56:55 +0200"
-    },
-    "done": true
-  },
   "botania:recipes/tools/mining_ring": {
     "criteria": {
       "has_item": "2024-09-28 22:56:54 +0200"
-    },
-    "done": true
-  },
-  "chipped:recipes/alchemy_bench": {
-    "criteria": {
-      "has_alchemy_bench": "2024-09-28 22:17:43 +0200"
     },
     "done": true
   },
@@ -34435,24 +34443,6 @@
     },
     "done": true
   },
-  "croptopia:recipes/shaped_lemon_coconut_bar": {
-    "criteria": {
-      "has_lemon": "2024-09-28 22:48:13 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:main/eat_comfort_food": {
-    "criteria": {
-      "comfort": "2024-09-28 23:02:07 +0200"
-    },
-    "done": true
-  },
-  "croptopia:recipes/lemon_chicken": {
-    "criteria": {
-      "has_lemon": "2024-09-28 22:48:13 +0200"
-    },
-    "done": true
-  },
   "botania:recipes/combat/manasteel_chestplate": {
     "criteria": {
       "has_item": "2024-09-28 22:56:54 +0200"
@@ -34489,12 +34479,6 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/plum_sapling": {
-    "criteria": {
-      "has_plum": "2024-09-28 22:48:34 +0200"
-    },
-    "done": true
-  },
   "botania:recipes/combat/manasteel_boots": {
     "criteria": {
       "has_item": "2024-09-28 22:56:54 +0200"
@@ -34504,6 +34488,354 @@
   "botania:recipes/misc/lens_normal": {
     "criteria": {
       "has_item": "2024-09-28 22:56:54 +0200"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_steel_leggings": {
+    "criteria": {
+      "has_steel_leggings": "2024-09-28 22:56:55 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/roasted_pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin_seed": "2024-09-28 22:57:24 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2024-09-28 23:02:07 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/prismarine": {
+    "criteria": {
+      "has_planks": "2024-10-05 19:12:02 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/dark_prismarine": {
+    "criteria": {
+      "has_the_recipe": "2024-10-05 20:06:44 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/prismarine_bricks_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-10-05 19:12:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2024-10-05 19:12:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2024-10-05 19:12:37 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/prismarine": {
+    "criteria": {
+      "has_the_recipe": "2024-10-05 20:06:44 +0200"
+    },
+    "done": true
+  },
+  "twigs:recipes/bamboo_thatch/bamboo_thatch_slab": {
+    "criteria": {
+      "has_bamboo_thatch": "2024-10-05 18:32:35 +0200"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/dark_prismarine": {
+    "criteria": {
+      "has_wood": "2024-10-05 19:12:37 +0200"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/misc/soul_compost_from_hoglin_hide": {
+    "criteria": {
+      "has_soil": "2024-10-05 18:12:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-10-05 19:12:05 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/wither_skeleton_skull": {
+    "criteria": {
+      "has_withered_rib": "2024-10-05 18:03:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2024-10-05 17:55:18 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mercy_cross": {
+    "criteria": {
+      "has_withered_rib": "2024-10-05 18:03:24 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:adventure/visit_abydos": {
+    "criteria": {
+      "entered_abydos": "2024-10-05 19:40:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2024-10-05 19:12:37 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/prismarine_bricks": {
+    "criteria": {
+      "has_the_recipe": "2024-10-05 20:06:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-10-05 19:12:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-10-05 20:06:44 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/phoenix_down": {
+    "criteria": {
+      "has_angelic_feather": "2024-10-05 19:14:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
+    "criteria": {
+      "has_dune_armor_trim_smithing_template": "2024-10-05 19:13:40 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/ink_sac": {
+    "criteria": {
+      "has_squid_beak": "2024-10-05 19:15:28 +0200"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/emerald": {
+    "criteria": {
+      "has_the_recipe": "2024-10-05 19:26:32 +0200"
+    },
+    "done": true
+  },
+  "ars_nouveau:warp_scroll": {
+    "criteria": {
+      "has_warp_scroll": "2024-10-05 19:12:35 +0200"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/sea_lantern_slab": {
+    "criteria": {
+      "has_wood": "2024-10-05 19:13:35 +0200"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reprocessor/controller": {
+    "criteria": {
+      "has_item2": "2024-10-05 20:06:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-10-05 20:06:44 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_prismarine_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-10-05 19:12:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2024-10-05 19:26:32 +0200"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/steamed_clams": {
+    "criteria": {
+      "has_clams": "2024-10-05 17:55:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2024-10-05 19:12:05 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:adventure/use_stargate": {
+    "criteria": {
+      "used_stargate": "2024-10-05 19:40:30 +0200"
+    },
+    "done": true
+  },
+  "pylons:recipes/misc/infusion_pylon": {
+    "criteria": {
+      "has_emerald_block": "2024-10-05 19:26:32 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/prism": {
+    "criteria": {
+      "has_item": "2024-10-05 19:12:18 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/dark_prismarine_chain": {
+    "criteria": {
+      "recipe_condition": "2024-10-05 19:12:37 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/prismarine_bricks_bridge_stair": {
+    "criteria": {
+      "has_planks": "2024-10-05 19:12:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-10-05 20:06:44 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/wither_skeleton": {
+    "criteria": {
+      "has_withered_rib": "2024-10-05 18:03:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-10-05 19:12:02 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/emerald_block_1x": {
+    "criteria": {
+      "has_emerald_block": "2024-10-05 19:26:32 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:technology/root": {
+    "criteria": {
+      "hold_stargate": "2024-10-05 19:10:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2024-10-05 19:12:05 +0200"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/prismarine_chain": {
+    "criteria": {
+      "recipe_condition": "2024-10-05 19:12:02 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/crystal_quartz_item": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-10-05 19:12:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-10-05 19:12:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-10-05 19:12:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-10-05 19:12:05 +0200"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/soul_soil_1x": {
+    "criteria": {
+      "has_soul_soil": "2024-10-05 18:12:58 +0200"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/prismarine_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-10-05 19:12:02 +0200"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/misc/soul_compost_from_warped_roots": {
+    "criteria": {
+      "has_soil": "2024-10-05 18:12:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-10-05 19:12:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-10-05 19:13:40 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/kraken_shell_fragment": {
+    "criteria": {
+      "has_squid_beak": "2024-10-05 19:15:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-10-05 19:12:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2024-10-05 19:12:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2024-10-05 19:12:37 +0200"
     },
     "done": true
   },
